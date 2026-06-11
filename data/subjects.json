@@ -1,0 +1,8 @@
+[
+  {
+    "id": "ssi",
+    "name": "Systemy Sztucznej Inteligencji",
+    "dataFile": "data/ssi.json",
+    "questionCount": 256
+  }
+]
