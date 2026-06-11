@@ -373,7 +373,7 @@ function confirmAndAdvance() {
       persistSessionResults();
       showResults();
     }
-  }, 2000);
+  }, 1234);
 }
 
 function showResults() {
