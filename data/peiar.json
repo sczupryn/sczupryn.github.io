@@ -4,3083 +4,898 @@
   "description": "Pytania wielokrotnego wyboru z materiałów egzaminacyjnych. 1 pkt za poprawną odpowiedź.",
   "questions": [
     {
-      "question": "Analiza wariancji dotyczy weryfikacji hipotezy równości",
+      "question": "Mediana próbki losowej -4, 9, 2, 5, -2, 4 jest liczbą",
       "answers": [
-        {
-          "text": "średnich",
-          "correct": true
-        },
-        {
-          "text": "wariancji",
-          "correct": false
-        },
-        {
-          "text": "rozkładów",
-          "correct": false
-        },
-        {
-          "text": "median",
-          "correct": false
-        }
+        { "text": "5", "correct": false },
+        { "text": "-1", "correct": false },
+        { "text": "3.5", "correct": false },
+        { "text": "3", "correct": true }
       ]
     },
     {
-      "question": "Błędem I-go rodzaju nazywamy sytuację, w której",
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1, 3, 4, 4, 6, 7. Wartość F(5) wynosi wówczas",
       "answers": [
-        {
-          "text": "przyjmujemy hipotezę prawdziwą",
-          "correct": false
-        },
-        {
-          "text": "odrzucamy hipotezę prawdziwą",
-          "correct": true
-        },
-        {
-          "text": "przyjmujemy hipotezę fałszywą",
-          "correct": false
-        },
-        {
-          "text": "odrzucamy hipotezę fałszywą",
-          "correct": false
-        }
+        { "text": "0.5", "correct": false },
+        { "text": "0.66", "correct": true },
+        { "text": "0.33", "correct": false },
+        { "text": "0.83", "correct": false }
       ]
     },
     {
-      "question": "Błędem II-go rodzaju nazywamy sytuację, w której",
+      "question": "Liczba serii w próbce losowej 15, 9, 5, 12, 1, 3, 8, 4 względem jej mediany wynosi",
       "answers": [
-        {
-          "text": "przyjmujemy hipotezę prawdziwą",
-          "correct": false
-        },
-        {
-          "text": "odrzucamy hipotezę prawdziwą",
-          "correct": false
-        },
-        {
-          "text": "przyjmujemy hipotezę fałszywą",
-          "correct": true
-        },
-        {
-          "text": "odrzucamy hipotezę fałszywą",
-          "correct": false
-        }
+        { "text": "5", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "6", "correct": true },
+        { "text": "4", "correct": false }
       ]
     },
     {
-      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "question": "W teście Kruskala-Wallisa połączonym próbom x = c(0,2,7), y = c(-4,5), z = c(-2,1,8) przypisano rangi. Rangą -2 wynosi wówczas",
       "answers": [
-        {
-          "text": "rnorm()",
-          "correct": false
-        },
-        {
-          "text": "dnorm()",
-          "correct": false
-        },
-        {
-          "text": "chisq.test()",
-          "correct": true
-        },
-        {
-          "text": "aov()",
-          "correct": false
-        }
+        { "text": "-2", "correct": false },
+        { "text": "2", "correct": true },
+        { "text": "6", "correct": false },
+        { "text": "3", "correct": false }
       ]
     },
     {
-      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "question": "Pierwsza próbka liczy 3 elementy i jej średnia wynosi 6. Druga próbka składa się z 5 elementów i jej średnia wynosi 8. Zatem średnia połączonych próbek wynosi",
       "answers": [
-        {
-          "text": "chisq.test()",
-          "correct": false
-        },
-        {
-          "text": "dnorm()",
-          "correct": false
-        },
-        {
-          "text": "aov()",
-          "correct": false
-        },
-        {
-          "text": "lillie.test()",
-          "correct": true
-        }
+        { "text": "7", "correct": false },
+        { "text": "7.25", "correct": true },
+        { "text": "8", "correct": false },
+        { "text": "nie można wyznaczyć", "correct": false }
       ]
     },
     {
-      "question": "Chcemy zbadać, czy pewna cecha ma rozkład wykładniczy. Użyjemy w tym celu funkcji",
+      "question": "Współczynnik korelacji Kendalla τ obserwacji (1,2), (2,1), (3,5), (4,2) wynosi",
       "answers": [
-        {
-          "text": "rnorm()",
-          "correct": false
-        },
-        {
-          "text": "rexp()",
-          "correct": true
-        },
-        {
-          "text": "dnorm()",
-          "correct": false
-        },
-        {
-          "text": "pexp()",
-          "correct": false
-        }
+        { "text": "0.66", "correct": false },
+        { "text": "0.16", "correct": true },
+        { "text": "0.33", "correct": false },
+        { "text": "0.45", "correct": false }
       ]
     },
     {
-      "question": "Chcemy zbadać, czy współczynnik korelacji dwóch cech jest istotnie różny od zera. Użyjemy w tym celu funkcji",
+      "question": "W modelu regresji liniowej Y = β0 + β1X1 + ε otrzymano reszty (residuals): -3, -2, 0, 1, 4. Estymowaną wartością nieznanej wariancji modelu jest więc",
       "answers": [
-        {
-          "text": "cor()",
-          "correct": false
-        },
-        {
-          "text": "cor.test()",
-          "correct": true
-        },
-        {
-          "text": "HZ.test()",
-          "correct": false
-        },
-        {
-          "text": "skewness()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza hipoteza alternatywna w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Brak różnic lub efektu",
-          "correct": false
-        },
-        {
-          "text": "Istnienie różnic lub efektu",
-          "correct": true
-        },
-        {
-          "text": "Prawdziwość hipotezy zerowej",
-          "correct": false
-        },
-        {
-          "text": "Brak odchylenia standardowego",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza odchylenie standardowe?",
-      "answers": [
-        {
-          "text": "Średnia wartość próby",
-          "correct": false
-        },
-        {
-          "text": "Miara rozproszenia danych wokół średniej",
-          "correct": true
-        },
-        {
-          "text": "Mediana danych",
-          "correct": false
-        },
-        {
-          "text": "Maksymalna wartość w próbie",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza poziom istotności alfa w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od",
-          "correct": false
-        },
-        {
-          "text": "obserwowanych",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo popełnienia błędu I rodzaju",
-          "correct": true
-        },
-        {
-          "text": "Prawdopodobieństwo popełnienia błędu II rodzaju",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo odrzucenia hipotezy alternatywnej",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza termin \"próba losowa\" w statystyce?",
-      "answers": [
-        {
-          "text": "Próba wybrana celowo przez badacza",
-          "correct": false
-        },
-        {
-          "text": "Próba wybrana w taki sposób, że każda jednostka ma równą szansę bycia wybraną",
-          "correct": true
-        },
-        {
-          "text": "Próba wybrana na podstawie wcześniejszych badań",
-          "correct": false
-        },
-        {
-          "text": "Próba wybrana ze względu na dostępność jednostek",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza termin \"wartość oczekiwana\"?",
-      "answers": [
-        {
-          "text": "Mediana danych",
-          "correct": false
-        },
-        {
-          "text": "Średnia ważona wszystkich możliwych wartości",
-          "correct": true
-        },
-        {
-          "text": "Maksymalna wartość w próbie",
-          "correct": false
-        },
-        {
-          "text": "Minimalna wartość w próbie",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza test dwustronny?",
-      "answers": [
-        {
-          "text": "Test, który sprawdza, czy średnia próbki jest różna od określonej wartości w obu",
-          "correct": true
-        },
-        {
-          "text": "kierunkach",
-          "correct": false
-        },
-        {
-          "text": "Test, który sprawdza, czy średnia próbki jest mniejsza od określonej wartości",
-          "correct": false
-        },
-        {
-          "text": "Test, który sprawdza, czy średnia próbki jest większa od określonej wartości",
-          "correct": false
-        },
-        {
-          "text": "Test, który sprawdza tylko jedną stronę rozkładu",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza wartość P w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od",
-          "correct": true
-        },
-        {
-          "text": "obserwowanych, przy założeniu prawdziwości hipotezy zerowej",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo popełnienia błędu typu I",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza wartość P w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od",
-          "correct": true
-        },
-        {
-          "text": "obserwowanych, przy założeniu prawdziwości hipotezy zerowej",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo popełnienia błędu typu I",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza współczynnik determinacji R2?",
-      "answers": [
-        {
-          "text": "Miara centralnej tendencji",
-          "correct": false
-        },
-        {
-          "text": "Miara, jak dobrze model dopasowuje się do danych",
-          "correct": true
-        },
-        {
-          "text": "Miara rozproszenia danych",
-          "correct": false
-        },
-        {
-          "text": "Miara liczby stopni swobody",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co oznacza współczynnik korelacji Pearsona?",
-      "answers": [
-        {
-          "text": "Miara siły i kierunku liniowej zależności między dwiema zmiennymi",
-          "correct": true
-        },
-        {
-          "text": "Miara centralnej tendencji w danych",
-          "correct": false
-        },
-        {
-          "text": "Miara rozproszenia danych",
-          "correct": false
-        },
-        {
-          "text": "Miara kategoryzacji danych",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co to jest błąd II rodzaju?",
-      "answers": [
-        {
-          "text": "Odrzucenie hipotezy zerowej, gdy jest ona prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Nieodrzucenie hipotezy zerowej, gdy jest ona fałszywa",
-          "correct": true
-        },
-        {
-          "text": "Odrzucenie hipotezy alternatywnej, gdy jest ona prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Nieodrzucenie hipotezy alternatywnej, gdy jest ona fałszywa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co to jest przedział ufności?",
-      "answers": [
-        {
-          "text": "Zakres wartości, w którym z określonym prawdopodobieństwem znajduje się",
-          "correct": true
-        },
-        {
-          "text": "prawdziwa wartość parametru populacji",
-          "correct": false
-        },
-        {
-          "text": "Zakres wartości, który jest zawsze symetryczny wokół średniej",
-          "correct": false
-        },
-        {
-          "text": "Zakres wartości, który jest mniejszy od odchylenia standardowego",
-          "correct": false
-        },
-        {
-          "text": "Zakres wartości, który obejmuje 50% próby",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co zakłada hipoteza alternatywna w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Że badana cecha X ma rozkład normalny",
-          "correct": false
-        },
-        {
-          "text": "Że badana cecha X ma dowolny rozkład",
-          "correct": false
-        },
-        {
-          "text": "Że badana cecha X różni się od rozkładu opisanego w hipotezie zerowej",
-          "correct": true
-        },
-        {
-          "text": "Że badana cecha X jest zgodna z hipotezą zerową",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Co zakłada hipoteza zerowa w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Brak różnic lub efektu",
-          "correct": true
-        },
-        {
-          "text": "Istnienie różnic lub efektu",
-          "correct": false
-        },
-        {
-          "text": "Prawdziwość hipotezy alternatywnej",
-          "correct": false
-        },
-        {
-          "text": "Prawdziwość rozkładu normalnego",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?",
-      "answers": [
-        {
-          "text": "Tak",
-          "correct": true
-        },
-        {
-          "text": "Nie",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?",
-      "answers": [
-        {
-          "text": "Tak",
-          "correct": true
-        },
-        {
-          "text": "Nie",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?",
-      "answers": [
-        {
-          "text": "Tak",
-          "correct": true
-        },
-        {
-          "text": "Nie",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
-      "answers": [
-        {
-          "text": "Tak",
-          "correct": false
-        },
-        {
-          "text": "Nie",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
-      "answers": [
-        {
-          "text": "Tak",
-          "correct": false
-        },
-        {
-          "text": "Nie",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Dane 1,1,2,4,6,6,8,9 pogrupowano w klasy o granicach 0.5,10. Średnia danych zgrupowanych wynosi zatem",
-      "answers": [
-        {
-          "text": "4.625",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": false
-        },
-        {
-          "text": "6",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Do jakiego rodzaju danych stosuje się test chi-kwadrat?",
-      "answers": [
-        {
-          "text": "Do danych kategorycznych",
-          "correct": true
-        },
-        {
-          "text": "Do danych ciągłych",
-          "correct": false
-        },
-        {
-          "text": "Do danych binarnych",
-          "correct": false
-        },
-        {
-          "text": "Do danych porządkowych",
-          "correct": false
-        }
+        { "text": "7.5", "correct": false },
+        { "text": "30", "correct": false },
+        { "text": "10", "correct": true },
+        { "text": "6", "correct": false }
       ]
     },
     {
       "question": "Do obserwacji (-2,-1), (0,2), (1,0), (3,2), (4,2), (6,1) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
       "answers": [
-        {
-          "text": "(0,1)",
-          "correct": false
-        },
-        {
-          "text": "(-1,1)",
-          "correct": false
-        },
-        {
-          "text": "(3,2)",
-          "correct": false
-        },
-        {
-          "text": "(2,1)",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Do obserwacji (-2,-1), (0,2), (2,5), (3,2), (4,2), (5,2) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
-      "answers": [
-        {
-          "text": "(0,1)",
-          "correct": false
-        },
-        {
-          "text": "(-1,1)",
-          "correct": false
-        },
-        {
-          "text": "(2,2)",
-          "correct": false
-        },
-        {
-          "text": "(3,2)",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Do obserwacji (-3,1), (0,0), (1,1), (3,3), (4,5) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
-      "answers": [
-        {
-          "text": "(-1,1)",
-          "correct": false
-        },
-        {
-          "text": "(2,4)",
-          "correct": false
-        },
-        {
-          "text": "(1,2)",
-          "correct": true
-        },
-        {
-          "text": "(4,5)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Do zbadania niezależności statystycznej dwóch cech najlepiej wykorzystać funkcję",
-      "answers": [
-        {
-          "text": "indep()",
-          "correct": false
-        },
-        {
-          "text": "cor.test()",
-          "correct": false
-        },
-        {
-          "text": "chisq.test()",
-          "correct": true
-        },
-        {
-          "text": "cor()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Do zbadania równości dwóch wariancji wykorzystamy funkcję",
-      "answers": [
-        {
-          "text": "levene.test()",
-          "correct": true
-        },
-        {
-          "text": "var()",
-          "correct": false
-        },
-        {
-          "text": "fisher.test()",
-          "correct": false
-        },
-        {
-          "text": "sd()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Do zbadania równości dwóch wariancji wykorzystamy funkcję",
-      "answers": [
-        {
-          "text": "sd()",
-          "correct": false
-        },
-        {
-          "text": "fisher.test()",
-          "correct": false
-        },
-        {
-          "text": "var()",
-          "correct": false
-        },
-        {
-          "text": "levene.test()",
-          "correct": true
-        },
-        {
-          "text": "fisher.test() - test statystyczny służy do oceny istotności statystycznej między dwiema",
-          "correct": false
-        },
-        {
-          "text": "zmiennymi kategorycznymi w oparciu o tablicę kontyngencji.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej próbki losowej",
-      "answers": [
-        {
-          "text": "Mediana jest raczej większa od średniej",
-          "correct": false
-        },
-        {
-          "text": "Mediana jest równa średniej",
-          "correct": false
-        },
-        {
-          "text": "Mediana jest raczej mniejsza od średniej",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Histogram pewnej próbki wygląda następująco. Wynika stąd, że dla tej próbki losowej",
-      "answers": [
-        {
-          "text": "mediana jest raczej większa od średniej",
-          "correct": false
-        },
-        {
-          "text": "mediana jest w przybliżeniu równa średniej",
-          "correct": false
-        },
-        {
-          "text": "mediana jest raczej mniejsza od średniej",
-          "correct": true
-        },
-        {
-          "text": "nie można ocenić",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jak nazywa się test, w którym kobieta twierdziła, że potrafi po smaku rozpoznać kolejność dodawania herbaty i mleka?",
-      "answers": [
-        {
-          "text": "Test chi-kwadrat",
-          "correct": false
-        },
-        {
-          "text": "Test lady tasting tea",
-          "correct": true
-        },
-        {
-          "text": "Test t Studenta",
-          "correct": false
-        },
-        {
-          "text": "Test Kołmogorowa-Smirnowa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jaką funkcję w R należy użyć, aby obliczyć korelację między dwiema zmiennymi?",
-      "answers": [
-        {
-          "text": "lm()",
-          "correct": false
-        },
-        {
-          "text": "mean()",
-          "correct": false
-        },
-        {
-          "text": "cor()",
-          "correct": true
-        },
-        {
-          "text": "sum()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jaką funkcję w R należy użyć, aby utworzyć wykres pudełkowy?",
-      "answers": [
-        {
-          "text": "hist()",
-          "correct": false
-        },
-        {
-          "text": "barplot()",
-          "correct": false
-        },
-        {
-          "text": "plot()",
-          "correct": false
-        },
-        {
-          "text": "boxplot()",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Jaką funkcję w R należy użyć, aby utworzyć wykres punktowy?",
-      "answers": [
-        {
-          "text": "hist()",
-          "correct": false
-        },
-        {
-          "text": "plot()",
-          "correct": true
-        },
-        {
-          "text": "barplot()",
-          "correct": false
-        },
-        {
-          "text": "boxplot()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jaki jest cel testu ANOVA?",
-      "answers": [
-        {
-          "text": "Do analizy korelacji między dwoma zmiennymi",
-          "correct": false
-        },
-        {
-          "text": "Do porównania średnich więcej niż dwóch grup",
-          "correct": true
-        },
-        {
-          "text": "Do obliczania wartości średniej",
-          "correct": false
-        },
-        {
-          "text": "Do testowania hipotezy zerowej",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jaki rozkład ma liczba odgadniętych prawidłowo filiżanek herbaty w teście lady tasting tea, przy założeniu prawdziwości hipotezy zerowej?",
-      "answers": [
-        {
-          "text": "Rozkład dwumianowy",
-          "correct": false
-        },
-        {
-          "text": "Rozkład hipergeometryczny",
-          "correct": true
-        },
-        {
-          "text": "Rozkład normalny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład Poissona",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jaki test statystyczny stosuje się do analizy dwóch zmiennych kategorycznych?",
-      "answers": [
-        {
-          "text": "Test chi-kwadrat",
-          "correct": true
-        },
-        {
-          "text": "Test t Studenta",
-          "correct": false
-        },
-        {
-          "text": "Test ANOVA",
-          "correct": false
-        },
-        {
-          "text": "Test Kołmogorowa-Smirnowa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest prawdopodobieństwo uzyskania orła w rzucie symetryczną monetą?",
-      "answers": [
-        {
-          "text": "0.25",
-          "correct": false
-        },
-        {
-          "text": "0.75",
-          "correct": false
-        },
-        {
-          "text": "0.50",
-          "correct": true
-        },
-        {
-          "text": "1.00",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest prawdopodobieństwo wyrzucenia co najmniej jednego orła w dwóch rzutach monetą?",
-      "answers": [
-        {
-          "text": "0.75",
-          "correct": true
-        },
-        {
-          "text": "0.50",
-          "correct": false
-        },
-        {
-          "text": "0.25",
-          "correct": false
-        },
-        {
-          "text": "0.20",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest prawdopodobieństwo wyrzucenia liczby 6 w pojedynczym rzucie sześcienną kostką do gry?",
-      "answers": [
-        {
-          "text": "0.10",
-          "correct": false
-        },
-        {
-          "text": "0.20",
-          "correct": false
-        },
-        {
-          "text": "0.1667",
-          "correct": true
-        },
-        {
-          "text": "0.25",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest prawdopodobieństwo wyrzucenia pary orzeł-orzeł (O,O) w pojedynczym rzucie dwoma monetami?",
-      "answers": [
-        {
-          "text": "0.25",
-          "correct": true
-        },
-        {
-          "text": "0.50",
-          "correct": false
-        },
-        {
-          "text": "0.75",
-          "correct": false
-        },
-        {
-          "text": "1.00",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest prawdopodobieństwo, że z talii 52 kart wyciągniesz kartę asa?",
-      "answers": [
-        {
-          "text": "0.10",
-          "correct": false
-        },
-        {
-          "text": "0.12",
-          "correct": false
-        },
-        {
-          "text": "0.077",
-          "correct": true
-        },
-        {
-          "text": "0.15",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki?",
-      "answers": [
-        {
-          "text": "Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona",
-          "correct": false
-        },
-        {
-          "text": "prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju",
-          "correct": true
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki Polio?",
-      "answers": [
-        {
-          "text": "Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona",
-          "correct": false
-        },
-        {
-          "text": "prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju",
-          "correct": true
-        },
-        {
-          "text": "Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie jest znaczenie wartości P < 0.05 w teście statystycznym?",
-      "answers": [
-        {
-          "text": "Wynik jest statystycznie istotny",
-          "correct": true
-        },
-        {
-          "text": "Wynik jest statystycznie nieistotny",
-          "correct": false
-        },
-        {
-          "text": "Prawdopodobieństwo błędu II rodzaju jest wysokie",
-          "correct": false
-        },
-        {
-          "text": "Hipoteza zerowa jest prawdziwa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie są wymagania dotyczące liczebności próby w teście skuteczności szczepionki?",
-      "answers": [
-        {
-          "text": "Próbka musi być mała i jednorodna",
-          "correct": false
-        },
-        {
-          "text": "Próbka musi być duża i różnorodna",
-          "correct": true
-        },
-        {
-          "text": "Próbka musi pochodzić z jednego regionu",
-          "correct": false
-        },
-        {
-          "text": "Próbka musi być nieznana",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jakie są wymagania dotyczące próbki w teście chi-kwadrat?",
-      "answers": [
-        {
-          "text": "Próba musi być mała i jednorodna",
-          "correct": false
-        },
-        {
-          "text": "Próba musi pochodzić z jednego regionu",
-          "correct": false
-        },
-        {
-          "text": "Próba musi być wystarczająco duża i losowa",
-          "correct": true
-        },
-        {
-          "text": "Próba musi mieć dokładnie 30 obserwacji",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby",
-      "answers": [
-        {
-          "text": "rząd wielkości zbioru danych był równy",
-          "correct": false
-        },
-        {
-          "text": "co najmniej 3",
-          "correct": false
-        },
-        {
-          "text": "co najmniej 2",
-          "correct": true
-        },
-        {
-          "text": "dokładnie 3",
-          "correct": false
-        },
-        {
-          "text": "co najmniej 4",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby rząd wielkości zbioru był równy",
-      "answers": [
-        {
-          "text": "Co najmniej 3",
-          "correct": false
-        },
-        {
-          "text": "Co najmniej 2",
-          "correct": true
-        },
-        {
-          "text": "Dokładnie 3",
-          "correct": false
-        },
-        {
-          "text": "Co najmniej 4",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Jeśli hipoteza zerowa jest prawdziwa, to rozkład p-wartości związany z tą hipotezą jest",
-      "answers": [
-        {
-          "text": "wykładniczy",
-          "correct": false
-        },
-        {
-          "text": "normalny",
-          "correct": false
-        },
-        {
-          "text": "jednostajny",
-          "correct": true
-        },
-        {
-          "text": "chi-kwadrat",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Kiedy różnica między dwiema grupami w eksperymencie jest uznawana za istotną?",
-      "answers": [
-        {
-          "text": "Gdy nie mogła być spowodowana czynnikami losowymi",
-          "correct": true
-        },
-        {
-          "text": "Gdy mogła być spowodowana czynnikami losowymi",
-          "correct": false
-        },
-        {
-          "text": "Gdy różnica jest większa niż 10%",
-          "correct": false
-        },
-        {
-          "text": "Gdy różnica jest mniejsza niż 5%",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Która funkcja w R jest używana do obliczania odchylenia standardowego?",
-      "answers": [
-        {
-          "text": "sd()",
-          "correct": true
-        },
-        {
-          "text": "var()",
-          "correct": false
-        },
-        {
-          "text": "mean()",
-          "correct": false
-        },
-        {
-          "text": "summary()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Która z poniższych funkcji w R jest używana do obliczania mediany?",
-      "answers": [
-        {
-          "text": "median()",
-          "correct": true
-        },
-        {
-          "text": "mean()",
-          "correct": false
-        },
-        {
-          "text": "mode()",
-          "correct": false
-        },
-        {
-          "text": "sum()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Która z poniższych metod jest używana do analizy zależności między dwiema zmiennymi liczbowymi?",
-      "answers": [
-        {
-          "text": "Test chi-kwadrat",
-          "correct": false
-        },
-        {
-          "text": "Test ANOVA",
-          "correct": false
-        },
-        {
-          "text": "Analiza regresji liniowej",
-          "correct": true
-        },
-        {
-          "text": "Test Wilcoxona",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Które z poniższych jest przykładem danych kategorycznych?",
-      "answers": [
-        {
-          "text": "Wzrost w centymetrach",
-          "correct": false
-        },
-        {
-          "text": "Kolor oczu",
-          "correct": true
-        },
-        {
-          "text": "Czas reakcji w sekundach",
-          "correct": false
-        },
-        {
-          "text": "Wynik testu na skali punktowej",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Które z poniższych stwierdzeń definiuje błąd I rodzaju?",
-      "answers": [
-        {
-          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": true
-        },
-        {
-          "text": "Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Które z poniższych stwierdzeń definiuje błąd II rodzaju?",
-      "answers": [
-        {
-          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Nieodrzucenie hipotezy zerowej H0, gdy jest ona w rzeczywistości fałszywa",
-          "correct": true
-        },
-        {
-          "text": "Odrzucenie hipotezy alternatywnej H1, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Które z poniższych stwierdzeń definiuje błąd typu I?",
-      "answers": [
-        {
-          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": true
-        },
-        {
-          "text": "Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa",
-          "correct": false
-        },
-        {
-          "text": "Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Które z poniższych stwierdzeń opisuje hipotezę zerową (H0)?",
-      "answers": [
-        {
-          "text": "Hipoteza zerowa zakłada, że badana cecha X ma rozkład normalny",
-          "correct": true
-        },
-        {
-          "text": "Hipoteza zerowa zakłada, że badana cecha X ma dowolny rozkład",
-          "correct": false
-        },
-        {
-          "text": "Hipoteza zerowa zakłada, że hipoteza alternatywna jest prawdziwa",
-          "correct": false
-        },
-        {
-          "text": "Hipoteza zerowa zakłada, że badana cecha X ma nieznany rozkład",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych jest testem nieparametrycznym?",
-      "answers": [
-        {
-          "text": "Test t Studenta",
-          "correct": false
-        },
-        {
-          "text": "Test ANOVA",
-          "correct": false
-        },
-        {
-          "text": "Test Kruskala-Wallisa to nieparametryczny odpowiednik ANOVA",
-          "correct": true
-        },
-        {
-          "text": "Test chi-kwadrat",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych jest testem parametrycznym?",
-      "answers": [
-        {
-          "text": "Test t Studenta",
-          "correct": true
-        },
-        {
-          "text": "Test Kruskala-Wallisa",
-          "correct": false
-        },
-        {
-          "text": "Test Wilcoxona",
-          "correct": false
-        },
-        {
-          "text": "Test Mann-Whitneya",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych naukowców jest uważany za pioniera nowoczesnego planowania eksperymentów?",
-      "answers": [
-        {
-          "text": "Gregor Mendel",
-          "correct": false
-        },
-        {
-          "text": "Harold Jeffreys",
-          "correct": false
-        },
-        {
-          "text": "Ronald Fisher",
-          "correct": true
-        },
-        {
-          "text": "Karl Pearson",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na jednostkę długości śladu cząstki w komorze Wilsona?",
-      "answers": [
-        {
-          "text": "Rozkład normalny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład hipergeometryczny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład Poissona",
-          "correct": true
-        },
-        {
-          "text": "Rozkład dwumianowy",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym przedziale czasu?",
-      "answers": [
-        {
-          "text": "Rozkład normalny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład hipergeometryczny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład Poissona",
-          "correct": true
-        },
-        {
-          "text": "Rozkład dwumianowy ● rzadkie zdarzenia w czasie lub przestrzeni",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym przedziale czasu?",
-      "answers": [
-        {
-          "text": "Rozkład normalny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład hipergeometryczny",
-          "correct": false
-        },
-        {
-          "text": "Rozkład Poissona",
-          "correct": true
-        },
-        {
-          "text": "Rozkład dwumianowy",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Kwartylem górnym próbki losowej 5,2,1,7,14,8,12 jest liczba",
-      "answers": [
-        {
-          "text": "10",
-          "correct": false
-        },
-        {
-          "text": "12",
-          "correct": true
-        },
-        {
-          "text": "14",
-          "correct": false
-        },
-        {
-          "text": "8",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Liczba serii liczonych względem mediany w próbce losowej",
-      "answers": [
-        {
-          "text": "−2, 3, 5, 1, 9, 6, 10, −8",
-          "correct": true
-        },
-        {
-          "text": "wynosi",
-          "correct": false
-        },
-        {
-          "text": "zbiorze sprawdzamy ciągi liczb czy są mniejsze/większe od mediany",
-          "correct": false
-        },
-        {
-          "text": "[-2,3 < 4]; [5>4]; [1<4]; [9,6,10>4]; [-8<4]. Co daje nam 5 serii.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Liczba serii liczonych względem mediany w próbce losowej -2,3,5,1,9,6,10,-8 wynosi",
-      "answers": [
-        {
-          "text": "4",
-          "correct": false
-        },
-        {
-          "text": "8",
-          "correct": false
-        },
-        {
-          "text": "5",
-          "correct": true
-        },
-        {
-          "text": "6",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Liczba serii w próbce losowej 15,0,4,6,8,2,11,10 względem jej mediany wynosi",
-      "answers": [
-        {
-          "text": "4",
-          "correct": false
-        },
-        {
-          "text": "5",
-          "correct": true
-        },
-        {
-          "text": "6",
-          "correct": false
-        },
-        {
-          "text": "7",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Liczba serii w próbce losowej 15,1,8,3,9,4,12,5 względem jej mediany wynosi",
-      "answers": [
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "6",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Liczba serii w próbce losowej 15,9,5,12,1,3,8,4 względem jej mediany wynosi",
-      "answers": [
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "6",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Medianą próbki losowej 0,2,-1,5,4,3 jest",
-      "answers": [
-        {
-          "text": "2.5",
-          "correct": true
-        },
-        {
-          "text": "4",
-          "correct": false
-        },
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Medianą próbki losowej 1,2,3,4,5,6 jest liczba",
-      "answers": [
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "1",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "3.5",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Mediana próbki losowej 2,4,9,2,5 wynosi liczba",
-      "answers": [
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "3.5",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Miara skośności Bowleya próbki losowej -1,14,16,6,8,0,2 wynosi",
-      "answers": [
-        {
-          "text": "0.1",
-          "correct": false
-        },
-        {
-          "text": "0.5",
-          "correct": true
-        },
-        {
-          "text": "1",
-          "correct": false
-        },
-        {
-          "text": "2",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Mocą testu nazywamy prawdopodobieństwo:",
-      "answers": [
-        {
-          "text": "Nie popełnienia błędu I rodzaju",
-          "correct": false
-        },
-        {
-          "text": "Popełnienia błędu I rodzaju",
-          "correct": false
-        },
-        {
-          "text": "Nie popełnienia błędu II rodzaju",
-          "correct": true
-        },
-        {
-          "text": "Popełnienia błędu II rodzaju",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Na wykresach ramkowych (boxplot) za wartości odstające uznaje się takie, których odległość od kwartyli wynosi co najmniej",
-      "answers": [
-        {
-          "text": "1.5*IQR",
-          "correct": true
-        },
-        {
-          "text": "2*IQR",
-          "correct": false
-        },
-        {
-          "text": "2.5*IQR",
-          "correct": false
-        },
-        {
-          "text": "3*IQR",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Na wykresie typu pudełkowego (boxplot) zaznaczane są",
-      "answers": [
-        {
-          "text": "mediana, średnia, xmax, xmin",
-          "correct": false
-        },
-        {
-          "text": "mediana, średnia, Q1, Q2, Q3",
-          "correct": false
-        },
-        {
-          "text": "mediana, Q1, Q3, xmax, xmin",
-          "correct": true
-        },
-        {
-          "text": "średnia, Q1, Q3, xmax, xmin",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,0,2,2,2,3,5. Wartość F(4) wynosi wówczas",
-      "answers": [
-        {
-          "text": "0.85",
-          "correct": true
-        },
-        {
-          "text": "0.12",
-          "correct": false
-        },
-        {
-          "text": "0.28",
-          "correct": false
-        },
-        {
-          "text": "0.71",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,0,2,2,3,3,7,9. Wartość F(3) wynosi wówczas",
-      "answers": [
-        {
-          "text": "0.875",
-          "correct": false
-        },
-        {
-          "text": "0.5",
-          "correct": false
-        },
-        {
-          "text": "0.75",
-          "correct": true
-        },
-        {
-          "text": "0.625",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,2,4,6. Wartość F(3.5) wynosi wówczas",
-      "answers": [
-        {
-          "text": "0.6",
-          "correct": false
-        },
-        {
-          "text": "0.5",
-          "correct": true
-        },
-        {
-          "text": "0.75",
-          "correct": false
-        },
-        {
-          "text": "0.25",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,3,4,4,6,7. Wartość F(5) wynosi wówczas",
-      "answers": [
-        {
-          "text": "0.5",
-          "correct": false
-        },
-        {
-          "text": "0.66",
-          "correct": false
-        },
-        {
-          "text": "0.33",
-          "correct": false
-        },
-        {
-          "text": "0.83",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4) wynosi",
-      "answers": [
-        {
-          "text": "0.5",
-          "correct": false
-        },
-        {
-          "text": "0.9",
-          "correct": false
-        },
-        {
-          "text": "0.8",
-          "correct": true
-        },
-        {
-          "text": "0.6",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech X będzie zmienną losową o rozkładzie normalnym ze średnią 10 i wariancją 9. Wówczas P(X < 2) obliczymy w R za pomocą",
-      "answers": [
-        {
-          "text": "dnorm(2,10,3)",
-          "correct": false
-        },
-        {
-          "text": "pnorm(2,10,3)",
-          "correct": true
-        },
-        {
-          "text": "qnorm(2,10,3)",
-          "correct": false
-        },
-        {
-          "text": "pnorm(2,10,9)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Niech X będzie zmienną losową o rozkładzie Poissona ze średnią 3. Wówczas P(X=4) obliczymy w R za pomocą",
-      "answers": [
-        {
-          "text": "ppois(4,3)",
-          "correct": false
-        },
-        {
-          "text": "qpois(4,3)",
-          "correct": false
-        },
-        {
-          "text": "dpois(4,3)",
-          "correct": true
-        },
-        {
-          "text": "rpois(4,3)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Odchylenie ćwiartkowe próbki losowej -1,14,16,6,8,0,2 wynosi",
-      "answers": [
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "2.5",
-          "correct": true
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "1.5",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka)",
-      "answers": [
-        {
-          "text": "O, O, O, O, O, O, O, O, O, O, R, R, R, R, R, R, R, R, R, R",
-          "correct": false
-        },
-        {
-          "text": "nie można stwierdzić czy moneta jest uczciwa",
-          "correct": false
-        },
-        {
-          "text": "moneta najprawdopodobniej jest uczciwa",
-          "correct": false
-        },
-        {
-          "text": "moneta najprawdopodobniej nie jest uczciwa",
-          "correct": true
-        },
-        {
-          "text": "Aby moneta była uczciwa, wylosowane wartości powinny być najlepiej naprzemiennie.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka) O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R,R wynika stąd, że:",
-      "answers": [
-        {
-          "text": "Moneta najprawdopodobniej nie jest uczciwa.",
-          "correct": true
-        },
-        {
-          "text": "Nie można stwierdzić czy moneta jest uczciwa.",
-          "correct": false
-        },
-        {
-          "text": "Moneta najprawdopodobniej jest uczciwa.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej",
-      "answers": [
-        {
-          "text": "zachodzi interakcja",
-          "correct": false
-        },
-        {
-          "text": "nie można stwierdzić czy zachodzi interakcja",
-          "correct": false
-        },
-        {
-          "text": "nie zachodzi interakcja",
-          "correct": true
-        },
-        {
-          "text": "Jeśli p-wartość tego testu dla A:B jest istotna (p < 0,05), można stwierdzić, że istnieje",
-          "correct": false
-        },
-        {
-          "text": "interakcja między czynnikami.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd, że między czynnikami A oraz B",
-      "answers": [
-        {
-          "text": "Zachodzi interakcja",
-          "correct": false
-        },
-        {
-          "text": "Nie można stwierdzić czy zachodzi interakcja",
-          "correct": false
-        },
-        {
-          "text": "Nie zachodzi interakcja",
-          "correct": true
-        }
-      ]
-    },
-    {
-      "question": "Pierwsza próbka liczy 3 elementy, jej średnia wynosi 6. Druga próbka składa się z 5 elementów, jej średnia wynosi 8. Zatem średnia połączonych próbek wynosi",
-      "answers": [
-        {
-          "text": "7",
-          "correct": false
-        },
-        {
-          "text": "7.25",
-          "correct": true
-        },
-        {
-          "text": "8",
-          "correct": false
-        },
-        {
-          "text": "nie można wyznaczyć",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Pierwsza próbka liczy 3 elementy, jej wariancja wynosi 2. Druga próbka składa się z 4 elementów, jej wariancja wynosi 8. Zatem wariancja połączonych próbek wynosi",
-      "answers": [
-        {
-          "text": "nie można wyznaczyć bez średnich",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "10",
-          "correct": false
-        },
-        {
-          "text": "8",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Próbka losowa ma średnią 6, medianę 4 i wariancję 4. Współczynnik asymetrii Pearsona tej próbki wynosi więc",
-      "answers": [
-        {
-          "text": "0",
-          "correct": false
-        },
-        {
-          "text": "1",
-          "correct": true
-        },
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "-1",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Rozkład Fishera-Snedecora to rozkład ilorazu dwóch niezależnych zmiennych losowych o rozkładzie",
-      "answers": [
-        {
-          "text": "normalnym",
-          "correct": false
-        },
-        {
-          "text": "Studenta",
-          "correct": false
-        },
-        {
-          "text": "chi-kwadrat",
-          "correct": true
-        },
-        {
-          "text": "wykładniczym",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:",
-      "answers": [
-        {
-          "text": "Dwóch średnich",
-          "correct": false
-        },
-        {
-          "text": "Dwóch median",
-          "correct": false
-        },
-        {
-          "text": "Dwóch wariancji",
-          "correct": true
-        },
-        {
-          "text": "Dwóch rozkładów",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej",
-      "answers": [
-        {
-          "text": "Równości wariancji",
-          "correct": false
-        },
-        {
-          "text": "Równości rozkładów",
-          "correct": true
-        },
-        {
-          "text": "Równości median",
-          "correct": false
-        },
-        {
-          "text": "Równości średnich",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Test Kruskala-Wallisa służy do weryfikacji hipotezy dotyczącej",
-      "answers": [
-        {
-          "text": "równości średnich",
-          "correct": false
-        },
-        {
-          "text": "równości wariancji",
-          "correct": false
-        },
-        {
-          "text": "równości rozkładów",
-          "correct": true
-        },
-        {
-          "text": "równości proporcji",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Test serii można wykorzystać do weryfikacji hipotezy dotyczącej",
-      "answers": [
-        {
-          "text": "równości średnich",
-          "correct": false
-        },
-        {
-          "text": "równości wariancji",
-          "correct": false
-        },
-        {
-          "text": "równości rozkładów",
-          "correct": true
-        },
-        {
-          "text": "równości proporcji",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Test Shapiro-Wilka służy do weryfikacji hipotezy dotyczącej",
-      "answers": [
-        {
-          "text": "równości średnich",
-          "correct": false
-        },
-        {
-          "text": "równości wariancji",
-          "correct": false
-        },
-        {
-          "text": "normalności rozkładu",
-          "correct": true
-        },
-        {
-          "text": "losowości próby",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W analizie wariancji zakłada się, że badana cecha w populacjach ma rozkład",
-      "answers": [
-        {
-          "text": "Studenta",
-          "correct": false
-        },
-        {
-          "text": "normalny",
-          "correct": true
-        },
-        {
-          "text": "chi-kwadrat",
-          "correct": false
-        },
-        {
-          "text": "Fishera-Snedecora",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W celu porównania dwóch średnich wykorzystamy",
-      "answers": [
-        {
-          "text": "analizę wariancji",
-          "correct": false
-        },
-        {
-          "text": "funkcję mean()",
-          "correct": false
-        },
-        {
-          "text": "test Studenta",
-          "correct": true
-        },
-        {
-          "text": "test Kruskala-Wallisa",
-          "correct": false
-        },
-        {
-          "text": "Test Kruskala-Wallisa - nieparametryczny test statystyczny stosowany do porównywania",
-          "correct": false
-        },
-        {
-          "text": "równości rozkładów.",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w dwóch populacjach wykorzystamy funkcję",
-      "answers": [
-        {
-          "text": "mean()",
-          "correct": false
-        },
-        {
-          "text": "tsum.test()",
-          "correct": true
-        },
-        {
-          "text": "prop.test()",
-          "correct": false
-        },
-        {
-          "text": "var.test()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w trzech populacjach wykorzystamy funkcję",
-      "answers": [
-        {
-          "text": "aov()",
-          "correct": true
-        },
-        {
-          "text": "tsum.test()",
-          "correct": false
-        },
-        {
-          "text": "t.test()",
-          "correct": false
-        },
-        {
-          "text": "mean()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W celu weryfikacji hipotezy dotyczącej równości wariancji w trzech populacjach wykorzystamy funkcję",
-      "answers": [
-        {
-          "text": "var()",
-          "correct": false
-        },
-        {
-          "text": "var.test()",
-          "correct": false
-        },
-        {
-          "text": "bartlett.test()",
-          "correct": true
-        },
-        {
-          "text": "aov()",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W eksperymencie rzucamy trzema niezależnymi monetami. Jakie jest prawdopodobieństwo wyrzucenia dokładnie jednego orła?",
-      "answers": [
-        {
-          "text": "0.125",
-          "correct": false
-        },
-        {
-          "text": "0.375",
-          "correct": true
-        },
-        {
-          "text": "0.500",
-          "correct": false
-        },
-        {
-          "text": "0.625",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W jakiej sytuacji stosuje się test Wilcoxona?",
-      "answers": [
-        {
-          "text": "Gdy dane są normalnie rozłożone",
-          "correct": false
-        },
-        {
-          "text": "Gdy dane nie są normalnie rozłożone",
-          "correct": true
-        },
-        {
-          "text": "Gdy liczba próbek jest bardzo duża",
-          "correct": false
-        },
-        {
-          "text": "Gdy dane są kategoryczne",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W jakiej sytuacji test statystyczny ma największą moc?",
-      "answers": [
-        {
-          "text": "Gdy poziom istotności jest wysoki, np. 10%",
-          "correct": true
-        },
-        {
-          "text": "Gdy poziom istotności jest niski, np. 1%",
-          "correct": false
-        },
-        {
-          "text": "Gdy poziom istotności jest umiarkowany, np. 5%",
-          "correct": false
-        },
-        {
-          "text": "Gdy moc testu wynosi 0.5",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W jakim celu stosuje się funkcję lm() w R?",
-      "answers": [
-        {
-          "text": "Do analizy korelacji",
-          "correct": false
-        },
-        {
-          "text": "Do dopasowania modelu liniowego",
-          "correct": true
-        },
-        {
-          "text": "Do obliczania średniej arytmetycznej",
-          "correct": false
-        },
-        {
-          "text": "Do tworzenia histogramów",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W jakim celu stosuje się test t Studenta?",
-      "answers": [
-        {
-          "text": "Do porównania więcej niż dwóch grup",
-          "correct": false
-        },
-        {
-          "text": "Do porównania dwóch średnich",
-          "correct": true
-        },
-        {
-          "text": "Do analizy korelacji",
-          "correct": false
-        },
-        {
-          "text": "Do analizy regresji",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + β₂X₂ + ε otrzymano reszty: -4,-3,-1,1,2,5. Estymowaną wartością nieznanej wariancji modelu jest więc",
-      "answers": [
-        {
-          "text": "14",
-          "correct": true
-        },
-        {
-          "text": "11.2",
-          "correct": false
-        },
-        {
-          "text": "18.66",
-          "correct": false
-        },
-        {
-          "text": "56",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + ε otrzymano reszty: -3, -2, 0, 1, 4. Estymowaną wartością nieznanej wariancji modelu jest więc",
-      "answers": [
-        {
-          "text": "7.5",
-          "correct": true
-        },
-        {
-          "text": "10",
-          "correct": false
-        },
-        {
-          "text": "30",
-          "correct": false
-        },
-        {
-          "text": "15",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + ε otrzymano reszty: -4, -2, 0, 1, 5. Estymowaną wartością nieznanej wariancji modelu jest więc",
-      "answers": [
-        {
-          "text": "11.5",
-          "correct": false
-        },
-        {
-          "text": "15.33",
-          "correct": true
-        },
-        {
-          "text": "9.2",
-          "correct": false
-        },
-        {
-          "text": "46",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny.",
-      "answers": [
-        {
-          "text": "O wartości oczekiwanej zero",
-          "correct": true
-        },
-        {
-          "text": "O wartości oczekiwanej dodatniej",
-          "correct": false
-        },
-        {
-          "text": "O wartości oczekiwanej ujemnej",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W modelu regresji Y = β₀ + β₁X + ε estymator parametru β₁, czyli β̂₁, ma rozkład",
-      "answers": [
-        {
-          "text": "normalny",
-          "correct": true
-        },
-        {
-          "text": "chi-kwadrat",
-          "correct": false
-        },
-        {
-          "text": "Fishera-Snedecora",
-          "correct": false
-        },
-        {
-          "text": "Studenta",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W prawie Benforda prawdopodobieństwo wystąpienia cyfry 1 na pierwszym miejscu znaczącej wynosi",
-      "answers": [
-        {
-          "text": "log₁₀2",
-          "correct": true
-        },
-        {
-          "text": "log₂10",
-          "correct": false
-        },
-        {
-          "text": "log₁₀(1/log₁₀10)",
-          "correct": false
-        },
-        {
-          "text": "log₁₀(log₁₀10)",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W programie R tworzymy obiekt h=hist(c(1,1,2,3,5,8)). Obiekt ten jest",
-      "answers": [
-        {
-          "text": "wektorem",
-          "correct": false
-        },
-        {
-          "text": "listą",
-          "correct": true
-        },
-        {
-          "text": "tablicą",
-          "correct": false
-        },
-        {
-          "text": "ramką danych",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W regresji liniowej jedną z miar dopasowania modelu do danych jest",
-      "answers": [
-        {
-          "text": "współczynnik korelacji",
-          "correct": false
-        },
-        {
-          "text": "współczynnik determinacji",
-          "correct": true
-        },
-        {
-          "text": "wartość dźwigni",
-          "correct": false
-        },
-        {
-          "text": "kurtoza",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W teście Kruskala-Wallisa połączonym próbkom x=c(0,2,7), y=c(-4,5), z=c(-2,1,8) przypisano rangi. Ranga -2 wynosi wówczas",
-      "answers": [
-        {
-          "text": "4",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "3",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W teście Kruskala-Wallisa połączonym próbkom x=c(8,4,1), y=c(3,5), z=c(-2,0,7) przypisano rangi. Ranga 0 wynosi wówczas",
-      "answers": [
-        {
-          "text": "7",
-          "correct": false
-        },
-        {
-          "text": "6",
-          "correct": true
-        },
-        {
-          "text": "2",
-          "correct": false
-        },
-        {
-          "text": "4",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W wykresach pudełkowych (boxplots) za wartości odstające uznaje się takie, dla których",
-      "answers": [
-        {
-          "text": "odległość od kwartyli wynosi co najmniej 2.5 IQR",
-          "correct": false
-        },
-        {
-          "text": "odległość od kwartyli wynosi co najmniej 1.5 IQR",
-          "correct": true
-        },
-        {
-          "text": "odległość od kwartyli wynosi co najmniej 0.5 IQR",
-          "correct": false
-        },
-        {
-          "text": "odległość od kwartyli wynosi co najmniej 3.5 IQR",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "W wykresach pudełkowych (boxplots) za wartości plot(ecdf(proba),las=1,cex.axis=0.75,...)uznaje się takie, dla których",
-      "answers": [
-        {
-          "text": "Odległość od kwartyli wynosi co najmniej 3.5 IQR",
-          "correct": false
-        },
-        {
-          "text": "Odległość od kwartyli wynosi co najmniej 0.5 IQR",
-          "correct": false
-        },
-        {
-          "text": "Odległość od kwartyli wynosi co najmniej 1.5 IQR",
-          "correct": true
-        },
-        {
-          "text": "Odległość od kwartyli wynosi co najmniej 2.5 IQR",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wariancja zmiennej losowej X o rozkładzie chi-kwadrat wynosi 20. Zatem X ma rozkład chi-kwadrat z",
-      "answers": [
-        {
-          "text": "20 stopniami swobody",
-          "correct": true
-        },
-        {
-          "text": "16 stopniami swobody",
-          "correct": false
-        },
-        {
-          "text": "10 stopniami swobody",
-          "correct": false
-        },
-        {
-          "text": "40 stopniami swobody",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (1,2), (2,1), (3,5), (4,2) wynosi",
-      "answers": [
-        {
-          "text": "0.66",
-          "correct": false
-        },
-        {
-          "text": "0.33",
-          "correct": true
-        },
-        {
-          "text": "0.16",
-          "correct": false
-        },
-        {
-          "text": "0.45",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (2,2), (3,3), (4,3), (5,4) wynosi",
-      "answers": [
-        {
-          "text": "0.83",
-          "correct": true
-        },
-        {
-          "text": "0.16",
-          "correct": false
-        },
-        {
-          "text": "0.33",
-          "correct": false
-        },
-        {
-          "text": "0.45",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (3,2), (4,3), (5,2), (6,4) wynosi",
-      "answers": [
-        {
-          "text": "0.33",
-          "correct": true
-        },
-        {
-          "text": "0.66",
-          "correct": false
-        },
-        {
-          "text": "0.5",
-          "correct": false
-        },
-        {
-          "text": "0.16",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem c(1,2)+c(0,1,2) w programie R jest",
-      "answers": [
-        {
-          "text": "1 3",
-          "correct": false
-        },
-        {
-          "text": "1 3 3",
-          "correct": true
-        },
-        {
-          "text": "nie jest określone",
-          "correct": false
-        },
-        {
-          "text": "1 3 2",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem cummax(c(2,3,-1,4,0,5)) w programie R jest",
-      "answers": [
-        {
-          "text": "2 3 3 4 4 5",
-          "correct": true
-        },
-        {
-          "text": "2 3 3 3 4 5",
-          "correct": false
-        },
-        {
-          "text": "2 3 3 4 4 5",
-          "correct": true
-        },
-        {
-          "text": "2 3 4 4 4 5",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem diff(c(1,0,2,3,-1)) w programie R jest",
-      "answers": [
-        {
-          "text": "-1 2 1 -4",
-          "correct": true
-        },
-        {
-          "text": "1 2 1 4",
-          "correct": false
-        },
-        {
-          "text": "1 -2 -1 4",
-          "correct": false
-        },
-        {
-          "text": "-3",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem mean(c(2,0,4,NA,NA)) w programie R jest",
-      "answers": [
-        {
-          "text": "2",
-          "correct": true
-        },
-        {
-          "text": "NA",
-          "correct": false
-        },
-        {
-          "text": "1.5",
-          "correct": false
-        },
-        {
-          "text": "6/4",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem pmax(c(4,0,6), c(3,2,7)) w programie R jest",
-      "answers": [
-        {
-          "text": "4 2 7",
-          "correct": true
-        },
-        {
-          "text": "4 0 7",
-          "correct": false
-        },
-        {
-          "text": "6 2 7",
-          "correct": false
-        },
-        {
-          "text": "4 2 6",
-          "correct": false
-        }
-      ]
-    },
-    {
-      "question": "Wynikiem range(c(2,1,3,4,9)) w programie R jest",
-      "answers": [
-        {
-          "text": "1 9",
-          "correct": true
-        },
-        {
-          "text": "9 1",
-          "correct": false
-        },
-        {
-          "text": "2 9",
-          "correct": false
-        },
-        {
-          "text": "1 4",
-          "correct": false
-        }
+        { "text": "(0,1)", "correct": false },
+        { "text": "(-1,1)", "correct": false },
+        { "text": "(2,1)", "correct": true },
+        { "text": "(3,2)", "correct": false }
       ]
     },
     {
       "question": "Wynikiem rank(c(7,0,2,-1,3)) w programie R jest",
       "answers": [
-        {
-          "text": "4 1 3 2 5",
-          "correct": true
-        },
-        {
-          "text": "5 2 3 1 4",
-          "correct": false
-        },
-        {
-          "text": "5 2 3 4 1",
-          "correct": false
-        },
-        {
-          "text": "5 3 2 1 4",
-          "correct": false
-        }
+        { "text": "4 1 3 2 5", "correct": false },
+        { "text": "5 2 3 1 4", "correct": true },
+        { "text": "5 2 3 4 1", "correct": false },
+        { "text": "5 3 2 1 4", "correct": false }
       ]
     },
     {
-      "question": "Wynikiem sort(c(3,0,1,NA,NA)) w programie R jest",
+      "question": "Wynikiem range(c(2,1,3,4,9)) w programie R jest",
       "answers": [
-        {
-          "text": "0 1 3 NA NA",
-          "correct": true
-        },
-        {
-          "text": "3 1 0 NA NA",
-          "correct": false
-        },
-        {
-          "text": "0 1 3 3 1 0 NA NA",
-          "correct": false
-        },
-        {
-          "text": "1 0 3 NA NA",
-          "correct": false
-        }
+        { "text": "8", "correct": false },
+        { "text": "9 1", "correct": false },
+        { "text": "1 9", "correct": true },
+        { "text": "-8", "correct": false }
       ]
     },
     {
-      "question": "Za pomocą funkcji ks.test() można zweryfikować hipotezę dotyczącą równości",
+      "question": "Niech X będzie zmienną losową o rozkładzie normalnym ze średnią 10 i wariancją 9. Wówczas P(X ≤ 2) obliczymy w R za pomocą",
       "answers": [
-        {
-          "text": "dwóch rozkładów",
-          "correct": true
-        },
-        {
-          "text": "dwóch wariancji",
-          "correct": false
-        },
-        {
-          "text": "dwóch średnich",
-          "correct": false
-        },
-        {
-          "text": "dwóch proporcji",
-          "correct": false
-        }
+        { "text": "dnorm(2,10,3)", "correct": false },
+        { "text": "pnorm(2,10,3)", "correct": true },
+        { "text": "qnorm(2,10,3)", "correct": false },
+        { "text": "pnorm(2,10,9)", "correct": false }
       ]
     },
     {
-      "question": "Za pomocą funkcji prop.test() można zweryfikować hipotezę dotyczącą",
+      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości",
       "answers": [
-        {
-          "text": "kurtozy",
-          "correct": false
-        },
-        {
-          "text": "wskaźnika struktury",
-          "correct": true
-        },
-        {
-          "text": "mediany",
-          "correct": false
-        },
-        {
-          "text": "średniej",
-          "correct": false
-        }
+        { "text": "dwóch rozkładów", "correct": false },
+        { "text": "dwóch wariancji", "correct": false },
+        { "text": "dwóch średnich", "correct": true },
+        { "text": "dwóch proporcji", "correct": false }
+      ]
+    },
+    {
+      "question": "Na wykresach ramkowych, czyli typu \"boxplot\", za wartości odstające uznaje się takie, których odległość od kwartyli wynosi co najmniej",
+      "answers": [
+        { "text": "1.5*IQR", "correct": true },
+        { "text": "2*IQR", "correct": false },
+        { "text": "2.5*IQR", "correct": false },
+        { "text": "3*IQR", "correct": false }
+      ]
+    },
+    {
+      "question": "Test serii można wykorzystać do weryfikacji hipotezy dotyczącej",
+      "answers": [
+        { "text": "równości średnich", "correct": false },
+        { "text": "równości wariancji", "correct": false },
+        { "text": "równości rozkładów", "correct": true },
+        { "text": "równości proporcji", "correct": false }
+      ]
+    },
+    {
+      "question": "Mocą testu statystycznego nazywa się prawdopodobieństwo",
+      "answers": [
+        { "text": "popełnienia błędu I rodzaju", "correct": false },
+        { "text": "nie popełnienia błędu I rodzaju", "correct": false },
+        { "text": "popełnienia błędu II rodzaju", "correct": false },
+        { "text": "nie popełnienia błędu II rodzaju", "correct": true }
+      ]
+    },
+    {
+      "question": "Do zbadania tego, czy próbka ma charakter losowy najlepiej wykorzystać funkcję",
+      "answers": [
+        { "text": "ks.test()", "correct": false },
+        { "text": "runs.test()", "correct": true },
+        { "text": "cor()", "correct": false },
+        { "text": "cor.test()", "correct": false }
+      ]
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "answers": [
+        { "text": "rnorm()", "correct": false },
+        { "text": "dnorm()", "correct": false },
+        { "text": "chisq.test()", "correct": true },
+        { "text": "aov()", "correct": false }
+      ]
+    },
+    {
+      "question": "Rozkład Fishera-Snedecora to rozkład ilorazu dwóch niezależnych zmiennych losowych o rozkładzie",
+      "answers": [
+        { "text": "normalnym", "correct": false },
+        { "text": "chi-kwadrat", "correct": true },
+        { "text": "wykładniczym", "correct": false },
+        { "text": "jednostajnym", "correct": false }
+      ]
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w dwóch populacjach wykorzystamy funkcję",
+      "answers": [
+        { "text": "mean()", "correct": false },
+        { "text": "tsum.test()", "correct": true },
+        { "text": "prop.test()", "correct": false },
+        { "text": "var.test()", "correct": false }
+      ]
+    },
+    {
+      "question": "Analiza wariancji dotyczy weryfikacji hipotezy o równości",
+      "answers": [
+        { "text": "średnich", "correct": true },
+        { "text": "wariancji", "correct": false },
+        { "text": "rozkładów", "correct": false },
+        { "text": "median", "correct": false }
+      ]
+    },
+    {
+      "question": "Współczynnik korelacji zmiennych losowych X i Y wynosi 0.5. Wynika stąd, że",
+      "answers": [
+        { "text": "X i Y są nieskorelowane", "correct": false },
+        { "text": "X i Y są niezależne", "correct": false },
+        { "text": "Y = 2X - 1", "correct": false },
+        { "text": "Y = X²", "correct": true }
+      ]
+    },
+    {
+      "question": "W regresji liniowej jedną z miar dopasowania modelu do danych jest",
+      "answers": [
+        { "text": "współczynnik korelacji", "correct": false },
+        { "text": "współczynnik determinacji", "correct": true },
+        { "text": "wartość dźwigni", "correct": false },
+        { "text": "kurtoza", "correct": false }
+      ]
+    },
+    {
+      "question": "W prawie Benforda prawdopodobieństwo wystąpienia cyfry 7 na pierwszym miejscu znaczącym wynosi",
+      "answers": [
+        { "text": "log10(7)", "correct": false },
+        { "text": "log2(7)", "correct": false },
+        { "text": "log10(8) - log10(7)", "correct": true },
+        { "text": "log10(7) - log10(6)", "correct": false }
       ]
     },
     {
       "question": "Za pomocą funkcji SIGN.test() można zweryfikować hipotezę dotyczącą",
       "answers": [
-        {
-          "text": "kurtozy",
-          "correct": false
-        },
-        {
-          "text": "wariancji",
-          "correct": false
-        },
-        {
-          "text": "mediany",
-          "correct": true
-        },
-        {
-          "text": "średniej",
-          "correct": false
-        }
+        { "text": "kurtozy", "correct": false },
+        { "text": "wariancji", "correct": false },
+        { "text": "mediany", "correct": true },
+        { "text": "średniej", "correct": false }
       ]
     },
     {
-      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości",
+      "question": "W regresji liniowej zakłada się, że reszty (residuals) mają rozkład",
       "answers": [
-        {
-          "text": "Dwóch wariancji",
-          "correct": false
-        },
-        {
-          "text": "Dwóch rozkładów",
-          "correct": false
-        },
-        {
-          "text": "Dwóch średnich",
-          "correct": true
-        }
+        { "text": "Studenta", "correct": false },
+        { "text": "normalny", "correct": true },
+        { "text": "chi-kwadrat", "correct": false }
       ]
     },
     {
-      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości",
+      "question": "Kwartylem górnym próbki losowej 5, 2, 1, 7, 14, 8, 12 jest liczba",
       "answers": [
-        {
-          "text": "Dwóch wariancji",
-          "correct": false
-        },
-        {
-          "text": "Dwóch rozkładów",
-          "correct": false
-        },
-        {
-          "text": "Dwóch średnich",
-          "correct": true
-        }
+        { "text": "7", "correct": false },
+        { "text": "10", "correct": true },
+        { "text": "14", "correct": false },
+        { "text": "2", "correct": false }
       ]
     },
     {
-      "question": "Za pomocą funkcji wilcox.test() można zweryfikować hipotezę dotyczącą równości",
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1, 0, 2, 2, 2, 3, 5. Wartość F(4) wynosi wówczas",
       "answers": [
-        {
-          "text": "dwóch wariancji",
-          "correct": false
-        },
-        {
-          "text": "dwóch median",
-          "correct": true
-        },
-        {
-          "text": "kurtoz",
-          "correct": false
-        },
-        {
-          "text": "współczynników asymetrii",
-          "correct": false
-        }
+        { "text": "0.85", "correct": true },
+        { "text": "0.42", "correct": false },
+        { "text": "0.28", "correct": false },
+        { "text": "0.71", "correct": false }
       ]
     },
     {
-      "question": "Zmienna losowa X ma rozkład normalny ze średnią 2 i wariancją 3. Zatem zmienna losowa Z = 2X - 1 ma rozkład normalny ze średnią 3 i wariancją",
+      "question": "Liczba serii w próbce losowej 15, 0, 4, 6, 8, 2, 11, 10 względem jej mediany wynosi",
       "answers": [
-        {
-          "text": "6",
-          "correct": false
-        },
-        {
-          "text": "12",
-          "correct": true
-        },
-        {
-          "text": "5",
-          "correct": false
-        },
-        {
-          "text": "13",
-          "correct": false
-        }
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": true },
+        { "text": "6", "correct": false }
       ]
     },
     {
-      "question": "Zmienne losowe X, Y są niezależne i mają rozkłady normalne. Ponadto X ma średnią 6 i wariancję 10, a Y średnią 3 i wariancję 4. Zatem X−Y ma rozkład normalny ze średnią 3 i wariancją",
+      "question": "W teście Kruskala-Wallisa połączonym próbom x = c(8,4,1), y = c(3,5), z = c(-2,0,7) przypisano rangi. Ranga 0 wynosi wówczas",
       "answers": [
-        {
-          "text": "6",
-          "correct": false
-        },
-        {
-          "text": "14",
-          "correct": true
-        },
-        {
-          "text": "3",
-          "correct": false
-        },
-        {
-          "text": "9",
-          "correct": false
-        }
+        { "text": "7", "correct": false },
+        { "text": "2", "correct": true },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false }
       ]
-    }
+    },
+    {
+      "question": "Pierwsza próbka liczy 3 elementy i jej wariancja wynosi 2. Druga próbka składa się z 4 elementów i jej wariancja wynosi 8. Zatem wariancja połączonych próbek wynosi",
+      "answers": [
+        { "text": "10", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "1.42", "correct": false },
+        { "text": "nie można wyznaczyć", "correct": true }
+      ]
+    },
+    {
+      "question": "Współczynnik korelacji Kendalla τ obserwacji (3,2), (4,3), (5,2), (6,4) wynosi",
+      "answers": [
+        { "text": "0.33", "correct": false },
+        { "text": "0.66", "correct": false },
+        { "text": "0.5", "correct": true },
+        { "text": "0.16", "correct": false }
+      ]
+    },
+    {
+      "question": "W modelu regresji liniowej Y = β0 + β1X1 + ε otrzymano reszty (residuals): -4, -2, 0, 1, 5. Estymowaną wartością nieznanej wariancji modelu jest więc",
+      "answers": [
+        { "text": "46", "correct": false },
+        { "text": "11.5", "correct": false },
+        { "text": "15.33", "correct": true },
+        { "text": "9.2", "correct": false }
+      ]
+    },
+    {
+      "question": "Do obserwacji (-3,1), (0,0), (1,1), (3,3), (4,5) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
+      "answers": [
+        { "text": "(-1,1)", "correct": false },
+        { "text": "(2,4)", "correct": false },
+        { "text": "(1,2)", "correct": true },
+        { "text": "(4,5)", "correct": false }
+      ]
+    },
+    {
+      "question": "Wynikiem pmax(c(4,0,6), c(3,2,7)) w programie R jest",
+      "answers": [
+        { "text": "6 7", "correct": false },
+        { "text": "7 6", "correct": false },
+        { "text": "7", "correct": false },
+        { "text": "4 2 7", "correct": true }
+      ]
+    },
+    {
+      "question": "Wynikiem cummax(c(2,3,-1,4,0,5)) w programie R jest",
+      "answers": [
+        { "text": "2 3 3 3 4 5", "correct": false },
+        { "text": "2 3 3 4 4 5", "correct": true },
+        { "text": "2 3 4 4 4 5", "correct": false },
+        { "text": "5", "correct": false }
+      ]
+    },
+    {
+      "question": "Niech X będzie zmienną losową o rozkładzie Poissona ze średnią 3. Wówczas P(X = 4) obliczymy w R za pomocą",
+      "answers": [
+        { "text": "ppois(4,3)", "correct": false },
+        { "text": "qpois(4,3)", "correct": false },
+        { "text": "dpois(4,3)", "correct": true },
+        { "text": "rpois(4,3)", "correct": false }
+      ]
+    },
+    {
+      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą",
+      "answers": [
+        { "text": "kurtozy", "correct": false },
+        { "text": "wariancji", "correct": false },
+        { "text": "mediany", "correct": false },
+        { "text": "średniej", "correct": true }
+      ]
+    },
+    {
+      "question": "Na wykresach ramkowych, czyli typu \"boxplot\", za wartości odstające uznaje się takie, których odległość od kwartyli wynosi co najmniej",
+      "answers": [
+        { "text": "1.5*IQR", "correct": true },
+        { "text": "2*IQR", "correct": false },
+        { "text": "2.5*IQR", "correct": false },
+        { "text": "3*IQR", "correct": false }
+      ]
+    },
+    {
+      "question": "Test Shapiro-Wilka służy do weryfikacji hipotezy dotyczącej",
+      "answers": [
+        { "text": "równości średnich", "correct": false },
+        { "text": "równości wariancji", "correct": false },
+        { "text": "normalności rozkładu", "correct": true },
+        { "text": "losowości próby", "correct": false }
+      ]
+    },
+    {
+      "question": "Błędem I-go rodzaju nazywamy sytuację, w której",
+      "answers": [
+        { "text": "przyjmujemy hipotezę prawdziwą", "correct": false },
+        { "text": "odrzucamy hipotezę prawdziwą", "correct": true },
+        { "text": "przyjmujemy hipotezę fałszywą", "correct": false },
+        { "text": "odrzucamy hipotezę fałszywą", "correct": false }
+      ]
+    },
+    {
+      "question": "Do zbadania tego, czy próbka ma charakter losowy najlepiej wykorzystać funkcję",
+      "answers": [
+        { "text": "ks.test()", "correct": false },
+        { "text": "random()", "correct": false },
+        { "text": "bartlett.test()", "correct": false },
+        { "text": "bartels.rank.test()", "correct": true }
+      ]
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład wykładniczy. Użyjemy w tym celu funkcji",
+      "answers": [
+        { "text": "rnorm()", "correct": false },
+        { "text": "rexp()", "correct": false },
+        { "text": "chisq.test()", "correct": true },
+        { "text": "pexp()", "correct": false }
+      ]
+    },
+    {
+      "question": "Zmienne losowe X, Y są niezależne i mają rozkłady normalne. Ponadto X ma średnią 6 i wariancję 10, a Y średnią 3 i wariancję 4. Zatem X − Y ma rozkład normalny o",
+      "answers": [
+        { "text": "średniej 3 i wariancji 6", "correct": false },
+        { "text": "średniej 3 i wariancji 14", "correct": true },
+        { "text": "średniej 3 i wariancji 3", "correct": false },
+        { "text": "średniej 9 i wariancji 6", "correct": false }
+      ]
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości wariancji w trzech populacjach wykorzystamy funkcję",
+      "answers": [
+        { "text": "var()", "correct": false },
+        { "text": "var.test()", "correct": false },
+        { "text": "bartlett.test()", "correct": true },
+        { "text": "aov()", "correct": false }
+      ]
+    },
+    {
+      "question": "Do zbadania niezależności statystycznej dwóch cech najlepiej wykorzystać funkcję",
+      "answers": [
+        { "text": "cor()", "correct": false },
+        { "text": "cor.test()", "correct": false },
+        { "text": "fisher.test()", "correct": true },
+        { "text": "indep()", "correct": false }
+      ]
+    },
+    {
+      "question": "Współczynnik korelacji zmiennych losowych X i Y wynosi 0.4. Wynika stąd, że",
+      "answers": [
+        { "text": "X i Y są nieskorelowane", "correct": false },
+        { "text": "X i Y są niezależne", "correct": false },
+        { "text": "Y = 1 + 2X", "correct": false },
+        { "text": "Y = X³", "correct": true }
+      ]
+    },
+    {
+      "question": "W modelu regresji Y = β0 + β1X + ε estymator parametru β1, czyli β̂1, ma rozkład",
+      "answers": [
+        { "text": "normalny", "correct": true },
+        { "text": "chi-kwadrat", "correct": false },
+        { "text": "Fishera-Snedecora", "correct": false },
+        { "text": "Studenta", "correct": false }
+      ]
+    },
+    {
+      "question": "Rozkład Fishera-Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości",
+      "answers": [
+        { "text": "dwóch rozkładów", "correct": false },
+        { "text": "dwóch median", "correct": false },
+        { "text": "dwóch wariancji", "correct": true },
+        { "text": "dwóch średnich", "correct": false }
+      ]
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "answers": [
+        { "text": "pnorm()", "correct": false },
+        { "text": "dnorm()", "correct": false },
+        { "text": "aov()", "correct": false },
+        { "text": "lillie.test()", "correct": true }
+      ]
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w trzech populacjach wykorzystamy funkcję",
+      "answers": [
+        { "text": "aov()", "correct": true },
+        { "text": "tsum.test()", "correct": false },
+        { "text": "t.test()", "correct": false }
+      ]
+    },
+    {
+      "question": "Odchylenie ćwiartkowe próbki losowej -1, 14, 16, 6, 8, 0, 2 wynosi",
+      "answers": [
+        { "text": "10", "correct": false },
+        { "text": "2.5", "correct": false },
+        { "text": "5", "correct": true },
+        { "text": "1.5", "correct": false }
+      ]
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1, 0, 2, 2, 3, 3, 7, 9. Wartość F(3) wynosi wówczas",
+      "answers": [
+        { "text": "0.875", "correct": false },
+        { "text": "0.5", "correct": false },
+        { "text": "0.75", "correct": true },
+        { "text": "0.625", "correct": false }
+      ]
+    },
+    {
+      "question": "Liczba serii w próbce losowej 15, 1, 8, 3, 9, 4, 12, 5 względem jej mediany wynosi",
+      "answers": [
+        { "text": "5", "correct": false },
+        { "text": "8", "correct": true },
+        { "text": "7", "correct": false },
+        { "text": "6", "correct": false }
+      ]
+    },
+    {
+      "question": "Dane 1, 1, 2, 4, 6, 6, 8, 9 pogrupowano w klasy o granicach 0, 5, 10. Średnia danych zgrupowanych wynosi zatem",
+      "answers": [
+        { "text": "6", "correct": false },
+        { "text": "7", "correct": false },
+        { "text": "5", "correct": true },
+        { "text": "4.625", "correct": false }
+      ]
+    },
+    {
+      "question": "Próbka losowa ma średnią 6, medianę 4 i wariancję 4. Współczynnik asymetrii Pearsona tej próbki wynosi więc",
+      "answers": [
+        { "text": "2", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "3", "correct": true },
+        { "text": "0", "correct": false }
+      ]
+    },
+    {
+      "question": "Współczynnik korelacji Kendalla τ obserwacji (2,2), (3,3), (4,3), (5,4) wynosi",
+      "answers": [
+        { "text": "0.83", "correct": true },
+        { "text": "0.16", "correct": false },
+        { "text": "0.33", "correct": false },
+        { "text": "0.45", "correct": false }
+      ]
+    },
+    {
+      "question": "W modelu regresji liniowej Y = β0 + β1X1 + β2X2 + ε otrzymano reszty (residuals): -4, -3, -1, 1, 2, 5. Estymowaną wartością nieznanej wariancji modelu jest więc",
+      "answers": [
+        { "text": "56", "correct": false },
+        { "text": "18.66", "correct": true },
+        { "text": "14", "correct": false },
+        { "text": "11.2", "correct": false }
+      ]
+    },
+    {
+      "question": "Do obserwacji (-2,-1), (0,2), (2,5), (3,2), (4,2), (5,2) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
+      "answers": [
+        { "text": "(0,1)", "correct": false },
+        { "text": "(-1,1)", "correct": false },
+        { "text": "(2,2)", "correct": true },
+        { "text": "(5,2)", "correct": false }
+      ]
+    },
+    {
+      "question": "Wynikiem mean(c(2,0,4,NA,NA)) w programie R jest",
+      "answers": [
+        { "text": "6", "correct": false },
+        { "text": "NA", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false }
+      ]
+    },
+    {
+      "question": "Wynikiem sort(c(3,0,1,NA,NA)) w programie R jest",
+      "answers": [
+        { "text": "0 1 3", "correct": true },
+        { "text": "0 1 3 NA NA", "correct": false },
+        { "text": "NA NA 0 1 3", "correct": false },
+        { "text": "3 1 0 NA NA", "correct": false }
+      ]
+    },
+    {
+      "question": "W programie R tworzymy obiekt h=hist(c(1,1,2,3,5,8)). Obiekt ten jest",
+      "answers": [
+        { "text": "wektorem", "correct": false },
+        { "text": "listą", "correct": true },
+        { "text": "tablicą", "correct": false },
+        { "text": "ramką danych", "correct": false }
+      ]
+    },
+    {
+      "question": "Za pomocą funkcji ks.test() można zweryfikować hipotezę dotyczącą równości",
+      "answers": [
+        { "text": "dwóch rozkładów", "correct": true },
+        { "text": "dwóch wariancji", "correct": false },
+        { "text": "dwóch średnich", "correct": false },
+        { "text": "dwóch proporcji", "correct": false }
+      ]
+    },
+    {
+      "question": "Na wykresach pudełkowych, czyli typu \"boxplot\", zaznaczane są domyślnie",
+      "answers": [
+        { "text": "mediana, średnia, xmax, xmin", "correct": false },
+        { "text": "mediana, średnia, Q1, Q2, Q3", "correct": false },
+        { "text": "mediana, Q1, Q3, xmax, xmin", "correct": true },
+        { "text": "średnia, Q1, Q3, xmax, xmin", "correct": false }
+      ]
+    },
+    {
+      "question": "Za pomocą funkcji wilcox.test() można zweryfikować hipotezę dotyczącą równości dwóch",
+      "answers": [
+        { "text": "wariancji", "correct": false },
+        { "text": "median", "correct": true },
+        { "text": "kurtoz", "correct": false },
+        { "text": "współczynników asymetrii", "correct": false }
+      ]
+    },
+    {
+      "question": "Błędem II-go rodzaju nazywamy sytuację, w której",
+      "answers": [
+        { "text": "przyjmujemy hipotezę prawdziwą", "correct": false },
+        { "text": "odrzucamy hipotezę prawdziwą", "correct": false },
+        { "text": "przyjmujemy hipotezę fałszywą", "correct": true },
+        { "text": "odrzucamy hipotezę fałszywą", "correct": false }
+      ]
+    },
+    {
+      "question": "Do zbadania tego, czy próbka ma charakter losowy najlepiej wykorzystać funkcję",
+      "answers": [
+        { "text": "ks.test()", "correct": false },
+        { "text": "shapiro.test()", "correct": false },
+        { "text": "chisq.test()", "correct": false },
+        { "text": "turning.point.test()", "correct": true }
+      ]
+    },
+    {
+      "question": "Chcemy zbadać, czy współczynnik korelacji dwóch cech jest istotnie różny od zera. Użyjemy w tym celu funkcji",
+      "answers": [
+        { "text": "cor()", "correct": false },
+        { "text": "skewness()", "correct": false },
+        { "text": "cor.test()", "correct": true },
+        { "text": "HZ.test()", "correct": false }
+      ]
+    },
+    {
+      "question": "Zmienna losowa X ma rozkład normalny o średniej 2 i wariancji 3. Zatem zmienna losowa Y = 2X + 1 ma rozkład normalny o",
+      "answers": [
+        { "text": "średniej 4 i wariancji 6", "correct": false },
+        { "text": "średniej 4 i wariancji 12", "correct": false },
+        { "text": "średniej 5 i wariancji 13", "correct": false },
+        { "text": "średniej 5 i wariancji 12", "correct": true }
+      ]
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w dwóch populacjach wykorzystamy funkcję",
+      "answers": [
+        { "text": "mean()", "correct": false },
+        { "text": "wilcox.test()", "correct": true },
+        { "text": "prop.test()", "correct": false },
+        { "text": "var.test()", "correct": false }
+      ]
+    },
+    {
+      "question": "W analizie wariancji zakłada się, że badana cecha ma w populacjach rozkład",
+      "answers": [
+        { "text": "Studenta", "correct": false },
+        { "text": "normalny", "correct": true },
+        { "text": "chi-kwadrat", "correct": false },
+        { "text": "Fishera-Snedecora", "correct": false }
+      ]
+    },
+    {
+      "question": "Współczynnik korelacji zmiennych losowych X i Y wynosi 0 (zero). Wynika stąd, że",
+      "answers": [
+        { "text": "X i Y są nieskorelowane", "correct": true },
+        { "text": "X i Y są niezależne", "correct": false },
+        { "text": "Y = 2X − 1", "correct": false },
+        { "text": "Y = X²", "correct": false }
+      ]
+    },
+    {
+      "question": "Miara skośności Bowley'a próbki losowej -1, 14, 16, 6, 8, 0, 2 wynosi",
+      "answers": [
+        { "text": "10", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "0", "correct": true },
+        { "text": "1", "correct": false }
+      ]
+    },
+    {
+      "question": "Wariancja zmiennej losowej X o rozkładzie chi-kwadrat wynosi 20. Zatem X ma rozkład chi-kwadrat o",
+      "answers": [
+        { "text": "20 stopniach swobody", "correct": false },
+        { "text": "16 stopniach swobody", "correct": false },
+        { "text": "10 stopniach swobody", "correct": true },
+        { "text": "4 stopniach swobody", "correct": false }
+      ]
+    },
+    {
+      "question": "Za pomocą funkcji prop.test() można zweryfikować hipotezę dotyczącą",
+      "answers": [
+        { "text": "kurtozy", "correct": false },
+        { "text": "wskaźnika struktury", "correct": true },
+        { "text": "mediany", "correct": false },
+        { "text": "średniej", "correct": false }
+      ]
+    },
+    {
+      "question": "Jeśli hipoteza zerowa jest prawdziwa, to rozkład p-wartości, związany z tą hipotezą, jest",
+      "answers": [
+        { "text": "wykładniczy", "correct": false },
+        { "text": "normalny", "correct": false },
+        { "text": "jednostajny", "correct": true }
+      ]
+    },
+    {
+      "question": "Medianą próbki losowej 1, 2, 3, 4, 5, 6 jest liczba",
+      "answers": [
+        { "text": "2", "correct": false },
+        { "text": "1", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "3.5", "correct": true }
+      ]
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: −1, 2, 4, 6. Wartość F(3.5) wynosi wówczas",
+      "answers": [
+        { "text": "0.6", "correct": false },
+        { "text": "0.5", "correct": true },
+        { "text": "0.75", "correct": false },
+        { "text": "0.25", "correct": false }
+      ]
+    },
+    {
+      "question": "Na wykresie typu pudełkowego (\"boxplot\") zaznaczane są",
+      "answers": [
+        { "text": "mediana, średnia, xmax, xmin", "correct": false },
+        { "text": "mediana, średnia, Q1, Q2, Q3", "correct": false },
+        { "text": "mediana, Q1, Q3, xmax, xmin", "correct": true },
+        { "text": "średnia, Q1, Q3, xmax, xmin", "correct": false }
+      ]
+    },
+    {
+      "question": "Test Kruskala-Wallisa służy do weryfikacji hipotezy dotyczącej",
+      "answers": [
+        { "text": "równości średnich", "correct": false },
+        { "text": "równości wariancji", "correct": false },
+        { "text": "równości rozkładów", "correct": true },
+        { "text": "równości proporcji", "correct": false }
+      ]
+    },
+    {
+      "question": "Do zbadania niezależności statystycznej dwóch cech najlepiej wykorzystać funkcję",
+      "answers": [
+        { "text": "indep()", "correct": false },
+        { "text": "cor.test()", "correct": false },
+        { "text": "chisq.test()", "correct": true },
+        { "text": "cor()", "correct": false }
+      ]
+    },
+    {
+      "question": "Do zbadania równości dwóch wariancji wykorzystamy funkcję",
+      "answers": [
+        { "text": "levene.test()", "correct": true },
+        { "text": "var()", "correct": false },
+        { "text": "fisher.test()", "correct": false },
+        { "text": "sd()", "correct": false }
+      ]
+    },
+    {
+      "question": "Histogram pewnej próbki wygląda następująco. Wynika stąd, że dla tej próbki losowej",
+      "answers": [
+        { "text": "mediana jest raczej większa od średniej", "correct": false },
+        { "text": "mediana jest w przybliżeniu równa średniej", "correct": true },
+        { "text": "mediana jest raczej mniejsza od średniej", "correct": false },
+        { "text": "nie można ocenić", "correct": false }
+      ]
+    },
+    {
+      "question": "Wynikiem działania c(1,2)+c(0,1,2) w programie R jest",
+      "answers": [
+        { "text": "1 3", "correct": false },
+        { "text": "1 3 3", "correct": true },
+        { "text": "nie jest określone", "correct": false },
+        { "text": "1 3 2", "correct": false }
+      ]
+    },
+    {
+      "question": "Wynikiem diff(c(1,0,2,3,-1)) w programie R jest",
+      "answers": [
+        { "text": "-1 2 1 -4", "correct": true },
+        { "text": "1 2 1 4", "correct": false },
+        { "text": "1 -2 -1 4", "correct": false },
+        { "text": "-3", "correct": false }
+      ]
+    },
+    {
+    "question": "Mocą testu nazywamy prawdopodobieństwo:",
+    "answers": [
+      { "text": "Nie popełnienia błędu I rodzaju", "correct": false },
+      { "text": "Popełnienia błędu I rodzaju", "correct": false },
+      { "text": "Nie popełnienia błędu II rodzaju", "correct": true },
+      { "text": "Popełnienia błędu II rodzaju", "correct": false }
+    ]
+  },
+  {
+    "question": "Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka) O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R wynika stąd, że:",
+    "answers": [
+      { "text": "Moneta najprawdopodobniej nie jest uczciwa.", "correct": true },
+      { "text": "Nie można stwierdzić czy moneta jest uczciwa.", "correct": false },
+      { "text": "Moneta najprawdopodobniej jest uczciwa.", "correct": false }
+    ]
+  },
+  {
+    "question": "Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:",
+    "answers": [
+      { "text": "Dwóch średnich", "correct": false },
+      { "text": "Dwóch median", "correct": false },
+      { "text": "Dwóch wariancji", "correct": true },
+      { "text": "Dwóch rozkładów", "correct": false }
+    ]
+  },
+  {
+    "question": "W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny:",
+    "answers": [
+      { "text": "O wartości oczekiwanej zero", "correct": true },
+      { "text": "O wartości oczekiwanej dodatniej", "correct": false },
+      { "text": "O wartości oczekiwanej ujemnej", "correct": false }
+    ]
+  },
+  {
+    "question": "Medianą próbki losowej 0,2,-1,5,4,3 jest:",
+    "answers": [
+      { "text": "2.5", "correct": true },
+      { "text": "4", "correct": false },
+      { "text": "2", "correct": false },
+      { "text": "3", "correct": false }
+    ]
+  },
+  {
+    "question": "Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej:",
+    "answers": [
+      { "text": "Równości wariancji", "correct": false },
+      { "text": "Równości rozkładów", "correct": true },
+      { "text": "Równości median", "correct": false },
+      { "text": "Równości średnich", "correct": false }
+    ]
+  },
+  {
+    "question": "Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?",
+    "answers": [
+      { "text": "Tak", "correct": true },
+      { "text": "Nie", "correct": false }
+    ]
+  },
+  {
+    "question": "Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej próbki losowej:",
+    "answers": [
+      { "text": "Mediana jest raczej większa od średniej", "correct": true },
+      { "text": "Mediana jest równa średniej", "correct": false },
+      { "text": "Mediana jest raczej mniejsza od średniej", "correct": false }
+    ]
+  },
+  {
+    "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd, że między czynnikami A oraz B:",
+    "answers": [
+      { "text": "Zachodzi interakcja", "correct": false },
+      { "text": "Nie można stwierdzić czy zachodzi interakcja", "correct": false },
+      { "text": "Nie zachodzi interakcja", "correct": true }
+    ]
+  },
+  {
+    "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4) wynosi:",
+    "answers": [
+      { "text": "0.5", "correct": false },
+      { "text": "0.9", "correct": false },
+      { "text": "0.8", "correct": true },
+      { "text": "0.6", "correct": false }
+    ]
+  },
+  {
+    "question": "W wykresach pudełkowych (boxplots) za wartości plot(ecdf(proba),las=1,cex.axis=0.75,...) uznaje się takie, dla których:",
+    "answers": [
+      { "text": "Odległość od kwartyli wynosi co najmniej 3.5 IQR", "correct": false },
+      { "text": "Odległość od kwartyli wynosi co najmniej 0.5 IQR", "correct": false },
+      { "text": "Odległość od kwartyli wynosi co najmniej 1.5 IQR", "correct": true },
+      { "text": "Odległość od kwartyli wynosi co najmniej 2.5 IQR", "correct": false }
+    ]
+  },
+  {
+    "question": "Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby rząd wielkości zbioru był równy:",
+    "answers": [
+      { "text": "Co najmniej 3", "correct": true },
+      { "text": "Co najmniej 2", "correct": false },
+      { "text": "Dokładnie 3", "correct": false },
+      { "text": "Co najmniej 4", "correct": false }
+    ]
+  },
+  {
+    "question": "Liczba serii liczonych względem mediany w próbce losowej -2,3,5,1,9,6,10,-8 wynosi:",
+    "answers": [
+      { "text": "4", "correct": false },
+      { "text": "8", "correct": false },
+      { "text": "5", "correct": true },
+      { "text": "6", "correct": false }
+    ]
+  },
+  {
+    "question": "Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?",
+    "answers": [
+      { "text": "Tak", "correct": true },
+      { "text": "Nie", "correct": false }
+    ]
+  },
+  {
+    "question": "Oto dwa kwadraty łacińskie rzędu 3. Wynika stąd, że:",
+    "answers": [
+      { "text": "Kwadraty te nie są ortogonalne", "correct": false },
+      { "text": "Nie można stwierdzić czy kwadraty te są ortogonalne", "correct": false },
+      { "text": "Kwadraty te są ortogonalne", "correct": true }
+    ]
+  },
+  {
+    "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
+    "answers": [
+      { "text": "Tak", "correct": true },
+      { "text": "Nie", "correct": false }
+    ]
+  },
+  {
+    "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości:",
+    "answers": [
+      { "text": "Dwóch wariancji", "correct": false },
+      { "text": "Dwóch rozkładów", "correct": false },
+      { "text": "Dwóch średnich", "correct": true }
+    ]
+  }
   ]
 }
