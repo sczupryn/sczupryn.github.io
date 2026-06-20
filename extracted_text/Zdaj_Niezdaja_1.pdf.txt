@@ -1,0 +1,255 @@
+--- PAGE 1 ---
+1. Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej
+równości rozkładów
+równości średnich
+równości median
+równości wariancji
+Równość średnich - test T-Studenta dla 2 prób lub test ANOVA dla >2 prób.
+Równość median - test rang Wilcoxona dla 2 prób.
+Równość wariancji - test Levene'a dla >=2 prób lub test Bartletta dla >2 prób.
+2. Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości
+dwóch wariancji
+dwóch średnich
+dwóch rozkładów
+Dwóch wariancji - test Levena / rozkłald Snedecora.
+Dwóch rozkładów - test Kołmogorowa-Smirnowa.
+3. W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny
+o wartości oczekiwanej zero
+o wartości oczekiwanej dodatniej
+o wartości oczekiwanej ujemnej
+4. Do zbadania niezależności dwóch cech najlepiej wykorzystać funkcję
+fisher.test()
+cor()
+cor.test()
+indep()
+cor() - oblicza macierz korelacji pomiędzy zmiennymi.
+cor.test() - służy do przeprowadzania testu istotności statystycznej dla współczynnika
+korelacji między dwiema zmiennymi.
+
+--- PAGE 2 ---
+indep() - prawdopodobnie chodzi o indepTest() - test niezależności ciągłych zmiennych
+losowych za pomocą kopuli empirycznej.
+5. Histogram pewnej próbki losowej dany jest na poniższym rysunku
+Wynika stąd, że dla tej próbki losowej
+mediana jest raczej mniejsza od średniej
+mediana jest raczej większa od średniej
+mediana jest równa średniej
+Rozkład prawostronnie skośny (jak na rysunku powyżej) - dużo obserwacji, które
+przyjmują wartości mniejsze od średniej.
+Rozkład lewostronnie skośny - dużo obserwacji, które przyjmują wartości większe od
+średniej.
+6. W wykresach pudełkowych (boxplots) za wartości odstające uznaje się takie, dla których
+odległość od kwartyli wynosi co najmniej 2.5 IQR
+odległość od kwartyli wynosi co najmniej 1.5 IQR
+odległość od kwartyli wynosi co najmniej 0.5 IQR
+odległość od kwartyli wynosi co najmniej 3.5 IQR
+7. Mocą testu nazywamy prawdopodobieństwo
+popełnienia błędu II rodzaju
+nie popełnienia błędu II rodzaju
+popełnienia błędu I rodzaju
+nie popełnienia błędu I rodzaju
+popełnienie błędu II rodzaju - odrzucamy fałszywą hipotezę zerową (H0), podczas gdy w
+rzeczywistości powinna ona zostać przyjęta.
+
+--- PAGE 3 ---
+popełnienie błędu I rodzaju -odrzucamy prawdziwą hipotezę zerową (H0), podczas gdy w
+rzeczywistości powinna ona zostać przyjęta.
+8. Liczba serii liczonych względem mediany w próbce losowej
+−2, 3, 5, 1, 9, 6, 10, −8
+wynosi
+8
+4
+6
+5
+Najpierw wyliczamy medianę (4 w tym przypadku). Następnie na nieposortowanym
+zbiorze sprawdzamy ciągi liczb czy są mniejsze/większe od mediany
+[-2,3 < 4]; [5>4]; [1<4]; [9,6,10>4]; [-8<4]. Co daje nam 5 serii.
+9. Niech F(x) będzie dystrybuantą empiryczną próbki losowej
+2, 0, 2, −1, 5
+Wówczas F(4) wynosi
+0.9
+0.5
+0.6
+0.8
+Najpierw sortujemy niemalejąco -1, 0, 2, 2, 5 potem podstawiamy pod funkcję:
+gdzie:
+n - rozmiar próbki
+k - jest napisane
+Czyli:
+1 2 3
+𝐹 (𝑥) = 0 𝑑𝑙𝑎 𝑥 < − 1 ; 𝑑𝑙𝑎 𝑥 ϵ [− 1,0); 𝑑𝑙𝑎 𝑥 ϵ [0,2); 𝑑𝑙𝑎 𝑥 ϵ [2,2);
+5 5 5 5
+4
+𝑑𝑙𝑎 𝑥 ϵ [2,5);1 𝑑𝑙𝑎 𝑥 > 5;
+5
+Czyli wychodzi 4/5 = 0.8.
+Jeśli dana wartość powtarza się co najmniej 2 razy to liczymy tylko dla ostatniej wartości,
+jest ona wtedy początkiem przedziału oraz pomijamy ułamki wyliczone na podstawie
+powtórzeń.
+Przykład dla proba=c(-3,0,1,1,1,4,5,6,7,8)
+
+--- PAGE 4 ---
+10. Oto dwa kwadraty łacińskie rzędu 3
+Wynika stąd, że
+kwadraty te są ortogonalne
+nie można stwierdzić czy kwadraty te są ortogonalne
+kwadraty te nie są ortogonalne
+Kwadrat ortogonalny - ma wymiary n x n. W każdym wierszu i kolumnie posiada jedynie
+wartości unikalne. Nałożenie dwóch kwadratów ma dać kwadrat łaciński (grecko-łaciński).
+11. Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?
+tak
+nie
+12. Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej
+
+--- PAGE 5 ---
+Wynika stąd, że między czynnikami A oraz B
+zachodzi interakcja
+nie można stwierdzić czy zachodzi interakcja
+nie zachodzi interakcja
+Jeśli p-wartość tego testu dla A:B jest istotna (p < 0,05), można stwierdzić, że istnieje
+interakcja między czynnikami.
+13. W celu porównania dwóch średnich wykorzystamy
+analizę wariancji
+funkcję mean()
+test Studenta
+test Kruskala-Wallisa
+Analiza wariancji (Anova) - przeprowadza się dla analizy wariancji.
+mean() - obliczenie średniej.
+Test Kruskala-Wallisa - nieparametryczny test statystyczny stosowany do porównywania
+równości rozkładów.
+14. Najlepszy test do weryfikacji hipotezy o normalności danych to
+test Shapiro-Wilka
+test Kruskala-Wallisa
+test chi-kwadrat
+test Kołmogorowa
+Test Kruskala-Wallisa - nieparametryczny test statystyczny stosowany do porównywania
+równości rozkładów.
+Test chi-kwadrat - test statystyczny stosowany do analizy zależności dla >2 zmiennych
+kategorycznych. Gdy chcemy zbadać czy pewna cecha ma rozkład Poissona.
+
+--- PAGE 6 ---
+Test Kołmogorowa - test statystyczny wykorzystywany do oceny, czy rozkład danych
+empirycznych różni się istotnie od określonego teoretycznego rozkładu.
+15. Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?
+nie
+tak
+16. Chcemy zbadać czy pewna cecha ma rozkład Poissona. Najlepszym testem do tego jest
+test Kruskala-Wallisa
+test Shapiro-Wilka
+test chi-kwadrat
+test Kołmogorowa
+Test Kruskala-Wallisa - nieparametryczny test statystyczny stosowany do porównywania
+równości rozkładów.
+Test Shapiro-Wilka - test do weryfikacji hipotezy o normalności danych.
+Test Kołmogorowa - test statystyczny wykorzystywany do oceny, czy rozkład danych
+empirycznych różni się istotnie od określonego teoretycznego rozkładu.
+17. Medianą próbki losowej 0, 2, −1, 5, 4, 3 jest
+3
+4
+2
+2.5
+Aby obliczyć medianę należy najpierw posortować ciąg. Następnie znaleźć wartość
+środkową (ciąg nieparzysty) lub średnią z dwóch wartości środkowych (ciąg parzysty).
+18. Do zbadania niezależności statystycznej dwóch cech najlepiej wykorzystać funkcję
+indep()
+chisq.test()
+cor()
+cor.test()
+
+--- PAGE 7 ---
+indep() - prawdopodobnie chodzi o indepTest() - test niezależności ciągłych zmiennych
+losowych za pomocą kopuli empirycznej.
+cor() - oblicza macierz korelacji pomiędzy zmiennymi.
+cor.test() - służy do przeprowadzania testu istotności statystycznej dla współczynnika
+korelacji między dwiema zmiennymi.
+19. Czy próbka losowa może mieć nieskończenie wiele median?
+tak
+nie
+20. Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby
+rząd wielkości zbioru danych był równy
+co najmniej 3
+co najmniej 2
+dokładnie 3
+co najmniej 4
+21. Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka)
+O, O, O, O, O, O, O, O, O, O, R, R, R, R, R, R, R, R, R, R
+Wynika stąd, że
+nie można stwierdzić czy moneta jest uczciwa
+moneta najprawdopodobniej jest uczciwa
+moneta najprawdopodobniej nie jest uczciwa
+Aby moneta była uczciwa, wylosowane wartości powinny być najlepiej naprzemiennie.
+22. Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości
+dwóch średnich
+dwóch rozkładów
+dwóch median
+dwóch wariancji
+Dwóch średnich - test T-Studenta.
+
+--- PAGE 8 ---
+Dwóch rozkładów - test Kruskala-Willisa..
+Dwóch median - test Wilcoxona.
+23. Do zbadania równości dwóch wariancji wykorzystamy funkcję
+sd()
+fisher.test()
+var()
+levene.test()
+sd() - służy do obliczania odchylenia standardowego.
+fisher.test() - test statystyczny służy do oceny istotności statystycznej między dwiema
+zmiennymi kategorycznymi w oparciu o tablicę kontyngencji.
+var() - służy do obliczania wariancji dla wektora lub kolumny danych.
+24. Wynikiem działania c(1,2)+c(0,1,2) w programie R jest
+1 3
+1 3 3
+nie jest określone
+1 3 2
+1 + 0 = 1; 2 + 1 = 3; Pierwszy wektor ma 2 wartości, drugi wektor ma 3 wartości więc
+pierwsza wartość pierwszego wektora zostanie ponownie wykorzystana zatem 1 + 2 = 3;
+25. Medianą próbki losowej 1, 2, 3, 4, 5, 6 jest liczba
+2
+1
+3
+3.5
+Aby obliczyć medianę należy najpierw posortować ciąg. Następnie znaleźć wartość
+środkową (ciąg nieparzysty) lub średnią z dwóch wartości środkowych (ciąg parzysty).
+
+--- PAGE 9 ---
+26. Niech F(x) będzie dystrybuantą empiryczną próbki losowej: −1, 2, 4, 6. Wartość F(3.5)
+wynosi wówczas
+0.6
+0.5
+0.75
+0.25
+Najpierw sortujemy niemalejąco -1, 2, 4, 6 potem podstawiamy pod funkcję:
+gdzie:
+n - rozmiar próbki
+k - jest napisane
+Czyli:
+1 2 3
+𝐹 (𝑥) = 0 𝑑𝑙𝑎 𝑥 < − 1 ; 𝑑𝑙𝑎 𝑥 ϵ [− 1,2); 𝑑𝑙𝑎 𝑥 ϵ [2,4); 𝑑𝑙𝑎 𝑥 ϵ [4,6);
+4 4 4 4
+1 𝑑𝑙𝑎 𝑥 > 6;
+Czyli wychodzi 2/4 = 0.5.
+Jeśli dana wartość powtarza się co najmniej 2 razy to liczymy tylko dla ostatniej wartości,
+jest ona wtedy początkiem przedziału oraz pomijamy ułamki wyliczone na podstawie
+powtórzeń.
+Przykład dla proba=c(-3,0,1,1,1,4,5,6,7,8)
+27. Na wykresie typu pudełkowego ("boxplot") zaznaczane są
+mediana, średnia, xmax, xmin
+mediana, średnia, Q1, Q2, Q3
+mediana, Q1, Q3, xmax, xmin
+średnia, Q1, Q3, xmax, xmin
+
+--- PAGE 10 ---
+Mediana: Linia pozioma wewnątrz prostokąta.
+Q1: Dolna krawędź prostokąta.
+Q3: Górna krawędź prostokąta.
+Xmax: Górna kreska "wąsa".
+Xmin: Dolna kreska "wąsa".
+28. Test Kruskala-Wallisa służy do weryfikacji hipotezy dotyczącej
+równości średnich
+równości wariancji
+równości rozkładów
+równości proporcji
+Równość średnich - test T-Studenta.
+Równość wariancji - test Levene'a dla >=2 prób lub test Bartletta dla >2 prób.
+Równość proporcji - prop.test() (test Z).

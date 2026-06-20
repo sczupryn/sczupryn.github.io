@@ -18,7 +18,7 @@
       <section id="screen-subjects" class="screen active">
         <div class="card">
           <h2>Przedmioty</h2>
-          <p class="hint">Zaznacz wszystkie poprawne odpowiedzi. 1 punkt tylko przy pełnym trafieniu. Postęp zapisywany jest lokalnie w przeglądarce.</p>
+          <p class="hint">Zaznacz odpowiedzi, kliknij „Zatwierdź”, a potem „Dalej”. Zła odpowiedź automatycznie trafia do trudnych pytań. Postęp zapisywany jest lokalnie w przeglądarce.</p>
           <ul id="subjects-list" class="subjects-list"></ul>
         </div>
       </section>
@@ -34,9 +34,9 @@
               <strong>Pełny test</strong>
               <span id="mode-full-count">Wszystkie pytania</span>
             </button>
-            <button type="button" class="mode-btn" id="btn-mode-review">
-              <strong>Powtórka błędnych</strong>
-              <span id="mode-review-count">Brak pytań do powtórki</span>
+            <button type="button" class="mode-btn" id="btn-mode-difficult">
+              <strong>Trudne pytania</strong>
+              <span id="mode-difficult-count">Brak trudnych pytań</span>
             </button>
           </div>
           <div class="actions mode-actions">
@@ -55,14 +55,17 @@
 
         <div class="card quiz-card">
           <p class="question-number" id="question-number"></p>
+          <div class="question-media hidden" id="question-media">
+            <img id="question-image" alt="Ilustracja do pytania">
+          </div>
           <h2 class="question-text" id="question-text"></h2>
           <ul class="answers-list" id="answers-list"></ul>
 
           <div class="feedback hidden" id="feedback"></div>
 
           <div class="actions">
-            <button type="button" class="btn btn-secondary" id="btn-check">Sprawdź odpowiedź</button>
-            <button type="button" class="btn btn-primary" id="btn-next">Dalej</button>
+            <button type="button" class="btn btn-secondary" id="btn-check">Zatwierdź</button>
+            <button type="button" class="btn btn-primary" id="btn-next" disabled>Dalej</button>
           </div>
         </div>
 
@@ -85,7 +88,7 @@
           <p class="results-mode-note hidden" id="results-mode-note"></p>
           <div class="actions results-actions">
             <button type="button" class="btn btn-primary" id="btn-restart">Powtórz ten sam tryb</button>
-            <button type="button" class="btn btn-secondary" id="btn-review-wrong">Powtórka błędnych</button>
+            <button type="button" class="btn btn-secondary" id="btn-review-difficult">Trudne pytania</button>
             <button type="button" class="btn btn-secondary" id="btn-home">Wybierz przedmiot</button>
           </div>
         </div>
@@ -93,6 +96,6 @@
     </main>
   </div>
 
-  <script src="js/app.js"></script>
+  <script src="js/app.js?v=6"></script>
 </body>
 </html>

@@ -1,0 +1,1288 @@
+--- PAGE 1 ---
+Erni
+1. Mocą testu nazywamy prawdopodobieństwo:
+a. Nie popełnienia błędu I rodzaju
+b. Popełnienia błędu I rodzaju
+c. Nie popełnienia błędu II rodzaju
+d. Popełnienia błędu II rodzaju
+2. Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka)
+O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R,R wynika stąd, że:
+a. Moneta najprawdopodobniej nie jest uczciwa.
+b. Nie można stwierdzić czy moneta jest uczciwa.
+c. Moneta najprawdopodobniej jest uczciwa.
+3. Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:
+a. Dwóch średnich
+b. Dwóch median
+c. Dwóch wariancji
+d. Dwóch rozkładów
+4. W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny.
+a. O wartości oczekiwanej zero
+b. O wartości oczekiwanej dodatniej
+c. O wartości oczekiwanej ujemnej
+5. Medianą próbki losowej 0,2,-1,5,4,3 jest
+a. 2.5
+b. 4
+c. 2
+d. 3
+6. Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej
+a. Równości wariancji
+b. Równości rozkładów
+c. Równości median
+d. Równości średnich
+7. Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+8. Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej
+próbki losowej
+18
+
+--- PAGE 2 ---
+a. Mediana jest raczej większa od średniej
+b. Mediana jest równa średniej
+c. Mediana jest raczej mniejsza od średniej
+9. Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd,
+że między czynnikami A oraz B
+a. Zachodzi interakcja
+b. Nie można stwierdzić czy zachodzi interakcja
+c. Nie zachodzi interakcja
+10. Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4)
+wynosi
+a. 0.5
+b. 0.9
+c. 0.8
+d. 0.6
+11. W wykresach pudełkowych (boxplots) za wartości
+plot(ecdf(proba),las=1,cex.axis=0.75,...)uznaje się takie, dla których
+a. Odległość od kwartyli wynosi co najmniej 3.5 IQR
+b. Odległość od kwartyli wynosi co najmniej 0.5 IQR
+c. Odległość od kwartyli wynosi co najmniej 1.5 IQR
+d. Odległość od kwartyli wynosi co najmniej 2.5 IQR
+12. Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby
+rząd wielkości zbioru był równy
+a. Co najmniej 3
+b. Co najmniej 2
+c. Dokładnie 3
+d. Co najmniej 4
+13. Liczba serii liczonych względem mediany w próbce losowej -2,3,5,1,9,6,10,-8 wynosi
+a. 4
+b. 8
+c. 5
+d. 6
+14. Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+19
+
+--- PAGE 3 ---
+15. Oto dwa kwadraty łacińskie rzędu 3. Wynika stąd, że
+a. Kwadraty te nie są ortogonalne
+b. Nie można stwierdzić czy kwadraty te są ortogonalne
+c. Kwadraty te są ortogonalne
+16. Czy próbka losowa może mieć nieskończenie wiele median?
+a. Tak
+b. Nie
+17. Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości
+a. Dwóch wariancji
+b. Dwóch rozkładów
+c. Dwóch średnich
+20
+
+--- PAGE 4 ---
+Egzamin nr 1 (przykładowy)
+(Planowanie i analiza eksperymentu, semestr letni 2023/2024)
+Imię i Nazwisko: ............................................................ grupa: ...........................
+Zad-1. Medianą próbki losowej 1,2,3,4,5,6 jest Zad-6. Do zbadania równości dwóch wariancji wy-
+liczba korzystamy funkcję
+(a) 2 (a) levene.test()
+(b) 1 (b) var()
+(c) 3 (c) fisher.test()
+(d) 3.5 (d) sd()
+Zad-2. Niech F(x) będzie dystrybuantą empirycz- Zad-7. Histogram pewnej próbki wygląda nastę-
+ną próbki losowej: −1,2,4,6. Wartość F(3.5) wy- pująco
+nosi wówczas
+(a) 0.6
+(b) 0.5
+(c) 0.75
+(d) 0.25
+Zad-3. Na wykresie typu pudełkowego ("boxplot")
+Wynika stąd, że dla tej próbki losowej
+zaznaczane są
+(a) mediana jest raczej większa od średniej
+(a) mediana, średnia, x , x
+max min
+(b) mediana jest w przybliżeniu równa średniej
+(b) mediana, średnia, Q , Q , Q
+1 2 3
+(c) mediana jest raczej mniejsza od średniej
+(c) mediana, Q , Q , x , x
+1 3 max min
+(d) nie można ocenić
+(d) średnia, Q , Q , x , x
+1 3 max min
+Zad-8. Wynikiem działania c(1,2)+c(0,1,2) w pro-
+Zad-4. Test Kruskala-Wallisa służy do weryfikacji
+gramie R jest
+hipotezy dotyczącej
+(a) 1 3
+(a) równości średnich
+(b) 1 3 3
+(b) równości wariancji
+(c) nie jest określone
+(c) równości rozkładów
+(d) 1 3 2
+(d) równości proporcji
+Zad-9. Wynikiem diff(c(1,0,2,3,-1))w programie
+Zad-5. Do zbadania niezależności statystycznej
+R jest
+dwóch cech najlepiej wykorzystać funkcję
+(a) -1 2 1 -4
+(a) indep()
+(b) 1 2 1 4
+(b) cor.test()
+(c) 1 -2 -1 4
+(c) chisq.test()
+(d) -3
+(d) cor()
+1
+
+--- PAGE 5 ---
+Notatki erni z wykładu
+Wariancja odpowiada za rozproszenie danych.
+wyk1:
+Hipoteza zerowa(H ) – wejściowa/domyślna/naturalna, odrzuca się jeśli prawdopodobieństwo jest
+0
+mniejsze niż 5% -> 0,05
+Kwadrat łaciński – kazda litera/liczba występuje dokładnie raz w wierszu/kolumnie (np. sudoku)
+Cor() – współczynnik korelacji, wzrost jednej wartości jest skorelowane z wzrostem drugiej
+Część deterministyczna – część ważna? Część która ma znaczenie?
+Szereg rozdzielczy – oznacza grupowanie wartości próbki w klasach(przedziałach)
+Rozstęp badanej cechy X w próbce – R = x - X
+max min
+Długośc klasy – R/k
+Wyk2:
+Mediana – liczba na liczb, ułożonych nie malejąco
+Średnia – suma liczb podzielona na ilość
+Kwantyl donly Q1 – mediana grupy 1
+Kwantylgórny Q2 – mediana grupy 2
+
+--- PAGE 6 ---
+Twierdzenie Gliwienki-Cantelliego – różnica będzie dążyła do zera
+Test chi-kwadrat – porównanie liczności empirycznych(doświadczalnych) z licznościami
+teoretycznymi w odpowiednich klasach. Aby test można było stosować na zmiennych dyskretnych i
+ciągłych, liczności w klasach musi być >=5, dlatego klasy czasami należy łączyć.
+Test Kołmogorowa (ks.test)- stosuje się dla n>30
+Test Kołmogorowa-Smirnowa – dowolnego n, x, y (pierwsza, druga(nazwa rozkładu) próbka
+OBA TESTY – polegają na porównaniu 2 dystrybuant empirycznych/ liczy maksymalną odległość
+między dystrybuandą teoretyczną a empiryczną, jak wynik większy nic 0.05 to znaczy ze dane
+pochodzą z jednego rozkładu. Obu się wywołuje ks.test, w zależności od n się używa odpowiedni
+WYKŁAD 3:
+Test Shapiro-Wilka – służy do badania zgodności cechy X z rozkładem normalnym. Pytamy o
+„normalność” rozkładu, H0 – badana cecha X ma rozkład normalny. Dobry dla małej próbki
+Histogram - dla n>=30
+Wykres Q-Q qqplot()– wykresy
+kwantylowe, potrzebne 2 zbiory,
+zbiory muszą być takiej samej
+wielkości, jak jest różne, to się oblicza
+jak obok.
+Było -3 – 0%, i 100% - 12
+
+--- PAGE 7 ---
+Boxplot boxplot()– wykres pudełkowy lub ramkowy, na osi pionowej są : Xmin, Xmax, mediana, Q1,
+Q3. Wartości odstające to takie, które odstają od kwartyli o więcej niż 1.5*IQR. IQR = Q3-Q1
+Test serii (Walda-Wolfowitza) runs.test() – łączymy próbki i układamy je po kolei, potem liczymy
+serie(liczby z jednego zbioru pod rząd). Zbyt mała lub zbyt duża liczba serii może sugerować że
+rozkład nie jest normalny.
+Test Kurskala-Wallisa kruskal.test()– liczenie średnich rang grupowych, i porównywanie z średnią
+rang wszystkich próbek . do weryfikacji hipotezy dotyczącej równości rozkładów
+Wyk4:
+Moc testu – zakładamy ze badana cecha ma pewien rozkład teoretyczne, parametry teoretyczne.
+Konstruujemy statystykę testową która mówi kiedy mogą wystąpić zdarzenia mało prawdopodobne
+<5%.
+Test niezależności X^2 Pearsona – badamy dwie cechy X,Y. Zakładamy H0: X,Y są niezależne. Test
+polega na sprawdzeniu w jakim stopniu cechy X,Y spełniają H0. Potem należy zrobić test chi-
+kwadrat (chisq.test), i dzięki temu wiemy jaka jest granica zatwierdzenia H0.
+Test Fishera fisher.test–do małych liczebności, kiedy chi-kwadrat się nie nada do przykładu
+powyżej, czyli do liczenia niezależności
+Dhyper() –oblicza prawdopodobieństwo wypadnięcia, np. przy 6 rzutach monetą ile razy będzie O/R
+Order() – sortuje ramkę danych,
+Ramkę danych Polska, po powierzchni, malejąco
+WYK 5:
+Test znaków SIGN.test() – sprawdzenie czy mediana Me(X) = m, mediana od X jest równa medianie?
+Prawo Benforda – Rozkład benforda:
+Chodzi o to ze więcej jest 1 niż kolejnych liczb i wygląda i jest mniej każdej kolejnej liczby.
+Test rangowy Bartelsa bartels.rank.test() – każdy element ma przyporządkowaną rangę od 1 do n.
+Określa czy jest jakiś trend spadkowy/rosnący. Dane nie wydają się losowe.
+Test turning point turnung.point.test() – bada ilość punktów zwrotnych (wartości zaczynają się
+zmniejszać/zwiększać)
+Rozkład t-studenta – jest zbliżony do rozkładu normalnego.
+Twierdzenie Cochrana –
+Testy istotności dla dwóch wariancji var.test()- zakłada się że cechy badanej cechy są normalne.
+
+--- PAGE 8 ---
+Test Levene’a levene.test() – można stosować gdy rozkład nie jest normalny ale jest blisko
+normalnego, test można stosować do większej liczby populacji. Do badania równości wariancji
+Test Hartley’a hartleyTest() – zbyt duże wartości H są przeciwko H0,
+Test istotności dla dwóch wartości oczekiwanych – np. zsum.test(), jeśli chcemy zweryfikować
+hipotezę o równości średnich, to trzeba podać informacje dotyczące dwóch próbek.
+Gdy nie znamy wariancji ale wiemy że jest równa to korzystamy z t.sum.test() – to samo co
+wcześniej ale trzeba podać pełną informację dla dwóch prób.
+Test Welcha – ?
+Test istotności dla dwóch wartości oczekiwanych t.test – domyślnie przeprowadza klasyczny test
+dla jednej próbki.
+Dalej
+Test Wilcoxona/Manna-Whitneya – weryfikuje hipotezę że pewna cecha X ma ten sam rozkład w 2
+populacjach. Stosuje się gdy nie wszystkie założenia t-student są spełnione
+Inwersje – ilość x przed y i ilość y przed x
+
+--- PAGE 9 ---
+Test znaków rangowych Wilcoxona – alternatywa dla t-student dla próbek połączonych.
+Porządkujemy nie malejąco i przypisujemy rangi.
+Scatterplot3d – do rysowania rozrzutu punktów w 3d
+Wykres piramidowy – demograficzny, podaje się 2 zbiory danych i labele.
+Prop.test() – propotion test, np. Do sprawdzenie czy przy 20 rzutach monetą 14 orłów to dalej będzie
+uczciwa moneta przy prawdopodobieństwu wypadnięcia 50% na orła. Jeśli p-value poniżej 0.05 to
+moneta nie jest uczciwa. Wykorzystuje twierdzenia graniczne.
+Binom.test – to samo co wyżej robi, ale jest to test dwumianowy. Test dokładny/dokładnościowy
+Sd() – do liczenia odchylenia standardowego
+Pairwise.t.test – test porównań wielokrotnych, jest jak t.test ale jest korekta p wartości
+LSD.test – test najmniejszych istotnych różnic
+Test HSD tukeyHSD() –
+Test Kruskala-wallisa kruskal.test()– test nieparametryczny
+Działanie addytywne – działania się dodają w podobny sposób, jak niema działania addytywnego to
+jest interakcja
+Analiza dwuczynnikowa – możliwe funkcje aov(), anova(), granova.1w()#jednoczynnikowa,
+granova.2w()#dwuczynnikowa
+Funkcja do prezentacji graficznej efektów interakcji: interaction.plot()
+Bartlett.test() - badanie jednorodności wariancji
+
+--- PAGE 10 ---
+Kontrastem nazywamy liniową kombinację średnich grupowych. Wykorzystuje się je do testów
+hipotez ze cos z czymś jest podobne działanie do czegoś i czegoś
+Tworzenie macierzy współczynników – cbind(c(),c(),c(),..)
+Kompletna randomizacja – to z polami żeby losowo odmiany były ustawiane nie po kolei, gdyby z
+jednej strony była rzeka albo lepsza gleba.
+kwadrat łaciński
+Przy pomocy rlatin() można tworzyć
+kwadraty łacińskie
+kwadrat grecko-łaciński
+Dwa kwadraty łacińskie rzędu n są ortagonalne, jeśli po „nałożeniu” na siebie powstanie kwadrat
+grecko-łaciński. Coś takiego da się zrobić dla n>=3 i n != 6.
+Współczynnik korelacji cor() – jak bardzo są ze sobą powiązane/zależne od siebie
+np. im cieplej tym więcej lodów się sprzedaje.
+Wykres rozrzutu – scatterplot()
+
+--- PAGE 11 ---
+Linia regresji I rodzaju – w przypadku dyskretnym linia regresji jest zbiorem punktów, które zwykle
+łączy się w łamaną. W przypadku ciągłym może to być dowolna funkcja, niekoniecznie linia prosta.
+Linia regresji II rodzaju – Prostą y=ax+b nazywamy prostą regresji II rodzaju zmiennej losowej Y
+względem X, jeśli współczynniki a,b minimalizują funkcję
+lm() - przy pomocy którego otrzymujemy proste, funkcja używana jest m. in do dopasowania regresji
+liniowej
+jeśli dane są niezależne to znaczy że są nieskorelowane ale jeśli są nieskorelowane to nie oznacza
+że są niezależne
+DH.test() – Test na normalność wielowymiarową, do badania dwuwymiarowego rozkładu
+normalnego
+mamy 3 rodzaje współczynników korelacji cor(), pierwszy domyśli to jest współczynnik korelacji
+liniowej/zwykły/pearsona, spearman – rangowy, kendall – porównujący pary zgodne i niezgodne
+przedział ufności dla średniej – predict(…., interval=”confidence”)
+przedział prognozy – predict(…., interval=”prediction”)
+lokalna linia regresjii – lowess() – kilka punktów jest brany i rysowana jest linia i potem znowu i znou
+
+--- PAGE 12 ---
+Pytania z GPT:
+Które z poniższych stwierdzeń definiuje błąd I rodzaju?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+c) Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa
+Które z poniższych stwierdzeń opisuje hipotezę zerową (H0)?
+a) Hipoteza zerowa zakłada, że badana cecha X ma rozkład normalny
+b) Hipoteza zerowa zakłada, że badana cecha X ma dowolny rozkład
+c) Hipoteza zerowa zakłada, że hipoteza alternatywna jest prawdziwa
+d) Hipoteza zerowa zakłada, że badana cecha X ma nieznany rozkład
+Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki Polio?
+a) Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona prawdziwa
+b) Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa
+c) Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju
+d) Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju
+W jakiej sytuacji test statystyczny ma największą moc?
+a) Gdy poziom istotności jest wysoki, np. 10%
+b) Gdy poziom istotności jest niski, np. 1%
+c) Gdy poziom istotności jest umiarkowany, np. 5%
+d) Gdy moc testu wynosi 0.5
+Jak nazywa się test, w którym kobieta twierdziła, że potrafi po smaku rozpoznać kolejność
+dodawania herbaty i mleka?
+a) Test chi-kwadrat
+b) Test lady tasting tea
+c) Test t Studenta
+d) Test Kołmogorowa-Smirnowa
+Jaki rozkład ma liczba odgadniętych prawidłowo filiżanek herbaty w teście lady tasting tea, przy
+założeniu prawdziwości hipotezy zerowej?
+a) Rozkład dwumianowy
+b) Rozkład hipergeometryczny
+c) Rozkład normalny
+d) Rozkład Poissona
+Do jakiego rodzaju danych stosuje się test chi-kwadrat?
+a) Do danych kategorycznych
+b) Do danych ciągłych
+c) Do danych binarnych
+d) Do danych porządkowych
+
+--- PAGE 13 ---
+Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na jednostkę
+długości śladu cząstki w komorze Wilsona?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+Co zakłada hipoteza alternatywna w teście statystycznym?
+a) Że badana cecha X ma rozkład normalny
+b) Że badana cecha X ma dowolny rozkład
+c) Że badana cecha X różni się od rozkładu opisanego w hipotezie zerowej
+d) Że badana cecha X jest zgodna z hipotezą zerową
+Jakie są wymagania dotyczące liczebności próby w teście skuteczności szczepionki?
+a) Próbka musi być mała i jednorodna
+b) Próbka musi być duża i różnorodna
+c) Próbka musi pochodzić z jednego regionu
+d) Próbka musi być nieznana
+Który z poniższych naukowców jest uważany za pioniera nowoczesnego planowania
+eksperymentów?
+a) Gregor Mendel
+b) Harold Jeffreys
+c) Ronald Fisher
+d) Karl Pearson
+Co oznacza wartość P w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych, przy założeniu prawdziwości hipotezy zerowej
+b) Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa
+c) Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa
+d) Prawdopodobieństwo popełnienia błędu typu I
+Co to jest błąd II rodzaju?
+a) Odrzucenie hipotezy zerowej, gdy jest ona prawdziwa
+b) Nieodrzucenie hipotezy zerowej, gdy jest ona fałszywa
+c) Odrzucenie hipotezy alternatywnej, gdy jest ona prawdziwa
+d) Nieodrzucenie hipotezy alternatywnej, gdy jest ona fałszywa
+Kiedy różnica między dwiema grupami w eksperymencie jest uznawana za istotną?
+a) Gdy nie mogła być spowodowana czynnikami losowymi
+b) Gdy mogła być spowodowana czynnikami losowymi
+c) Gdy różnica jest większa niż 10%
+d) Gdy różnica jest mniejsza niż 5%
+
+--- PAGE 14 ---
+ Które z poniższych stwierdzeń definiuje błąd II rodzaju?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+c) Nieodrzucenie hipotezy zerowej H0, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucenie hipotezy alternatywnej H1, gdy jest ona w rzeczywistości prawdziwa
+ Co oznacza poziom istotności alfa w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych
+b) Prawdopodobieństwo popełnienia błędu I rodzaju
+c) Prawdopodobieństwo popełnienia błędu II rodzaju
+d) Prawdopodobieństwo odrzucenia hipotezy alternatywnej
+ W jakim celu stosuje się test t Studenta?
+a) Do porównania więcej niż dwóch grup
+b) Do porównania dwóch średnich
+c) Do analizy korelacji
+d) Do analizy regresji
+ Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym
+przedziale czasu?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+ Jakie jest znaczenie wartości P < 0.05 w teście statystycznym?
+a) Wynik jest statystycznie istotny
+b) Wynik jest statystycznie nieistotny
+c) Prawdopodobieństwo błędu II rodzaju jest wysokie
+d) Hipoteza zerowa jest prawdziwa
+ Jakie są wymagania dotyczące próbki w teście chi-kwadrat?
+a) Próba musi być mała i jednorodna
+b) Próba musi pochodzić z jednego regionu
+c) Próba musi być wystarczająco duża i losowa
+d) Próba musi mieć dokładnie 30 obserwacji
+ Co zakłada hipoteza zerowa w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy alternatywnej
+d) Prawdziwość rozkładu normalnego
+
+--- PAGE 15 ---
+ Jakie jest prawdopodobieństwo uzyskania orła w rzucie symetryczną monetą?
+a) 0.25
+b) 0.75
+c) 0.50
+d) 1.00
+ Które z poniższych jest przykładem danych kategorycznych?
+a) Wzrost w centymetrach
+b) Kolor oczu
+c) Czas reakcji w sekundach
+d) Wynik testu na skali punktowej
+ Jaki test statystyczny stosuje się do analizy dwóch zmiennych kategorycznych?
+a) Test chi-kwadrat
+b) Test t Studenta
+c) Test ANOVA
+d) Test Kołmogorowa-Smirnowa
+ Co oznacza hipoteza alternatywna w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy zerowej
+d) Brak odchylenia standardowego
+ Jakie jest prawdopodobieństwo wyrzucenia pary orzeł-orzeł (O,O) w pojedynczym rzucie
+dwoma monetami?
+a) 0.25
+b) 0.50
+c) 0.75
+d) 1.00
+ Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki?
+a) Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona prawdziwa
+b) Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju
+c) Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa
+d) Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju
+ W eksperymencie rzucamy trzema niezależnymi monetami. Jakie jest prawdopodobieństwo
+wyrzucenia dokładnie jednego orła?
+a) 0.125
+b) 0.375
+c) 0.500
+d) 0.625
+
+--- PAGE 16 ---
+ Co oznacza wartość P w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych, przy założeniu prawdziwości hipotezy zerowej
+b) Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa
+c) Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa
+d) Prawdopodobieństwo popełnienia błędu typu I
+ Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na jednostkę
+długości śladu cząstki w komorze Wilsona?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+ Które z poniższych stwierdzeń definiuje błąd typu I?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+c) Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa
+ Co oznacza poziom istotności alfa w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych
+b) Prawdopodobieństwo popełnienia błędu I rodzaju
+c) Prawdopodobieństwo popełnienia błędu II rodzaju
+d) Prawdopodobieństwo odrzucenia hipotezy alternatywnej
+ W jakim celu stosuje się funkcję lm() w R?
+a) Do analizy korelacji
+b) Do dopasowania modelu liniowego
+c) Do obliczania średniej arytmetycznej
+d) Do tworzenia histogramów
+ Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym
+przedziale czasu?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+ Co zakłada hipoteza zerowa w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy alternatywnej
+d) Prawdziwość rozkładu normalnego
+
+--- PAGE 17 ---
+ Jaką funkcję w R należy użyć, aby obliczyć korelację między dwiema zmiennymi?
+a) lm()
+b) mean()
+c) cor()
+d) sum()
+ Która z poniższych funkcji w R jest używana do obliczania mediany?
+a) median()
+b) mean()
+c) mode()
+d) sum()
+ Jaką funkcję w R należy użyć, aby utworzyć wykres pudełkowy?
+a) hist()
+b) barplot()
+c) plot()
+d) boxplot()
+ Co oznacza termin "próba losowa" w statystyce?
+a) Próba wybrana celowo przez badacza
+b) Próba wybrana w taki sposób, że każda jednostka ma równą szansę bycia wybraną
+c) Próba wybrana na podstawie wcześniejszych badań
+d) Próba wybrana ze względu na dostępność jednostek
+ Jaki jest cel testu ANOVA?
+a) Do analizy korelacji między dwoma zmiennymi
+b) Do porównania średnich więcej niż dwóch grup
+c) Do obliczania wartości średniej
+d) Do testowania hipotezy zerowej
+ Który z poniższych jest testem nieparametrycznym?
+a) Test t Studenta
+b) Test ANOVA
+c) Test Kruskala-Wallisa
+d) Test chi-kwadrat
+ W jakiej sytuacji stosuje się test Wilcoxona?
+a) Gdy dane są normalnie rozłożone
+b) Gdy dane nie są normalnie rozłożone
+c) Gdy liczba próbek jest bardzo duża
+d) Gdy dane są kategoryczne
+
+--- PAGE 18 ---
+ Co to jest przedział ufności?
+a) Zakres wartości, w którym z określonym prawdopodobieństwem znajduje się
+prawdziwa wartość parametru populacji
+b) Zakres wartości, który jest zawsze symetryczny wokół średniej
+c) Zakres wartości, który jest mniejszy od odchylenia standardowego
+d) Zakres wartości, który obejmuje 50% próby
+ Co oznacza odchylenie standardowe?
+a) Średnia wartość próby
+b) Miara rozproszenia danych wokół średniej
+c) Mediana danych
+d) Maksymalna wartość w próbie
+ Jakie jest prawdopodobieństwo wyrzucenia liczby 6 w pojedynczym rzucie sześcienną kostką
+do gry?
+a) 0.10
+b) 0.20
+c) 0.1667
+d) 0.25
+ Która funkcja w R jest używana do obliczania odchylenia standardowego?
+a) sd()
+b) var()
+c) mean()
+d) summary()
+ Jakie jest prawdopodobieństwo, że z talii 52 kart wyciągniesz kartę asa?
+a) 0.10
+b) 0.12
+c) 0.077
+d) 0.15
+ Co oznacza test dwustronny?
+a) Test, który sprawdza, czy średnia próbki jest różna od określonej wartości w obu
+kierunkach
+b) Test, który sprawdza, czy średnia próbki jest mniejsza od określonej wartości
+c) Test, który sprawdza, czy średnia próbki jest większa od określonej wartości
+d) Test, który sprawdza tylko jedną stronę rozkładu
+ Jakie jest prawdopodobieństwo wyrzucenia co najmniej jednego orła w dwóch rzutach
+monetą?
+a) 0.75
+b) 0.50
+c) 0.25
+d) 0.20
+
+--- PAGE 19 ---
+ Która z poniższych metod jest używana do analizy zależności między dwiema zmiennymi
+liczbowymi?
+a) Test chi-kwadrat
+b) Test ANOVA
+c) Analiza regresji liniowej
+d) Test Wilcoxona
+ Co oznacza termin "wartość oczekiwana"?
+a) Mediana danych
+b) Średnia ważona wszystkich możliwych wartości
+c) Maksymalna wartość w próbie
+d) Minimalna wartość w próbie
+ Jaką funkcję w R należy użyć, aby utworzyć wykres punktowy?
+a) hist()
+b) plot()
+c) barplot()
+d) boxplot()
+ Co oznacza współczynnik korelacji Pearsona?
+a) Miara siły i kierunku liniowej zależności między dwiema zmiennymi
+b) Miara centralnej tendencji w danych
+c) Miara rozproszenia danych
+d) Miara kategoryzacji danych
+ Który z poniższych jest testem parametrycznym?
+a) Test t Studenta
+b) Test Kruskala-Wallisa
+c) Test Wilcoxona
+d) Test Mann-Whitneya
+ Co oznacza współczynnik determinacji R2?
+a) Miara centralnej tendencji
+b) Miara, jak dobrze model dopasowuje się do danych
+c) Miara rozproszenia danych
+d) Miara liczby stopni swobody
+
+--- PAGE 20 ---
+Test t-Studenta - t.test() - test statystyczny używany do porównywania dwóch średnich lub
+porównywania średniej z próby z pewną założoną wartością i sprawdzania, czy różnice pomiędzy
+nimi mogą być wynikiem losowości.
+Test chi-kwadrat - chisq.test() - służy weryfikacji hipotez mówiących o niezależności zmiennych lub
+zgodności rozkładu z założeniami. Wyróżnia się między innymi test zgodności chi-kwadrat, test chi-
+kwadrat niezależności (ang. independence) i test jednorodności (ang. homogeneity) chi-kwadrat
+Test ANOVA - aov() - Test ANOVA służy do porównania średnich więcej niż dwóch grup. Podobny do
+T-Student
+LSD test - stosowany po analizie wariancji (ANOVA). Pozwala on określić, które grupy różnią się
+istotnie od siebie. H0 (hipoteza zerowa): Średnie wartości w każdej grupie są równe.
+Test Kruskala-Wallisa - kruskal.test() - rangowy test statystyczny porównujący rozkłady zmiennej w
+k>2 populacjach. Test nie zakłada normalności rozkładów. Niekiedy uważany jest za
+nieparametryczną alternatywę dla jednoczynnikowej analizy wariancji pomiędzy grupami.
+Test Wilcoxona, Test Mann-Whitneya - wilcox.test() - weryfikuje hipotezę że pewna cecha X ma ten
+sam rozkład w 2 populacjach. Stosuje się gdy nie wszystkie założenia t-student są spełnione
+Test Kołmogorowa-Smirnowa - ks.test() - test nieparametryczny używany do porównywania
+rozkładów jednowymiarowych cech statystycznych. Istnieją dwie główne wersje tego testu – dla
+jednej próby(Test Kołmogorowa) i dla dwóch prób.
+Test Shapiro-Wilka - shapiro.test() – wykorzystywany do testowania normalności danych.
+Sprawdza czy pochodzi z rozkładu normalnego.
+Test Levene'a - leveneTest() (z pakietu car) – test statystyczny stosowany do weryfikacji, czy
+wariancja w badanych próbach jest równa. Równość wariancji w poszczególnych próbach jest
+nazywana jednorodnością wariancji.
+Test McNemara - mcnemar.test() - nieparametryczny test statystyczny służący do porównywania
+dwóch prób zależnych, w którym zmienne są nominalne lub dychotomiczne. Test jest
+wykorzystywany np. do poszukiwania różnic pomiędzy grupami w warunkach eksperymentu (przed i
+po aplikacji bodźca).
+Test Tukey'a - TukeyHSD() - test statystyczny wykonywany po otrzymaniu istotnej wartości F po
+przeprowadzeniu analizy wariancji. Pokazuje on, które średnie różnią się w sposób istotny
+statystycznie.
+Test Dunnetta - glht() (z pakietu multcomp) - wykorzystywany w statystyce test post hoc. To samo
+co wyżej turek.
+Test Bonferroniego - p.adjust(method = "bonferroni") - Poprawka Bonferroniego, poprawka Dunn -
+statystyczne narzędzie przeciwdziałania problemowi porównań wielokrotnych, polegające na
+zmniejszeniu nominalnego poziomu istotności każdego ze zbioru powiązanych testów wprost
+proporcjonalnie do ich ogólnej liczby
+Test F-Fishera - var.test() - test statystyczny używany do oceny związku między dwiema zmiennymi
+kategorycznymi w tabeli kontyngencji. Jest szczególnie przydatny w przypadku małych próbek. To
+
+--- PAGE 21 ---
+test nieparametryczny, co oznacza, że nie zakłada żadnego rozkładu danych i jest analogiczny do
+testu chi-kwadrat
+Test Sign - sign.test() (z pakietu BSDA) – Test znaków to metoda statystyczna służąca do badania
+spójnych różnic między parami obserwacji, takimi jak waga pacjentów przed i po leczeniu.
+Test Wariancji Bartletta - bartlett.test() - służy do sprawdzenia homoskedastyczności, czyli tego, czy
+wiele próbek pochodzi z populacji o równych wariancjach2. Niektóre testy statystyczne, takie jak
+analiza wariancji, zakładają, że wariancje są równe dla różnych grup lub próbek, co można
+zweryfikować za pomocą testu Bartletta.
+Test G-test - GTest() (z pakietu DescTools) - to testy istotności oparte na stosunku wiarygodności lub
+największej wiarygodności, które coraz częściej są stosowane w sytuacjach, gdzie wcześniej
+zalecano testy chi-kwadrat.
+Test Grubbsa - grubbs.test() (z pakietu outliers) - Test Grubbsa służy do wykrywania wartości
+odstających w jednowymiarowym zbiorze danych, zakładając, że pochodzą one z rozkładu
+normalnego. Podobny do Chi-kwadrat
+Test Q-Dixona - dixon.test() (z pakietu outliers) - służą do wykrywania wartości odstających w
+zbiorze danych.
+Test MAD - mad() - wykorzystuje medianę absolutnych odchyleń do identyfikacji wartości
+odstających. Wykrywa wartości odstające.
+Test Asymptotyczny - Analiza rozkładów statystycznych.
+Test Coxa - coxph() (z pakietu survival) - przewidywanie czasu do wystąpienia jakiegoś zdarzenia,
+np. śmierci, znalezienia pracy lub awarii urządzenia.
+Test Brunnera-Munzel - brunner.munzel.test() (z pakietu lawstat) - to test nieparametryczny, który
+bada hipotezę zerową mówiącą, że dla losowo wybranych wartości X i Y z dwóch populacji
+prawdopodobieństwo, że X jest większe od Y, jest równe prawdopodobieństwu, że Y jest większe od
+X.
+Test Welch'a - oneway.test(var.equal = FALSE) – jest modyfikacją testu t-Studenta
+Test Wald-Wolfowitz - runs.test() (z pakietu randtests) - Test serii – nieparametryczny test losowości
+próby. Stosuje się go m.in. do sprawdzenia, czy wyniki eksperymentu spełniają postulat losowości
+próby.
+Test Andersona-Darlinga - ad.test() (z pakietu nortest) - jeden z testów statystycznych zgodności
+rozkładu z zadanym rozkładem wzorcowym. Zwykle stosuje się go do sprawdzenia zgodności z
+rozkładem normalnym.
+
+--- PAGE 22 ---
+Ignoruj numerację, nie ma większego sensu (cid:2488)(cid:2489)(cid:2490)(cid:2491)
+Testy do analizy zależności między dwiema zmiennymi kategorycznymi:
+ Test chi-kwadrat - chisq.test()
+ Test G-test - GTest() (z pakietu DescTools)
+ Test Fishera - fisher.test()
+Testy do analizy różnic między grupami:
+ Test t-Studenta - t.test()
+ Test Welch'a - oneway.test(var.equal = FALSE)
+ Test Mann-Whitneya - wilcox.test()
+ Test Wilcoxona - wilcox.test()
+ Test Brunnera-Munzel - brunner.munzel.test() (z pakietu lawstat)
+Testy do analizy różnic między więcej niż dwiema grupami:
+ ANOVA - aov()
+ Test Kruskala-Wallisa - kruskal.test()
+ Test Friedman - friedman.test()
+ Test Quade'a - quade.test() (z pakietu stats)
+Testy post-hoc:
+ Test Tukey'a - TukeyHSD()
+ Test Dunnetta - glht() (z pakietu multcomp)
+ Test Bonferroniego - p.adjust(method = "bonferroni")
+Testy normalności:
+ Test Shapiro-Wilka - shapiro.test()
+ Test Kołmogorowa-Smirnowa - ks.test()
+ Test Andersona-Darlinga - ad.test() (z pakietu nortest)
+Testy homogeniczności wariancji:
+ Test Levene'a - leveneTest() (z pakietu car)
+ Test Wariancji Bartletta - bartlett.test()
+ Test Brown-Forsythe - bf.test() (z pakietu onewaytests)
+Testy dla danych sparowanych:
+ Test McNemara - mcnemar.test()
+ Test Wilcoxona dla par - wilcox.test(paired = TRUE)
+
+--- PAGE 23 ---
+Testy wartości odstających:
+ Test Grubbsa - grubbs.test() (z pakietu outliers)
+ Test Q-Dixona - dixon.test() (z pakietu outliers)
+ Test Hampela - brak bezpośredniej funkcji, można obliczyć ręcznie
+ Test Thompsona - brak bezpośredniej funkcji, można obliczyć ręcznie
+ Test IQR - IQR()
+ Test MAD - mad()
+Testy dla danych wielowymiarowych:
+ Test T2-Hotellinga - HotellingsT2Test() (z pakietu Hotelling)
+ Test Mahalanobisa - mahalanobis()
+Testy losowości:
+ Test Wald-Wolfowitz - runs.test() (z pakietu randtests)
+Testy specjalistyczne:
+ Test Coxa - coxph() (z pakietu survival)
+ Test Sign - sign.test() (z pakietu BSDA)
+ Test Median - median.test() (z pakietu BSDA)
+ Test Skillinga-Macka - brak bezpośredniej funkcji, można obliczyć ręcznie
+ Test Asymptotyczny - zależy od konkretnego testu
+ Test Szekieliego - brak bezpośredniej funkcji, można obliczyć ręcznie
+ Test Hellingera - brak bezpośredniej funkcji, można obliczyć ręcznie
+1. Test t-Studenta
+Co robi:
+Test t-Studenta służy do porównania średnich dwóch grup. Może być używany zarówno dla
+próbek niezależnych, jak i zależnych (sparowanych).
+Zastosowanie:
+ Niezależne próbki: porównanie średnich dwóch niezależnych grup.
+ Próbki sparowane: porównanie średnich tej samej grupy w dwóch różnych momentach
+czasu lub w dwóch różnych warunkach.
+Kiedy stosować:
+
+--- PAGE 24 ---
+ Gdy chcemy sprawdzić, czy istnieje statystycznie istotna różnica między dwiema
+średnimi.
+ Próbki powinny być losowe i normalnie rozłożone.
+ Niezależność obserwacji.
+2. Test chi-kwadrat
+Co robi:
+Test chi-kwadrat służy do analizy zależności między dwiema zmiennymi kategorycznymi.
+Zastosowanie:
+ Badanie zależności między zmiennymi kategorycznymi.
+ Testowanie zgodności rozkładu obserwowanego z teoretycznym (test zgodności).
+Kiedy stosować:
+ Gdy mamy dane kategoryczne i chcemy sprawdzić, czy istnieje zależność między
+zmiennymi.
+ Dane muszą być w formie tabeli kontyngencji.
+ Każda obserwacja musi należeć do jednej i tylko jednej kategorii.
+3. Test ANOVA (Analiza wariancji)
+Co robi:
+Test ANOVA służy do porównania średnich więcej niż dwóch grup.
+Zastosowanie:
+ Porównanie średnich kilku grup.
+ Analiza wpływu kilku czynników na zmienną zależną.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy istnieje statystycznie istotna różnica między więcej niż
+dwoma średnimi.
+ Dane powinny pochodzić z rozkładu normalnego.
+ Homogeniczność wariancji.
+4. Test Kruskala-Wallisa
+Co robi:
+
+--- PAGE 25 ---
+Test Kruskala-Wallisa jest nieparametrycznym odpowiednikiem testu ANOVA. Porównuje
+mediany więcej niż dwóch grup.
+Zastosowanie:
+ Porównanie więcej niż dwóch grup, gdy założenia ANOVA nie są spełnione (np. dane
+nie są normalnie rozłożone).
+Kiedy stosować:
+ Gdy dane nie są normalnie rozłożone.
+ Gdy mamy więcej niż dwie niezależne grupy.
+ Dane są na poziomie porządkowym lub wyższym.
+5. Test Wilcoxona
+Co robi:
+Test Wilcoxona służy do porównania median dwóch sparowanych grup.
+Zastosowanie:
+ Porównanie dwóch sparowanych próbek, gdy dane nie są normalnie rozłożone.
+Kiedy stosować:
+ Gdy mamy sparowane próbki i dane nie są normalnie rozłożone.
+ Alternatywa dla testu t-Studenta dla próbek zależnych.
+6. Test Mann-Whitneya
+Co robi:
+Test Mann-Whitneya jest nieparametrycznym odpowiednikiem testu t-Studenta dla niezależnych
+próbek. Porównuje dwie niezależne grupy.
+Zastosowanie:
+ Porównanie dwóch niezależnych grup, gdy dane nie są normalnie rozłożone.
+Kiedy stosować:
+ Gdy dane nie są normalnie rozłożone.
+ Gdy mamy dwie niezależne grupy.
+7. Test Kołmogorowa-Smirnowa
+
+--- PAGE 26 ---
+Co robi:
+Test Kołmogorowa-Smirnowa służy do porównania rozkładu obserwowanego z rozkładem
+teoretycznym lub dwóch rozkładów obserwowanych.
+Zastosowanie:
+ Sprawdzanie, czy próbka pochodzi z określonego rozkładu.
+ Porównanie dwóch rozkładów.
+Kiedy stosować:
+ Gdy chcemy sprawdzić zgodność rozkładu empirycznego z teoretycznym.
+ Gdy mamy duże próbki.
+8. Test Shapiro-Wilka
+Co robi:
+Test Shapiro-Wilka sprawdza, czy próbka pochodzi z rozkładu normalnego.
+Zastosowanie:
+ Testowanie normalności rozkładu danych.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy dane są normalnie rozłożone przed zastosowaniem testów
+parametrycznych.
+ Próbki o małej i średniej wielkości.
+9. Test Levene'a
+Co robi:
+Test Levene'a służy do sprawdzenia homogeniczności wariancji.
+Zastosowanie:
+ Testowanie, czy różne grupy mają równe wariancje.
+Kiedy stosować:
+ Przed przeprowadzeniem testów takich jak ANOVA, które zakładają homogeniczność
+wariancji.
+
+--- PAGE 27 ---
+10. Test McNemara
+Co robi:
+Test McNemara służy do analizy danych sparowanych, głównie do porównania wyników testów
+przed i po interwencji.
+Zastosowanie:
+ Analiza zmian w odpowiedziach dichotomicznych w próbkach sparowanych.
+Kiedy stosować:
+ Gdy mamy dane sparowane i chcemy sprawdzić zmiany w odpowiedziach binarnych.
+11. Test Tukey'a (Tukey's HSD)
+Co robi:
+Test Tukey'a służy do porównania średnich wszystkich możliwych par grup po stwierdzeniu
+istotności w ANOVA.
+Zastosowanie:
+ Identyfikacja, które grupy różnią się między sobą po stwierdzeniu ogólnej różnicy w
+ANOVA.
+Kiedy stosować:
+ Po przeprowadzeniu testu ANOVA, gdy stwierdzono istotność.
+12. Test Dunnetta
+Co robi:
+Test Dunnetta porównuje średnie kilku grup z grupą kontrolną.
+Zastosowanie:
+ Porównanie wielu grup z grupą kontrolną.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, które grupy różnią się od grupy kontrolnej.
+13. Test Bonferroniego
+
+--- PAGE 28 ---
+Co robi:
+Test Bonferroniego to metoda korekty dla wielokrotnych porównań, aby kontrolować ogólny
+poziom błędu I rodzaju.
+Zastosowanie:
+ Korekta poziomu istotności w przypadku wielokrotnych testów.
+Kiedy stosować:
+ Gdy wykonujemy wiele testów jednocześnie i chcemy uniknąć zwiększonego ryzyka
+błędu I rodzaju.
+14. Test F-Fishera
+Co robi:
+Test F-Fishera służy do porównania wariancji dwóch lub więcej grup.
+Zastosowanie:
+ Analiza różnic w wariancji między grupami.
+Kiedy stosować:
+ Gdy chcemy porównać wariancje więcej niż dwóch grup.
+15. Test Sign (Test znaków)
+Co robi:
+Test Sign jest prostym nieparametrycznym testem porównującym mediany dwóch sparowanych
+próbek.
+Zastosowanie:
+ Porównanie median dwóch sparowanych grup.
+Kiedy stosować:
+ Gdy mamy dane sparowane i dane nie są normalnie rozłożone.
+16. Test Wariancji Bartletta
+Co robi:
+
+--- PAGE 29 ---
+Test Bartletta sprawdza homogeniczność wariancji dla więcej niż dwóch grup.
+Zastosowanie:
+ Sprawdzanie, czy różne grupy mają równe wariancje przed przeprowadzeniem ANOVA.
+Kiedy stosować:
+ Przed przeprowadzeniem testów takich jak ANOVA, które zakładają homogeniczność
+wariancji.
+17. Test Jonckheere-Terpstra
+Co robi:
+Test Jonckheere-Terpstra jest testem nieparametrycznym dla trendu, który bada, czy istnieje
+trend w medianach kilku grup.
+Zastosowanie:
+ Sprawdzanie trendów w danych kategorycznych.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy istnieje uporządkowany trend w kilku grupach.
+18. Test Cochran's Q
+Co robi:
+Test Cochran's Q służy do analizy zależności między kilkoma zmiennymi binarnymi w próbkach
+powtarzanych.
+Zastosowanie:
+ Analiza zmiennych binarnych w danych powtarzanych.
+Kiedy stosować:
+ Gdy mamy zmienne binarne w próbkach powtarzanych i chcemy sprawdzić ich
+zależność.
+19. Test Friedman
+Co robi:
+
+--- PAGE 30 ---
+Test Friedman służy do analizy wariancji dla danych sparowanych z więcej niż dwoma
+warunkami.
+Zastosowanie:
+ Analiza wariancji dla więcej niż dwóch warunków w danych sparowanych.
+Kiedy stosować:
+ Gdy mamy dane sparowane i więcej niż dwa warunki.
+20. Test G-test (test zgodności logarytmicznej)
+Co robi:
+Test G-test jest alternatywą dla testu chi-kwadrat, używającą statystyki logarytmicznej do
+analizy zależności między zmiennymi kategorycznymi.
+Zastosowanie:
+ Analiza zależności między zmiennymi kategorycznymi.
+Kiedy stosować:
+ Alternatywa dla testu chi-kwadrat, zwłaszcza w przypadku dużych próbek.
+Dodatkowe przydatne informacje:
+ Wartość p: Kluczowy element wyników testów statystycznych, określający
+prawdopodobieństwo, że obserwowane wyniki są wynikiem przypadku. Typowo,
+wartość p < 0.05 wskazuje na istotność statystyczną.
+ Wielkość efektu: Miara siły związku lub różnicy. Jest ważnym uzupełnieniem wartości
+p, pomagającym zrozumieć praktyczną istotność wyników.
+ Założenia testów: Każdy test statystyczny ma swoje założenia, które muszą być
+spełnione, aby wyniki były wiarygodne. Przed zastosowaniem testu warto zweryfikować
+te założenia.
+1. Test Grubbsa
+Co robi:
+Test Grubbsa służy do identyfikacji pojedynczych wartości odstających w jednowymiarowych
+zbiorach danych.
+Zastosowanie:
+
+--- PAGE 31 ---
+ Wykrywanie wartości odstających.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy w zbiorze danych znajduje się wartość odstająca.
+2. Test Q-Dixona
+Co robi:
+Test Q-Dixona jest testem statystycznym używanym do wykrywania wartości odstających w
+małych próbkach.
+Zastosowanie:
+ Identyfikacja wartości odstających w małych zbiorach danych.
+Kiedy stosować:
+ Gdy mamy małe próbki i podejrzewamy obecność wartości odstających.
+3. Test Hampela
+Co robi:
+Test Hampela jest odpornościowym testem statystycznym używanym do identyfikacji wartości
+odstających.
+Zastosowanie:
+ Wykrywanie wartości odstających w danych z potencjalnymi zaburzeniami.
+Kiedy stosować:
+ Gdy dane mogą zawierać zaburzenia, a standardowe testy mogą być niewiarygodne.
+4. Test Thompsona
+Co robi:
+Test Thompsona służy do identyfikacji pojedynczych wartości odstających w próbkach.
+Zastosowanie:
+ Wykrywanie wartości odstających.
+
+--- PAGE 32 ---
+Kiedy stosować:
+ Gdy chcemy zidentyfikować wartości odstające w danych jednowymiarowych.
+5. Test IQR (Interquartile Range)
+Co robi:
+Test IQR wykorzystuje zakres międzykwartylowy do identyfikacji wartości odstających.
+Zastosowanie:
+ Wykrywanie wartości odstających.
+Kiedy stosować:
+ Gdy chcemy zidentyfikować wartości odstające w danych rozproszonych.
+6. Test MAD (Median Absolute Deviation)
+Co robi:
+Test MAD wykorzystuje medianę absolutnych odchyleń do identyfikacji wartości odstających.
+Zastosowanie:
+ Wykrywanie wartości odstających.
+Kiedy stosować:
+ Gdy chcemy zidentyfikować wartości odstające w danych z medianą jako miarą
+centralną.
+7. Test Asymptotyczny
+Co robi:
+Test asymptotyczny służy do porównywania rozkładów statystycznych na podstawie ich
+asymptotycznych właściwości.
+Zastosowanie:
+ Analiza rozkładów statystycznych.
+Kiedy stosować:
+
+--- PAGE 33 ---
+ Gdy chcemy porównać rozkłady statystyczne pod kątem ich asymptotycznych
+właściwości.
+8. Test Szekieliego
+Co robi:
+Test Szekieliego jest testem statystycznym używanym do analizy danych pod kątem ich
+zgodności z modelem teoretycznym.
+Zastosowanie:
+ Analiza zgodności danych z modelem teoretycznym.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy dane są zgodne z modelem teoretycznym.
+9. Test Hellingera
+Co robi:
+Test Hellingera mierzy odległość między dwoma rozkładami prawdopodobieństwa.
+Zastosowanie:
+ Porównywanie rozkładów prawdopodobieństwa.
+Kiedy stosować:
+ Gdy chcemy porównać dwa rozkłady prawdopodobieństwa.
+10. Test T2-Hotellinga
+Co robi:
+Test T2-Hotellinga jest wielowymiarowym testem statystycznym służącym do porównania
+średnich dwóch wielowymiarowych próbek.
+Zastosowanie:
+ Porównanie średnich dwóch wielowymiarowych próbek.
+Kiedy stosować:
+ Gdy mamy dane wielowymiarowe i chcemy porównać średnie dwóch próbek.
+
+--- PAGE 34 ---
+11. Test Mahalanobisa
+Co robi:
+Test Mahalanobisa mierzy odległość Mahalanobisa, służącą do identyfikacji wartości
+odstających w danych wielowymiarowych.
+Zastosowanie:
+ Identyfikacja wartości odstających w danych wielowymiarowych.
+Kiedy stosować:
+ Gdy mamy dane wielowymiarowe i podejrzewamy obecność wartości odstających.
+12. Test Skillinga-Macka
+Co robi:
+Test Skillinga-Macka jest testem statystycznym używanym do porównania dwóch rozkładów.
+Zastosowanie:
+ Porównywanie rozkładów statystycznych.
+Kiedy stosować:
+ Gdy chcemy porównać dwa rozkłady statystyczne.
+13. Test Coxa
+Co robi:
+Test Coxa służy do analizy modeli proporcjonalnych hazardów.
+Zastosowanie:
+ Analiza przeżycia i czasu do zdarzenia.
+Kiedy stosować:
+ Gdy chcemy analizować dane przeżycia i modele proporcjonalnych hazardów.
+14. Test Brunnera-Munzel
+Co robi:
+
+--- PAGE 35 ---
+Test Brunnera-Munzel służy do porównania dwóch grup pod względem lokalizacji, niezależnie
+od kształtu rozkładu.
+Zastosowanie:
+ Porównywanie dwóch grup.
+Kiedy stosować:
+ Gdy dane nie spełniają założeń testów parametrycznych.
+15. Test Quade'a
+Co robi:
+Test Quade'a jest nieparametrycznym testem statystycznym służącym do analizy wariancji dla
+danych powtarzanych.
+Zastosowanie:
+ Analiza wariancji dla danych powtarzanych.
+Kiedy stosować:
+ Gdy mamy dane powtarzane i nie spełniają one założeń testów parametrycznych.
+1. Test Brown-Forsythe
+Co robi:
+Test Brown-Forsythe'a służy do testowania homogeniczności wariancji między grupami.
+Zastosowanie:
+ Testowanie, czy różne grupy mają równe wariancje.
+Kiedy stosować:
+ Gdy chcemy sprawdzić homogeniczność wariancji przed przeprowadzeniem ANOVA.
+2. Test Welch'a
+Co robi:
+Test Welch'a jest zmodyfikowaną wersją testu t-Studenta, który nie zakłada równości wariancji.
+
+--- PAGE 36 ---
+Zastosowanie:
+ Porównanie średnich dwóch grup z różnymi wariancjami.
+Kiedy stosować:
+ Gdy próbki mają różne wariancje i chcemy porównać ich średnie.
+3. Test Wald-Wolfowitz
+Co robi:
+Test Wald-Wolfowitz służy do testowania losowości w sekwencji danych.
+Zastosowanie:
+ Analiza losowości w sekwencjach danych.
+Kiedy stosować:
+ Gdy chcemy sprawdzić, czy dane są losowe.
+4. Test Andersona-Darlinga
+Co robi:
+Test Andersona-Darlinga jest testem normalności sprawdzającym, czy próbka pochodzi z
+określonego rozkładu.
+Zastosowanie:
+ Testowanie normalności rozkładu danych.
+Kiedy stosować:
+ Gdy chcemy sprawdzić zgodność danych z rozkładem normalnym.
+ Wykres słupkowy (Bar Chart)
+ Kiedy stosować: Do przedstawiania rozkładu wartości kategorycznych. Idealny do
+porównywania liczności różnych kategorii.
+ Co przedstawia: Wysokość słupków reprezentuje liczebność lub wartość danej kategorii.
+ Wykres pudełkowy (Box Plot)
+
+--- PAGE 37 ---
+ Kiedy stosować: Do wizualizacji rozkładu danych oraz identyfikacji wartości
+odstających.
+ Co przedstawia: Mediana, kwartyle oraz wartości odstające danych.
+ Histogram
+ Kiedy stosować: Do przedstawiania rozkładu częstości wartości zmiennej ciągłej.
+ Co przedstawia: Liczebność danych w różnych przedziałach wartości.
+ Wykres punktowy (Scatter Plot)
+ Kiedy stosować: Do analizy zależności między dwiema zmiennymi ciągłymi.
+ Co przedstawia: Punkty reprezentujące wartości dwóch zmiennych dla każdej
+obserwacji.
+ Wykres liniowy (Line Chart)
+ Kiedy stosować: Do przedstawiania trendów w danych w czasie.
+ Co przedstawia: Linie łączące punkty danych, pokazujące zmiany wartości w czasie.
+ Wykres kołowy (Pie Chart)
+ Kiedy stosować: Do przedstawiania udziałów procentowych różnych kategorii.
+ Co przedstawia: Proporcje składające się na całość zbioru danych.
+ Wykres gęstości (Density Plot)
+ Kiedy stosować: Do przedstawiania estymacji gęstości rozkładu zmiennej ciągłej.
+ Co przedstawia: Krzywa pokazująca estymację gęstości rozkładu danych.
+ Wykres pudełkowy z whiskers (Box-and-Whisker Plot)
+ Kiedy stosować: Podobnie jak wykres pudełkowy, ale z dodatkowymi „wąsami”
+przedstawiającymi zakres danych.
+ Co przedstawia: Mediana, kwartyle, wartości odstające oraz pełny zakres danych.
+ Wykres bąbelkowy (Bubble Chart)
+ Kiedy stosować: Do przedstawiania trzech zmiennych na jednym wykresie.
+ Co przedstawia: Punkty na wykresie punktowym, których wielkość reprezentuje trzecią
+zmienną.
+ Wykres powierzchniowy (Area Chart)
+ Kiedy stosować: Do przedstawiania zmian wartości w czasie, podobnie jak wykres
+liniowy, ale z wypełnionymi przestrzeniami pod linią.
+
+--- PAGE 38 ---
+ Co przedstawia: Wartości w czasie z wizualnym wypełnieniem przestrzeni pod linią.
+ Wykres skumulowany słupkowy (Stacked Bar Chart)
+ Kiedy stosować: Do przedstawiania kompozycji różnych kategorii w grupach.
+ Co przedstawia: Słupki podzielone na segmenty reprezentujące różne podkategorie.
+ Mapa cieplna (Heatmap)
+ Kiedy stosować: Do przedstawiania wartości w macierzy, gdzie kolor reprezentuje
+wartość.
+ Co przedstawia: Intensywność kolorów reprezentującą różne wartości w macierzy
+danych.
+ Wykres radarowy (Radar Chart)
+ Kiedy stosować: Do przedstawiania wielowymiarowych danych na jednym wykresie.
+ Co przedstawia: Wartości różnych zmiennych na promieniach wychodzących z jednego
+punktu.
+ Wykres siatkowy (Grid Plot)
+ Kiedy stosować: Do przedstawiania wielowymiarowych danych w postaci macierzy
+wykresów.
+ Co przedstawia: Wielowymiarowe dane rozdzielone na poszczególne wykresy w
+układzie siatki.
+ Wykres pudełkowy dla kilku grup (Grouped Box Plot)
+ Kiedy stosować: Do porównania rozkładów danych w różnych grupach.
+ Co przedstawia: Mediana, kwartyle oraz wartości odstające dla wielu grup.
+ Wykres wąsowy (Whisker Plot)
+ Kiedy stosować: Do wizualizacji rozkładu danych, podobnie jak wykres pudełkowy.
+ Co przedstawia: Minima, maxima, kwartyle i medianę danych.
+Istotność statystyczna (Statistical Significance)
+ Definicja: Poziom istotności (zwykle oznaczany jako alfa, α\alphaα) to
+prawdopodobieństwo popełnienia błędu I rodzaju, czyli odrzucenia prawdziwej hipotezy
+zerowej.
+ Znaczenie: Pomaga ocenić, czy wyniki badań są wynikiem przypadkowym, czy
+rzeczywiście istnieje efekt.
+
+--- PAGE 39 ---
+Hipoteza zerowa (Null Hypothesis, H0)
+ Definicja: Hipoteza zakładająca brak efektu lub różnicy. Jest punktem wyjścia do testów
+statystycznych.
+ Znaczenie: Podstawowy element testów statystycznych, pozwala na przeprowadzenie
+weryfikacji statystycznej.
+Hipoteza alternatywna (Alternative Hypothesis, H1)
+ Definicja: Hipoteza zakładająca istnienie efektu lub różnicy.
+ Znaczenie: Jeśli hipoteza zerowa zostaje odrzucona, przyjmujemy hipotezę alternatywną.
+P-wartość (P-value)
+ Definicja: Prawdopodobieństwo uzyskania wyników testu statystycznego co najmniej tak
+ekstremalnych jak zaobserwowane, przy założeniu, że hipoteza zerowa jest prawdziwa.
+ Znaczenie: Pomaga w decyzji, czy odrzucić hipotezę zerową.
+Poziom ufności (Confidence Level)
+ Definicja: Prawdopodobieństwo, że przedział ufności zawiera rzeczywistą wartość
+parametru populacyjnego.
+ Znaczenie: Określa wiarygodność estymacji parametru.
+Przedział ufności (Confidence Interval)
+ Definicja: Przedział wartości, w którym z określonym poziomem ufności znajduje się
+rzeczywista wartość parametru.
+ Znaczenie: Daje informacje o precyzji estymacji.
+Błąd I rodzaju (Type I Error)
+ Definicja: Odrzucenie prawdziwej hipotezy zerowej.
+ Znaczenie: Ważne w kontekście istotności statystycznej, prowadzi do fałszywie
+pozytywnych wyników.
+Błąd II rodzaju (Type II Error)
+ Definicja: Nieodrzucenie fałszywej hipotezy zerowej.
+ Znaczenie: Prowadzi do fałszywie negatywnych wyników.
+Moc testu (Power of the Test)
+ Definicja: Prawdopodobieństwo prawidłowego odrzucenia fałszywej hipotezy zerowej.
+ Znaczenie: Ważna miara efektywności testu statystycznego.
+
+--- PAGE 40 ---
+Współczynnik korelacji (Correlation Coefficient)
+ Definicja: Miara zależności między dwiema zmiennymi.
+ Znaczenie: Informuje o sile i kierunku związku między zmiennymi.
+Regresja liniowa (Linear Regression)
+ Definicja: Modelowanie zależności między zmienną zależną a jedną lub więcej
+zmiennymi niezależnymi.
+ Znaczenie: Pomaga w przewidywaniu wartości zmiennej zależnej na podstawie
+zmiennych niezależnych.
+Analiza wariancji (ANOVA)
+ Definicja: Technika statystyczna służąca do porównywania średnich więcej niż dwóch
+grup.
+ Znaczenie: Pozwala ocenić, czy różnice między grupami są statystycznie istotne.
+Test istotności (Significance Test)
+ Definicja: Procedura statystyczna stosowana do oceny hipotez.
+ Znaczenie: Pomaga w podejmowaniu decyzji na podstawie danych statystycznych.
+Miara efektywności (Effect Size)
+ Definicja: Miara siły efektu w badaniu.
+ Znaczenie: Umożliwia ocenę praktycznego znaczenia wyników badania.
+Test parametryczny (Parametric Test)
+ Definicja: Test statystyczny oparty na założeniach dotyczących rozkładu populacji.
+ Znaczenie: Zazwyczaj bardziej efektywny przy spełnieniu założeń.
+Test nieparametryczny (Non-parametric Test)
+ Definicja: Test statystyczny, który nie wymaga założeń dotyczących rozkładu populacji.
+ Znaczenie: Użyteczny w przypadku danych nie spełniających założeń testów
+parametrycznych.
+Statystyka opisowa (Descriptive Statistics)
+ Definicja: Dział statystyki zajmujący się opisem i prezentacją danych.
+ Znaczenie: Umożliwia zrozumienie i interpretację danych za pomocą miar centralnych,
+miar rozproszenia, wykresów itp.
+Miara centralna (Measure of Central Tendency)
+
+--- PAGE 41 ---
+ Definicja: Miary, które wskazują "centralną" wartość rozkładu danych.
+ Znaczenie: Najczęściej używane miary centralne to średnia arytmetyczna, mediana i
+moda.
+Średnia arytmetyczna (Arithmetic Mean)
+ Definicja: Suma wszystkich wartości podzielona przez liczbę tych wartości.
+ Znaczenie: Powszechnie stosowana miara centralna, ale wrażliwa na wartości odstające.
+Mediana (Median)
+ Definicja: Środkowa wartość w uporządkowanym zbiorze danych.
+ Znaczenie: Mniej wrażliwa na wartości odstające niż średnia arytmetyczna.
+Moda (Mode)
+ Definicja: Najczęściej występująca wartość w zbiorze danych.
+ Znaczenie: Przydatna do analizy danych kategorycznych.
+Miara rozproszenia (Measure of Dispersion)
+ Definicja: Miary, które opisują stopień zróżnicowania danych.
+ Znaczenie: Najczęściej używane miary rozproszenia to odchylenie standardowe,
+wariancja i rozstęp.
+Odchylenie standardowe (Standard Deviation)
+ Definicja: Pierwiastek kwadratowy z wariancji.
+ Znaczenie: Informuje o przeciętnym odchyleniu wartości od średniej.
+Wariancja (Variance)
+ Definicja: Średnia arytmetyczna kwadratów odchyleń poszczególnych wartości od
+średniej.
+ Znaczenie: Używana do obliczania odchylenia standardowego.
+Rozstęp (Range)
+ Definicja: Różnica między największą a najmniejszą wartością w zbiorze danych.
+ Znaczenie: Prosta miara rozproszenia, ale wrażliwa na wartości odstające.
+Kwantyl (Quantile)
+ Definicja: Wartość dzieląca zbiór danych na określone części.
+ Znaczenie: Mediana to przykład kwantyla (50. percentyl), inne to kwartyle, decyle i
+percentyle.
+
+--- PAGE 42 ---
+Percentyl (Percentile)
+ Definicja: Wartość poniżej której znajduje się określony procent obserwacji.
+ Znaczenie: Używany do porównywania wyników w różnych skalach.
+Rozkład normalny (Normal Distribution)
+ Definicja: Rozkład ciągły, symetryczny, dzwonowaty, gdzie średnia, mediana i moda są
+równe.
+ Znaczenie: Wiele testów statystycznych zakłada normalność rozkładu danych.
+Rozkład t-Studenta (t-Distribution)
+ Definicja: Rozkład używany do testowania hipotez dla małych prób z nieznaną wariancją
+populacji.
+ Znaczenie: Używany w testach t-Studenta.
+Rozkład F-Snedecora (F-Distribution)
+ Definicja: Rozkład używany w analizie wariancji (ANOVA).
+ Znaczenie: Porównuje wariancje dwóch lub więcej grup.
+Rozkład chi-kwadrat (Chi-Square Distribution)
+ Definicja: Rozkład używany w testach chi-kwadrat do analizy danych kategorycznych.
+ Znaczenie: Używany do testowania zgodności i niezależności.
+Próbkowanie (Sampling)
+ Definicja: Proces wybierania podzbioru jednostek z populacji do badania.
+ Znaczenie: Umożliwia przeprowadzenie analiz na podstawie mniejszej, reprezentatywnej
+grupy.
+Błąd próbkowania (Sampling Error)
+ Definicja: Różnica między statystyką próby a rzeczywistym parametrem populacji.
+ Znaczenie: Ważny element oceny jakości próbkowania.
+Test jednokierunkowy (One-tailed Test)
+ Definicja: Test statystyczny, w którym hipoteza alternatywna jest skierowana w jedną
+stronę.
+ Znaczenie: Używany, gdy badacz spodziewa się efektu w określonym kierunku.
+Test dwukierunkowy (Two-tailed Test)
+
+--- PAGE 43 ---
+ Definicja: Test statystyczny, w którym hipoteza alternatywna może być skierowana w
+obu kierunkach.
+ Znaczenie: Używany, gdy badacz nie ma określonego kierunku efektu.

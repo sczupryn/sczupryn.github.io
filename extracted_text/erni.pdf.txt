@@ -1,0 +1,408 @@
+--- PAGE 1 ---
+Erni
+1. Mocą testu nazywamy prawdopodobieństwo:
+a. Nie popełnienia błędu I rodzaju
+b. Popełnienia błędu I rodzaju
+c. Nie popełnienia błędu II rodzaju
+d. Popełnienia błędu II rodzaju
+2. Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka)
+O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R,R wynika stąd, że:
+a. Moneta najprawdopodobniej nie jest uczciwa.
+b. Nie można stwierdzić czy moneta jest uczciwa.
+c. Moneta najprawdopodobniej jest uczciwa.
+3. Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:
+a. Dwóch średnich
+b. Dwóch median
+c. Dwóch wariancji
+d. Dwóch rozkładów
+4. W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny.
+a. O wartości oczekiwanej zero
+b. O wartości oczekiwanej dodatniej
+c. O wartości oczekiwanej ujemnej
+5. Medianą próbki losowej 0,2,-1,5,4,3 jest
+a. 2.5
+b. 4
+c. 2
+d. 3
+6. Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej
+a. Równości wariancji
+b. Równości rozkładów
+c. Równości median
+d. Równości średnich
+7. Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+8. Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej
+próbki losowej
+a. Mediana jest raczej większa od średniej
+b. Mediana jest równa średniej
+c. Mediana jest raczej mniejsza od średniej
+
+--- PAGE 2 ---
+średnia ….. równe ….. mediana ← które wieksze
+9. Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd,
+że między czynnikami A oraz B
+a. Zachodzi interakcja
+b. Nie można stwierdzić czy zachodzi interakcja
+c. Nie zachodzi interakcja
+H0 - niezalezne
+p value = 0.055 > alfa - nie odrzucamy H0. Zatem niezalezne, nie zachodzi interakcja
+10. Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4)
+wynosi
+a. 0.5
+b. 0.9
+c. 0.8
+d. 0.6
+11. W wykresach pudełkowych (boxplots) za wartości
+plot(ecdf(proba),las=1,cex.axis=0.75,...)uznaje się takie, dla których
+a. Odległość od kwartyli wynosi co najmniej 3.5 IQR
+b. Odległość od kwartyli wynosi co najmniej 0.5 IQR
+c. Odległość od kwartyli wynosi co najmniej 1.5 IQR
+d. Odległość od kwartyli wynosi co najmniej 2.5 IQR
+12. Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby
+rząd wielkości zbioru był równy
+a. Co najmniej 3
+b. Co najmniej 2
+c. Dokładnie 3
+d. Co najmniej 4
+13. Liczba serii liczonych względem mediany w próbce losowej-2,3,5,1,9,6,10,-8 wynosi
+a. 4
+b. 8
+c. 5
+d. 6
+14. Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+
+--- PAGE 3 ---
+(A,2), (B,1), (C,3), (B,3), (C,2), (A,1), (C,1), (A,3), (B,2)
+Tworzymy pary z odpowiadającymi miejscami. Zadna para się nie powtarza ->
+Ortogonalne
+15. Oto dwa kwadraty łacińskie rzędu 3. Wynika stąd, że
+a. Kwadraty te nie są ortogonalne
+b. Nie można stwierdzić czy kwadraty te są ortogonalne
+c. Kwadraty te są ortogonalne
+16. Czy próbka losowa może mieć nieskończenie wiele median?
+a. Tak
+b. Nie
+17. Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości
+a. Dwóch wariancji
+b. Dwóch rozkładów
+c. Dwóch średnich
+
+--- PAGE 4 ---
+Dodatkowe pytania
+Pytania z GPT:
+1 Które z poniższych stwierdzeń definiuje błąd I rodzaju?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+c) Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa
+2 Które z poniższych stwierdzeń opisuje hipotezę zerową (H0)?
+a) Hipoteza zerowa zakłada, że badana cecha X ma rozkład normalny
+b) Hipoteza zerowa zakłada, że badana cecha X ma dowolny rozkład
+c) Hipoteza zerowa zakłada, że hipoteza alternatywna jest prawdziwa
+d) Hipoteza zerowa zakłada, że badana cecha X ma nieznany rozkład
+3 Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki Polio?
+a) Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona
+prawdziwa
+b) Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa
+c) Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju
+d) Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju
+4 W jakiej sytuacji test statystyczny ma największą moc?
+a) Gdy poziom istotności jest wysoki, np. 10%
+b) Gdy poziom istotności jest niski, np. 1%
+c) Gdy poziom istotności jest umiarkowany, np. 5%
+d) Gdy moc testu wynosi 0.5
+5 Jak nazywa się test, w którym kobieta twierdziła, że potrafi po smaku rozpoznać kolejność
+dodawania herbaty i mleka?
+a) Test chi-kwadrat
+b) Test lady tasting tea
+c) Test t Studenta
+d) Test Kołmogorowa-Smirnowa
+6 Jaki rozkład ma liczba odgadniętych prawidłowo filiżanek herbaty w teście lady tasting tea,
+przy założeniu prawdziwości hipotezy zerowej?
+a) Rozkład dwumianowy
+b) Rozkład hipergeometryczny
+c) Rozkład normalny
+d) Rozkład Poissona
+7 Do jakiego rodzaju danych stosuje się test chi-kwadrat?
+a) Do danych kategorycznych
+b) Do danych ciągłych
+c) Do danych binarnych
+d) Do danych porządkowych
+
+--- PAGE 5 ---
+8 Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na
+jednostkę długości śladu cząstki w komorze Wilsona?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+9 Co zakłada hipoteza alternatywna w teście statystycznym?
+a) Że badana cecha X ma rozkład normalny
+b) Że badana cecha X ma dowolny rozkład
+c) Że badana cecha X różni się od rozkładu opisanego w hipotezie zerowej
+d) Że badana cecha X jest zgodna z hipotezą zerową
+10 Jakie są wymagania dotyczące liczebności próby w teście skuteczności szczepionki?
+a) Próbka musi być mała i jednorodna
+b) Próbka musi być duża i różnorodna
+c) Próbka musi pochodzić z jednego regionu
+d) Próbka musi być nieznana
+11 Który z poniższych naukowców jest uważany za pioniera nowoczesnego planowania
+eksperymentów?
+a) Gregor Mendel
+b) Harold Jeffreys
+c) Ronald Fisher
+d) Karl Pearson
+12 Co oznacza wartość P w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych, przy założeniu prawdziwości hipotezy zerowej
+b) Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa
+c) Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa
+d) Prawdopodobieństwo popełnienia błędu typu I
+13 Co to jest błąd II rodzaju?
+a) Odrzucenie hipotezy zerowej, gdy jest ona prawdziwa
+b) Nieodrzucenie hipotezy zerowej, gdy jest ona fałszywa
+c) Odrzucenie hipotezy alternatywnej, gdy jest ona prawdziwa
+d) Nieodrzucenie hipotezy alternatywnej, gdy jest ona fałszywa
+14 Kiedy różnica między dwiema grupami w eksperymencie jest uznawana za istotną?
+a) Gdy nie mogła być spowodowana czynnikami losowymi
+b) Gdy mogła być spowodowana czynnikami losowymi
+c) Gdy różnica jest większa niż 10%
+d) Gdy różnica jest mniejsza niż 5%
+15 Które z poniższych stwierdzeń definiuje błąd II rodzaju?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+
+--- PAGE 6 ---
+c) Nieodrzucenie hipotezy zerowej H0, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucenie hipotezy alternatywnej H1, gdy jest ona w rzeczywistości prawdziwa
+16 Co oznacza poziom istotności alfa w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych
+b) Prawdopodobieństwo popełnienia błędu I rodzaju
+c) Prawdopodobieństwo popełnienia błędu II rodzaju
+d) Prawdopodobieństwo odrzucenia hipotezy alternatywnej
+17 W jakim celu stosuje się test t Studenta?
+a) Do porównania więcej niż dwóch grup
+b) Do porównania dwóch średnich
+c) Do analizy korelacji
+d) Do analizy regresji
+18 Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym
+przedziale czasu?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+Poisson modeluje:
+● rzadkie zdarzenia w czasie lub przestrzeni
+19 Jakie jest znaczenie wartości P < 0.05 w teście statystycznym?
+a) Wynik jest statystycznie istotny
+b) Wynik jest statystycznie nieistotny
+c) Prawdopodobieństwo błędu II rodzaju jest wysokie
+d) Hipoteza zerowa jest prawdziwa
+20 Jakie są wymagania dotyczące próbki w teście chi-kwadrat?
+a) Próba musi być mała i jednorodna
+b) Próba musi pochodzić z jednego regionu
+c) Próba musi być wystarczająco duża i losowa
+d) Próba musi mieć dokładnie 30 obserwacji
+21 Co zakłada hipoteza zerowa w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy alternatywnej
+d) Prawdziwość rozkładu normalnego
+22 Jakie jest prawdopodobieństwo uzyskania orła w rzucie symetryczną monetą?
+a) 0.25
+
+--- PAGE 7 ---
+b) 0.75
+c) 0.50
+d) 1.00
+23 Które z poniższych jest przykładem danych kategorycznych?
+a) Wzrost w centymetrach
+b) Kolor oczu
+c) Czas reakcji w sekundach
+d) Wynik testu na skali punktowej
+24 Jaki test statystyczny stosuje się do analizy dwóch zmiennych kategorycznych?
+a) Test chi-kwadrat
+b) Test t Studenta
+c) Test ANOVA
+d) Test Kołmogorowa-Smirnowa
+25 Co oznacza hipoteza alternatywna w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy zerowej
+d) Brak odchylenia standardowego
+26 Jakie jest prawdopodobieństwo wyrzucenia pary orzeł-orzeł (O,O) w pojedynczym rzucie
+dwoma monetami?
+a) 0.25
+b) 0.50
+c) 0.75
+d) 1.00
+27 Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki?
+a) Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona
+prawdziwa
+b) Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju
+c) Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa
+d) Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju
+28 W eksperymencie rzucamy trzema niezależnymi monetami. Jakie jest
+prawdopodobieństwo
+wyrzucenia dokładnie jednego orła?
+a) 0.125
+b) 0.375
+c) 0.500
+d) 0.625
+29 Co oznacza wartość P w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych, przy założeniu prawdziwości hipotezy zerowej
+b) Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa
+
+--- PAGE 8 ---
+c) Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa
+d) Prawdopodobieństwo popełnienia błędu typu I
+30 Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na
+jednostkę długości śladu cząstki w komorze Wilsona?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+31 Które z poniższych stwierdzeń definiuje błąd typu I?
+a) Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa
+b) Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa
+c) Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa
+d) Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa
+32 Co oznacza poziom istotności alfa w teście statystycznym?
+a) Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od
+obserwowanych
+b) Prawdopodobieństwo popełnienia błędu I rodzaju
+c) Prawdopodobieństwo popełnienia błędu II rodzaju
+d) Prawdopodobieństwo odrzucenia hipotezy alternatywnej
+33 W jakim celu stosuje się funkcję lm() w R?
+a) Do analizy korelacji
+b) Do dopasowania modelu liniowego
+c) Do obliczania średniej arytmetycznej
+d) Do tworzenia histogramów
+34 Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym
+przedziale czasu?
+a) Rozkład normalny
+b) Rozkład hipergeometryczny
+c) Rozkład Poissona
+d) Rozkład dwumianowy
+35 Co zakłada hipoteza zerowa w teście statystycznym?
+a) Brak różnic lub efektu
+b) Istnienie różnic lub efektu
+c) Prawdziwość hipotezy alternatywnej
+d) Prawdziwość rozkładu normalnego
+36 Jaką funkcję w R należy użyć, aby obliczyć korelację między dwiema zmiennymi?
+a) lm()
+b) mean()
+c) cor()
+d) sum()
+
+--- PAGE 9 ---
+37 Która z poniższych funkcji w R jest używana do obliczania mediany?
+a) median()
+b) mean()
+c) mode()
+d) sum()
+38 Jaką funkcję w R należy użyć, aby utworzyć wykres pudełkowy?
+a) hist()
+b) barplot()
+c) plot()
+d) boxplot()
+39 Co oznacza termin "próba losowa" w statystyce?
+a) Próba wybrana celowo przez badacza
+b) Próba wybrana w taki sposób, że każda jednostka ma równą szansę bycia wybraną
+c) Próba wybrana na podstawie wcześniejszych badań
+d) Próba wybrana ze względu na dostępność jednostek
+40 Jaki jest cel testu ANOVA?
+a) Do analizy korelacji między dwoma zmiennymi
+b) Do porównania średnich więcej niż dwóch grup
+c) Do obliczania wartości średniej
+d) Do testowania hipotezy zerowej
+41 Który z poniższych jest testem nieparametrycznym?
+a) Test t Studenta
+b) Test ANOVA
+c) Test Kruskala-Wallisa to nieparametryczny odpowiednik ANOVA
+d) Test chi-kwadrat
+42 W jakiej sytuacji stosuje się test Wilcoxona?
+a) Gdy dane są normalnie rozłożone
+b) Gdy dane nie są normalnie rozłożone
+c) Gdy liczba próbek jest bardzo duża
+d) Gdy dane są kategoryczne
+43 Co to jest przedział ufności?
+a) Zakres wartości, w którym z określonym prawdopodobieństwem znajduje się
+prawdziwa wartość parametru populacji
+b) Zakres wartości, który jest zawsze symetryczny wokół średniej
+c) Zakres wartości, który jest mniejszy od odchylenia standardowego
+d) Zakres wartości, który obejmuje 50% próby
+44 Co oznacza odchylenie standardowe?
+a) Średnia wartość próby
+b) Miara rozproszenia danych wokół średniej
+c) Mediana danych
+d) Maksymalna wartość w próbie
+
+--- PAGE 10 ---
+45 Jakie jest prawdopodobieństwo wyrzucenia liczby 6 w pojedynczym rzucie sześcienną
+kostką
+do gry?
+a) 0.10
+b) 0.20
+c) 0.1667
+d) 0.25
+46 Która funkcja w R jest używana do obliczania odchylenia standardowego?
+a) sd()
+b) var()
+c) mean()
+d) summary()
+47 Jakie jest prawdopodobieństwo, że z talii 52 kart wyciągniesz kartę asa?
+a) 0.10
+b) 0.12
+c) 0.077
+d) 0.15
+48 Co oznacza test dwustronny?
+a) Test, który sprawdza, czy średnia próbki jest różna od określonej wartości w obu
+kierunkach
+b) Test, który sprawdza, czy średnia próbki jest mniejsza od określonej wartości
+c) Test, który sprawdza, czy średnia próbki jest większa od określonej wartości
+d) Test, który sprawdza tylko jedną stronę rozkładu
+49 Jakie jest prawdopodobieństwo wyrzucenia co najmniej jednego orła w dwóch rzutach
+monetą?
+a) 0.75
+b) 0.50
+c) 0.25
+d) 0.20
+50 Która z poniższych metod jest używana do analizy zależności między dwiema
+zmiennymi liczbowymi?
+a) Test chi-kwadrat
+b) Test ANOVA
+c) Analiza regresji liniowej
+d) Test Wilcoxona
+51 Co oznacza termin "wartość oczekiwana"?
+a) Mediana danych
+b) Średnia ważona wszystkich możliwych wartości
+c) Maksymalna wartość w próbie
+d) Minimalna wartość w próbie
+
+--- PAGE 11 ---
+52 Jaką funkcję w R należy użyć, aby utworzyć wykres punktowy?
+a) hist()
+b) plot()
+c) barplot()
+d) boxplot()
+53 Co oznacza współczynnik korelacji Pearsona?
+a) Miara siły i kierunku liniowej zależności między dwiema zmiennymi
+b) Miara centralnej tendencji w danych
+c) Miara rozproszenia danych
+d) Miara kategoryzacji danych
+54 Który z poniższych jest testem parametrycznym?
+a) Test t Studenta
+b) Test Kruskala-Wallisa
+c) Test Wilcoxona
+d) Test Mann-Whitneya
+55 Co oznacza współczynnik determinacji R2?
+a) Miara centralnej tendencji
+b) Miara, jak dobrze model dopasowuje się do danych
+c) Miara rozproszenia danych
+d) Miara liczby stopni swobody

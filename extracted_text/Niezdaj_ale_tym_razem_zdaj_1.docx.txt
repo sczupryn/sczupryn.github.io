@@ -1,0 +1,100 @@
+Egzamin A plik: E1Arozw-2-1
+-4, -2, 2,4,5,9 => mediana = 3
+1,3,4,5,8,9,12,15 => mediana 6.5
+(3 * 6 + 5 * 8) /  (3 + 5) = 7.25
+range(x) zwraca wektor długości : c(min(x), max(x))
+range(...) = c(1, 9)
+pnorm(x, średnia, odchylenie standardowe).
+odchylenie standardowe  = sqrt(wariancja)
+Są oznaczane jako kółka lub gwiazdki
+Równość średnich  - test t-Studenta
+Równość wariancji - Fishera, Bartletta, Levene’a, Browna-Forsythe’a (zalezy od danych)
+Równość rozkładów - test serii, test Kołmogorow-Smirnow
+Równość proporcji - chi-kwadrat, test Z, test dokładny Fishera
+Moc testu = 1- B
+runs.test() - sprawdza, czy sekwencja wartości jest losowa.
+Chat mówi, że powinna być shapiro.test()
+Rozkład F Fishera–Snedecora to iloraz dwóch niezależnych zmiennych o rozkładzie chi-kwadrat.
+mean - oblicza średnią
+prop.test - porównuje proporcje
+var.test - porównuje wariancje
+Analiza wariancji (ANOVA) służy do weryfikacji hipotezy o równości średnich w kilku populacjach. Sprawdza, czy średnie w grupach różnią się istotnie statystycznie.
+zmienne są nieskorelowane - korelacja = 0
+zmienne są niezależne - inne czynniki i korelacja = 0
+Y = 2X - 1 to związek liniowy, korelacja wyniesie -1 lub 1, a nie 0.5
+współczynnik determinacji R^2
+Egzamin B plik: E1Brozw-1-1
+Dystrybuanta empiryczna dla x
+F(x) = (liczba elementów mniejszych od x) / n
+1)Po posortowaniu mediana wynosi 7
+2) Sprawdzamy czy w nieposortowanej serii czy dana liczba jest mniejsza czy większa od mediany
+3) liczymy ilość zmian znaków == 5
+porządkujemy rosnąco
+nadajemy rangi (licząc od 1)
+Ranga liczby 0 wynosi == 2
+Nie da się wyznaczyć wariancji połączonych prób mając jedynie ich wariancje oraz liczebności, jeśli nie znamy średnich tych prób!
+Aby obliczyć wariancję (np. w R: var(x)), potrzebujesz:
+Danych źródłowych (czyli wszystkich obserwacji, np. x = c(1, 2, 3, 4, 5))
+
+Liczności próby (ile jest obserwacji)
+
+Średniej arytmetycznej próby
+wszystkich możliwych par jest 6
+Sprawdzamy zgodność par:
+Jeśli oba rosną lub oba maleją – zgodna
+Jeśli jeden rośnie, drugi maleje – niezgodna
+Jeśli któraś się nie zmienia – remis (ale tu nie występuje)
+np. (3,2) vs (4,3):
+x: 3 → 4 (rośnie), y: 2 → 3 (rośnie) → zgodna
+obliczamy sumę kwadratów == 46
+Wzór:
+
+46 / (5 - 2) = 15.333
+obliczamy średnie dla pierwszych i drugich elementów
+śr pierwszych elementów = 1
+śr drugich elementów = 2
+punkt przecięcia (wynik) == (1,2)
+porównujemy po parach elementy i bierzemy wieksze wartosci
+(4, 3) -> 4
+(0, 2) -> 2
+(6, 7) -> 7
+Wynik (4,2,7)
+Funkcja cummax() zwraca bieżące maksimum po każdym elemencie wektora.
+dpois(4, 3) — daje dokładnie prawdopodobieństwo, że X = 4 w rozkładzie Poissona o średniej 3.
+Funkcja t.test() w R służy do weryfikacji hipotezy dotyczącej średniej (np. test jednostkowy, porównanie dwóch średnich). Nie dotyczy mediany, wariancji ani kurtozy.
+Test Shapiro-Wilka służy do weryfikacji hipotezy o normalności rozkładu danej próbki.
+ W R używamy funkcji shapiro.test().
+Hipoteza zerowa: rozkład jest normalnuy
+Sprawdzenie, czy cecha ma rozkład wykładniczy, możesz wykonać na kilka sposobów:
+1)Test chi-kwadrat zgodności (chisq.test)
+2) Test Kolmogorowa-Smirnowa (ks.test):
+Średnia:
+E(X−Y)=E(X)−E(Y)=6−3=3
+Wariancja:
+Var(X−Y)=Var(X)+Var(Y)=10+4=14
+średniej 3 i wariancji 14
+Gdy wszystkie próby shapiro.test() sie powiodły i jest >= 3 prób wykonujemy test barlett.test()
+fisher.test() w R służy do testowania niezależności dwóch cech w tabelach kontyngencji (np. 2x2) — test Fishera jest szczególnie polecany dla małych liczności.
+cor() i cor.test() służą do wyznaczania i testowania współczynnika korelacji, czyli zależności liniowej między dwiema zmiennymi liczbowymi (ciągłymi), a nie niezależności cech jakościowych.
+
+indep() — nie istnieje taka funkcja w podstawowym R.
+zmienne są nieskorelowane - korelacja = 0
+zmienne są niezależne - inne czynniki i korelacja = 0
+Y = 1+ 2X to związek liniowy, korelacja wyniesie -1 lub 1, a nie 0.4
+Y=β0​+β1​X+ε
+jeśli zakładamy, że błędy ε mają rozkład normalny, to estymator współczynnika β^1​ (i ogólnie estymatory OLS) mają rozkład normalny.
+Rozkład Fishera-Snedecora (F) służy do testowania równości dwóch wariancji
+Anova sprawdza równość jakichkolwiek średnich w rozkładach porównywanych. aov()
+Egzamin przykładowy
+mediana = 3.5
+F(X<=3.5) = 2/4 = 0.5
+Test Kruskala–Wallisa to nieparametryczny odpowiednik ANOVA
+Mediana ←- 
+                      Mediana~ Średnia
+					-→ Średnia
+ = 1+0 , 2+1, 2+1 = 1, 3, 3
+R automatycznie uzupełnia krótszy wektor powtórzeniem 
+c(1,2) → c(1,2,1),  
+diff oblicza różnicę między kolejnymi elementami
+x2 - x1, x3-x2, x4-x3 itp.
+0 -1, 2-0, 3-2, -1-3 = -1, 2,  1, -4

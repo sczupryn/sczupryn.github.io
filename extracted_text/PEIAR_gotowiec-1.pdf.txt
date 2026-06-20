@@ -1,0 +1,83 @@
+--- PAGE 1 ---
+1. Mocą testu nazywamy prawdopodobieństwo:
+a. Nie popełnienia błędu I rodzaju
+b. Popełnienia błędu I rodzaju
+c. Nie popełnienia błędu II rodzaju
+d. Popełnienia błędu II rodzaju
+2. Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka) O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R,R
+wynika stąd, że:
+a. Moneta najprawdopodobniej nie jest uczciwa.
+b. Nie można stwierdzić czy moneta jest uczciwa.
+c. Moneta najprawdopodobniej jest uczciwa.
+3. Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:
+a. Dwóch średnich
+b. Dwóch median
+c. Dwóch wariancji
+d. Dwóch rozkładów
+4. W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny.
+a. O wartości oczekiwanej zero
+b. O wartości oczekiwanej dodatniej
+c. O wartości oczekiwanej ujemnej
+5. Medianą próbki losowej 0,2,-1,5,4,3 jest
+a. 2.5
+b. 4
+c. 2
+d. 3
+6. Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej
+a. Równości wariancji
+b. Równości rozkładów
+c. Równości median
+d. Równości średnich
+7. Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+8. Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej
+próbki losowej
+a. Mediana jest raczej większa od średniej
+b. Mediana jest równa średniej
+c. Mediana jest raczej mniejsza od średniej
+
+--- PAGE 2 ---
+9. Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd, że
+między czynnikami A oraz B
+a. Zachodzi interakcja
+b. Nie można stwierdzić czy zachodzi interakcja
+c. Nie zachodzi interakcja
+10. Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4) wynosi
+a. 0.5
+b. 0.9
+c. 0.8
+d. 0.6
+11. W wykresach pudełkowych (boxplots) za wartości plot(ecdf(proba),las=1,cex.axis=0.75,...)uznaje
+się takie, dla których
+a. Odległość od kwartyli wynosi co najmniej 3.5 IQR
+b. Odległość od kwartyli wynosi co najmniej 0.5 IQR
+c. Odległość od kwartyli wynosi co najmniej 1.5 IQR
+d. Odległość od kwartyli wynosi co najmniej 2.5 IQR
+12. Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby rząd
+wielkości zbioru był równy
+a. Co najmniej 3
+b. Co najmniej 2
+c. Dokładnie 3
+d. Co najmniej 4
+13. Liczba serii liczonych względem mediany w próbce losowej -2,3,5,1,9,6,10,-8 wynosi
+a. 4
+b. 8
+c. 5
+d. 6
+14. Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?
+a. Tak
+b. Nie
+15. Oto dwa kwadraty łacińskie rzędu 3. Wynika stąd, że
+a. Kwadraty te nie są ortogonalne
+b. Nie można stwierdzić czy kwadraty te są ortogonalne
+c. Kwadraty te są ortogonalne
+16. Czy próbka losowa może mieć nieskończenie wiele median?
+a. Tak
+
+--- PAGE 3 ---
+b. Nie
+17. Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości
+a. Dwóch wariancji
+b. Dwóch rozkładów
+c. Dwóch średnich

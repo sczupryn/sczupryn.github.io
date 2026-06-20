@@ -8,7 +8,6 @@ const state = {
   order: [],
   currentIndex: 0,
   score: 0,
-  revealed: false,
   confirmed: false,
   mode: "full",
   sessionResults: {},
@@ -80,9 +79,36 @@ function clearSubjectHistory(subjectId) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(all));
 }
 
-function getWrongIndices(history) {
-  if (!history || !Array.isArray(history.wrongIndices)) return [];
-  return history.wrongIndices;
+function getUnknownIndices(history) {
+  if (!history || !Array.isArray(history.unknownIndices)) return [];
+  return history.unknownIndices;
+}
+
+function ensureSubjectHistory(subjectId) {
+  return loadSubjectHistory(subjectId) || {
+    unknownIndices: [],
+    answers: {},
+  };
+}
+
+function setQuestionKnown(subjectId, questionIndex, knows) {
+  const history = ensureSubjectHistory(subjectId);
+  const unknownSet = new Set(getUnknownIndices(history));
+
+  if (knows) {
+    unknownSet.delete(questionIndex);
+  } else {
+    unknownSet.add(questionIndex);
+  }
+
+  history.unknownIndices = [...unknownSet].sort((a, b) => a - b);
+  saveSubjectHistory(subjectId, history);
+  return history;
+}
+
+function modeLabel(mode) {
+  if (mode === "difficult") return "trudne pytania";
+  return "pełny test";
 }
 
 async function loadSubjects() {
@@ -93,16 +119,18 @@ async function loadSubjects() {
 
   subjects.forEach((s) => {
     const history = loadSubjectHistory(s.id);
-    const wrongCount = getWrongIndices(history).length;
+    const unknownCount = getUnknownIndices(history).length;
 
     const li = document.createElement("li");
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = "subject-btn";
-    let badge = "";
-    if (wrongCount > 0) {
-      badge = `<span class="subject-badge">${wrongCount} do powtórki</span>`;
-    }
+
+    const badge =
+      unknownCount > 0
+        ? `<span class="subject-badge subject-badge-unknown">${unknownCount} trudnych</span>`
+        : "";
+
     btn.innerHTML = `<strong>${s.name}</strong><span>${s.questionCount} pytań</span>${badge}`;
     btn.addEventListener("click", () => openModeScreen(s));
     li.appendChild(btn);
@@ -119,28 +147,26 @@ async function openModeScreen(subjectMeta) {
   state.questions = data.questions;
 
   const history = loadSubjectHistory(data.id);
-  const wrongIndices = getWrongIndices(history);
+  const unknownIndices = getUnknownIndices(history);
   const total = data.questions.length;
 
   $("#mode-subject-name").textContent = data.name;
   $("#mode-full-count").textContent = `Wszystkie pytania (${total})`;
-  $("#mode-review-count").textContent =
-    wrongIndices.length > 0
-      ? `${wrongIndices.length} pytań z ostatniej sesji`
-      : "Brak pytań do powtórki — najpierw rozwiąż pełny test";
+  $("#mode-difficult-count").textContent =
+    unknownIndices.length > 0
+      ? `${unknownIndices.length} pytań z błędnych odpowiedzi`
+      : "Brak trudnych pytań — pojawią się po złej odpowiedzi";
 
   const lastResult = $("#mode-last-result");
   if (history && history.lastCompletedAt) {
     const date = new Date(history.lastCompletedAt).toLocaleString("pl-PL");
-    const modeLabel = history.lastMode === "review" ? "powtórka" : "pełny test";
-    lastResult.textContent = `Ostatnia sesja (${modeLabel}, ${date}): ${history.lastScore}/${history.lastTotal} pkt`;
+    lastResult.textContent = `Ostatnia sesja (${modeLabel(history.lastMode)}, ${date}): ${history.lastScore}/${history.lastTotal} pkt`;
     lastResult.classList.remove("hidden");
   } else {
     lastResult.classList.add("hidden");
   }
 
-  const reviewBtn = $("#btn-mode-review");
-  reviewBtn.disabled = wrongIndices.length === 0;
+  $("#btn-mode-difficult").disabled = unknownIndices.length === 0;
 
   const clearBtn = $("#btn-clear-history");
   if (history) {
@@ -155,11 +181,11 @@ async function openModeScreen(subjectMeta) {
 
 function beginQuiz(mode) {
   const history = loadSubjectHistory(state.subject.id);
-  const wrongIndices = getWrongIndices(history);
+  const unknownIndices = getUnknownIndices(history);
 
   let activeIndices;
-  if (mode === "review") {
-    activeIndices = wrongIndices.filter((i) => i >= 0 && i < state.questions.length);
+  if (mode === "difficult") {
+    activeIndices = unknownIndices.filter((i) => i >= 0 && i < state.questions.length);
     if (activeIndices.length === 0) return;
   } else {
     activeIndices = state.questions.map((_, i) => i);
@@ -170,7 +196,6 @@ function beginQuiz(mode) {
   state.order = shuffle(activeIndices.map((_, i) => i));
   state.currentIndex = 0;
   state.score = 0;
-  state.revealed = false;
   state.confirmed = false;
   state.sessionResults = {};
 
@@ -178,8 +203,8 @@ function beginQuiz(mode) {
   $("#score-total").textContent = String(activeIndices.length);
 
   const badge = $("#quiz-mode-badge");
-  if (mode === "review") {
-    badge.textContent = "Tryb: powtórka błędnych";
+  if (mode === "difficult") {
+    badge.textContent = "Tryb: trudne pytania";
     badge.classList.remove("hidden");
   } else {
     badge.classList.add("hidden");
@@ -208,13 +233,23 @@ function renderQuestion() {
   const total = state.activeIndices.length;
   const num = state.currentIndex + 1;
 
-  state.revealed = false;
   state.confirmed = false;
 
   $("#progress-fill").style.width = `${(num / total) * 100}%`;
   $("#progress-text").textContent = `Pytanie ${num} z ${total}`;
   $("#question-number").textContent = `Pytanie ${num}`;
   $("#question-text").textContent = q.question;
+
+  const media = $("#question-media");
+  const img = $("#question-image");
+  if (q.image) {
+    img.src = q.image;
+    img.alt = "Ilustracja do pytania";
+    media.classList.remove("hidden");
+  } else {
+    media.classList.add("hidden");
+    img.removeAttribute("src");
+  }
 
   const list = $("#answers-list");
   list.innerHTML = "";
@@ -245,68 +280,14 @@ function renderQuestion() {
   feedback.className = "feedback hidden";
   feedback.textContent = "";
 
-  updateCheckButton();
-  $("#btn-next").disabled = false;
+  $("#btn-check").disabled = false;
+  $("#btn-check").textContent = "Zatwierdź";
+  $("#btn-next").disabled = true;
   $("#btn-next").textContent =
     state.currentIndex < state.activeIndices.length - 1 ? "Dalej" : "Zobacz wynik";
 }
 
-function updateCheckButton() {
-  const btn = $("#btn-check");
-  if (state.confirmed) {
-    btn.disabled = true;
-    return;
-  }
-  btn.disabled = false;
-  btn.textContent = state.revealed ? "Ukryj odpowiedzi" : "Sprawdź odpowiedź";
-}
-
-function toggleRevealAnswers() {
-  if (state.confirmed) return;
-
-  const q = getCurrentQuestion();
-  const labels = document.querySelectorAll("#answers-list .answer-label");
-
-  if (state.revealed) {
-    state.revealed = false;
-    labels.forEach((label) => label.classList.remove("revealed-correct"));
-  } else {
-    state.revealed = true;
-    labels.forEach((label, i) => {
-      if (q.answers[i].correct) {
-        label.classList.add("revealed-correct");
-      }
-    });
-  }
-
-  updateCheckButton();
-}
-
-function persistSessionResults() {
-  const wrongIndices = Object.entries(state.sessionResults)
-    .filter(([, r]) => !r.correct)
-    .map(([idx]) => Number(idx));
-
-  const answers = {};
-  for (const [idx, r] of Object.entries(state.sessionResults)) {
-    answers[idx] = {
-      selected: r.selected,
-      correct: r.correct,
-      at: r.at,
-    };
-  }
-
-  saveSubjectHistory(state.subject.id, {
-    lastCompletedAt: new Date().toISOString(),
-    lastMode: state.mode,
-    lastScore: state.score,
-    lastTotal: state.activeIndices.length,
-    wrongIndices,
-    answers,
-  });
-}
-
-function confirmAndAdvance() {
+function confirmAnswer() {
   if (state.confirmed) return;
 
   const selected = getSelectedIndices();
@@ -324,6 +305,9 @@ function confirmAndAdvance() {
   if (correct) {
     state.score += 1;
     $("#score-live").textContent = String(state.score);
+    setQuestionKnown(state.subject.id, qIndex, true);
+  } else {
+    setQuestionKnown(state.subject.id, qIndex, false);
   }
 
   const labels = document.querySelectorAll("#answers-list .answer-label");
@@ -331,7 +315,6 @@ function confirmAndAdvance() {
     const isCorrect = q.answers[i].correct;
     const isSelected = selected.includes(i);
 
-    label.classList.remove("revealed-correct");
     label.classList.add("disabled");
     label.querySelector("input").disabled = true;
 
@@ -357,29 +340,58 @@ function confirmAndAdvance() {
   } else {
     feedback.className = "feedback error";
     if (selected.length === 0) {
-      feedback.textContent = "0 pkt — nie zaznaczono żadnej odpowiedzi.";
+      feedback.textContent = "0 pkt — nie zaznaczono odpowiedzi. Pytanie dodano do trudnych.";
     } else {
-      feedback.textContent = "0 pkt — źle lub niepełne zaznaczenie.";
+      feedback.textContent = "0 pkt — źle. Pytanie dodano do trudnych.";
     }
   }
 
   $("#btn-next").disabled = true;
-
-  setTimeout(() => {
-    if (state.currentIndex < state.activeIndices.length - 1) {
-      state.currentIndex += 1;
-      renderQuestion();
-    } else {
-      persistSessionResults();
-      showResults();
+  window.setTimeout(() => {
+    if (state.confirmed) {
+      $("#btn-next").disabled = false;
     }
-  }, 1234);
+  }, 400);
+}
+
+function persistSessionResults() {
+  const history = ensureSubjectHistory(state.subject.id);
+  const answers = { ...history.answers };
+
+  for (const [idx, r] of Object.entries(state.sessionResults)) {
+    answers[idx] = {
+      selected: r.selected,
+      correct: r.correct,
+      at: r.at,
+    };
+  }
+
+  saveSubjectHistory(state.subject.id, {
+    ...history,
+    lastCompletedAt: new Date().toISOString(),
+    lastMode: state.mode,
+    lastScore: state.score,
+    lastTotal: state.activeIndices.length,
+    answers,
+  });
+}
+
+function advanceToNext() {
+  if (!state.confirmed) return;
+
+  if (state.currentIndex < state.activeIndices.length - 1) {
+    state.currentIndex += 1;
+    renderQuestion();
+  } else {
+    persistSessionResults();
+    showResults();
+  }
 }
 
 function showResults() {
   const total = state.activeIndices.length;
   const pct = total > 0 ? Math.round((state.score / total) * 100) : 0;
-  const wrongCount = Object.values(state.sessionResults).filter((r) => !r.correct).length;
+  const unknownCount = getUnknownIndices(loadSubjectHistory(state.subject.id)).length;
 
   $("#results-subject").textContent = state.subject.name;
   $("#results-score").textContent = String(state.score);
@@ -387,28 +399,30 @@ function showResults() {
   $("#results-percent").textContent = `${pct}% poprawnych odpowiedzi`;
 
   const modeNote = $("#results-mode-note");
-  if (state.mode === "review") {
-    modeNote.textContent = `Tryb powtórki błędnych — ${wrongCount} pytań nadal do nauki po tej sesji.`;
-    modeNote.classList.remove("hidden");
+  if (state.mode === "difficult") {
+    modeNote.textContent =
+      unknownCount > 0
+        ? `${unknownCount} trudnych pytań pozostało do powtórki.`
+        : "Świetnie — opanowałeś wszystkie trudne pytania!";
   } else {
     modeNote.textContent =
-      wrongCount > 0
-        ? `${wrongCount} pytań zapisano do powtórki w tej przeglądarce.`
+      unknownCount > 0
+        ? `${unknownCount} pytań zapisano jako trudne — możesz je powtórzyć osobno.`
         : "Świetnie — w tej sesji nie było błędnych odpowiedzi!";
-    modeNote.classList.remove("hidden");
   }
+  modeNote.classList.remove("hidden");
 
-  const reviewBtn = $("#btn-review-wrong");
-  reviewBtn.disabled = wrongCount === 0;
-  reviewBtn.textContent =
-    wrongCount > 0 ? `Powtórka błędnych (${wrongCount})` : "Powtórka błędnych";
+  const difficultBtn = $("#btn-review-difficult");
+  difficultBtn.disabled = unknownCount === 0;
+  difficultBtn.textContent =
+    unknownCount > 0 ? `Trudne pytania (${unknownCount})` : "Trudne pytania";
 
   showScreen("results");
 }
 
-function restartQuiz(sameMode = true) {
+function restartQuiz() {
   if (!state.subject) return;
-  beginQuiz(sameMode ? state.mode : state.mode);
+  beginQuiz(state.mode);
 }
 
 function goHome() {
@@ -419,13 +433,21 @@ function goHome() {
   showScreen("subjects");
 }
 
-$("#btn-check").addEventListener("click", toggleRevealAnswers);
-$("#btn-next").addEventListener("click", confirmAndAdvance);
-$("#btn-restart").addEventListener("click", () => restartQuiz(true));
-$("#btn-review-wrong").addEventListener("click", () => beginQuiz("review"));
+$("#btn-check").addEventListener("click", (e) => {
+  e.preventDefault();
+  confirmAnswer();
+});
+$("#btn-next").addEventListener("click", (e) => {
+  e.preventDefault();
+  if (state.confirmed && !$("#btn-next").disabled) {
+    advanceToNext();
+  }
+});
+$("#btn-restart").addEventListener("click", restartQuiz);
+$("#btn-review-difficult").addEventListener("click", () => beginQuiz("difficult"));
 $("#btn-home").addEventListener("click", goHome);
 $("#btn-mode-full").addEventListener("click", () => beginQuiz("full"));
-$("#btn-mode-review").addEventListener("click", () => beginQuiz("review"));
+$("#btn-mode-difficult").addEventListener("click", () => beginQuiz("difficult"));
 $("#btn-mode-back").addEventListener("click", goHome);
 $("#btn-clear-history").addEventListener("click", () => {
   if (!state.subject) return;
@@ -433,6 +455,11 @@ $("#btn-clear-history").addEventListener("click", () => {
     clearSubjectHistory(state.subject.id);
     openModeScreen(state.subjectMeta);
   }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Enter" || !screens.quiz.classList.contains("active")) return;
+  e.preventDefault();
 });
 
 loadSubjects().catch((err) => {

@@ -1,0 +1,3788 @@
+{
+  "title": "Baza pytań PEIAR - Planowanie i Analiza Eksperymentu",
+  "description": "Zdeduplikowana baza pytań egzaminacyjnych ze wszystkich materiałów źródłowych",
+  "total_questions": 151,
+  "sources": [
+    "E1Arozw-2-1.pdf",
+    "E1Brozw-1-1.pdf",
+    "E2A(rozw)-1.pdf",
+    "Egzamin1(przykładowy).pdf",
+    "erni.pdf",
+    "erni_merged.pdf",
+    "erni_merged_merged.pdf",
+    "Niezdaj, ale tym razem zdaj (1).docx",
+    "PEIAR_gotowiec-1.pdf",
+    "Zdaj_Niezdaja (1).pdf"
+  ],
+  "questions": [
+    {
+      "question": "Analiza wariancji dotyczy weryfikacji hipotezy równości",
+      "options": [
+        {
+          "key": "a",
+          "text": "średnich"
+        },
+        {
+          "key": "b",
+          "text": "wariancji"
+        },
+        {
+          "key": "c",
+          "text": "rozkładów"
+        },
+        {
+          "key": "d",
+          "text": "median"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 1
+    },
+    {
+      "question": "Błędem I-go rodzaju nazywamy sytuację, w której",
+      "options": [
+        {
+          "key": "a",
+          "text": "przyjmujemy hipotezę prawdziwą"
+        },
+        {
+          "key": "b",
+          "text": "odrzucamy hipotezę prawdziwą"
+        },
+        {
+          "key": "c",
+          "text": "przyjmujemy hipotezę fałszywą"
+        },
+        {
+          "key": "d",
+          "text": "odrzucamy hipotezę fałszywą"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 2
+    },
+    {
+      "question": "Błędem II-go rodzaju nazywamy sytuację, w której",
+      "options": [
+        {
+          "key": "a",
+          "text": "przyjmujemy hipotezę prawdziwą"
+        },
+        {
+          "key": "b",
+          "text": "odrzucamy hipotezę prawdziwą"
+        },
+        {
+          "key": "c",
+          "text": "przyjmujemy hipotezę fałszywą"
+        },
+        {
+          "key": "d",
+          "text": "odrzucamy hipotezę fałszywą"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 3
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "options": [
+        {
+          "key": "a",
+          "text": "rnorm()"
+        },
+        {
+          "key": "b",
+          "text": "dnorm()"
+        },
+        {
+          "key": "c",
+          "text": "chisq.test()"
+        },
+        {
+          "key": "d",
+          "text": "aov()"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 4
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład normalny. Użyjemy w tym celu funkcji",
+      "options": [
+        {
+          "key": "a",
+          "text": "chisq.test()"
+        },
+        {
+          "key": "b",
+          "text": "dnorm()"
+        },
+        {
+          "key": "c",
+          "text": "aov()"
+        },
+        {
+          "key": "d",
+          "text": "lillie.test()"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 5
+    },
+    {
+      "question": "Chcemy zbadać, czy pewna cecha ma rozkład wykładniczy. Użyjemy w tym celu funkcji",
+      "options": [
+        {
+          "key": "a",
+          "text": "rnorm()"
+        },
+        {
+          "key": "b",
+          "text": "rexp()"
+        },
+        {
+          "key": "c",
+          "text": "dnorm()"
+        },
+        {
+          "key": "d",
+          "text": "pexp()"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 6
+    },
+    {
+      "question": "Chcemy zbadać, czy współczynnik korelacji dwóch cech jest istotnie różny od zera. Użyjemy w tym celu funkcji",
+      "options": [
+        {
+          "key": "a",
+          "text": "cor()"
+        },
+        {
+          "key": "b",
+          "text": "cor.test()"
+        },
+        {
+          "key": "c",
+          "text": "HZ.test()"
+        },
+        {
+          "key": "d",
+          "text": "skewness()"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 7
+    },
+    {
+      "question": "Co oznacza hipoteza alternatywna w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Brak różnic lub efektu"
+        },
+        {
+          "key": "b",
+          "text": "Istnienie różnic lub efektu"
+        },
+        {
+          "key": "c",
+          "text": "Prawdziwość hipotezy zerowej"
+        },
+        {
+          "key": "d",
+          "text": "Brak odchylenia standardowego"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 8
+    },
+    {
+      "question": "Co oznacza odchylenie standardowe?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Średnia wartość próby"
+        },
+        {
+          "key": "b",
+          "text": "Miara rozproszenia danych wokół średniej"
+        },
+        {
+          "key": "c",
+          "text": "Mediana danych"
+        },
+        {
+          "key": "d",
+          "text": "Maksymalna wartość w próbie --- PAGE 10 ---"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 9
+    },
+    {
+      "question": "Co oznacza poziom istotności alfa w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od"
+        },
+        {
+          "key": "b",
+          "text": "obserwowanych"
+        },
+        {
+          "key": "b",
+          "text": "Prawdopodobieństwo popełnienia błędu I rodzaju"
+        },
+        {
+          "key": "c",
+          "text": "Prawdopodobieństwo popełnienia błędu II rodzaju"
+        },
+        {
+          "key": "d",
+          "text": "Prawdopodobieństwo odrzucenia hipotezy alternatywnej"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 10
+    },
+    {
+      "question": "Co oznacza termin \"próba losowa\" w statystyce?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Próba wybrana celowo przez badacza"
+        },
+        {
+          "key": "b",
+          "text": "Próba wybrana w taki sposób, że każda jednostka ma równą szansę bycia wybraną"
+        },
+        {
+          "key": "c",
+          "text": "Próba wybrana na podstawie wcześniejszych badań"
+        },
+        {
+          "key": "d",
+          "text": "Próba wybrana ze względu na dostępność jednostek"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 11
+    },
+    {
+      "question": "Co oznacza termin \"wartość oczekiwana\"?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Mediana danych"
+        },
+        {
+          "key": "b",
+          "text": "Średnia ważona wszystkich możliwych wartości"
+        },
+        {
+          "key": "c",
+          "text": "Maksymalna wartość w próbie"
+        },
+        {
+          "key": "d",
+          "text": "Minimalna wartość w próbie --- PAGE 11 ---"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 12
+    },
+    {
+      "question": "Co oznacza test dwustronny?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test, który sprawdza, czy średnia próbki jest różna od określonej wartości w obu"
+        },
+        {
+          "key": "b",
+          "text": "kierunkach"
+        },
+        {
+          "key": "b",
+          "text": "Test, który sprawdza, czy średnia próbki jest mniejsza od określonej wartości"
+        },
+        {
+          "key": "c",
+          "text": "Test, który sprawdza, czy średnia próbki jest większa od określonej wartości"
+        },
+        {
+          "key": "d",
+          "text": "Test, który sprawdza tylko jedną stronę rozkładu"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 13
+    },
+    {
+      "question": "Co oznacza wartość P w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od"
+        },
+        {
+          "key": "b",
+          "text": "obserwowanych, przy założeniu prawdziwości hipotezy zerowej"
+        },
+        {
+          "key": "b",
+          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa"
+        },
+        {
+          "key": "c",
+          "text": "Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa"
+        },
+        {
+          "key": "d",
+          "text": "Prawdopodobieństwo popełnienia błędu typu I"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 14
+    },
+    {
+      "question": "Co oznacza wartość P w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Prawdopodobieństwo uzyskania wyników równych lub bardziej ekstremalnych od"
+        },
+        {
+          "key": "b",
+          "text": "obserwowanych, przy założeniu prawdziwości hipotezy zerowej"
+        },
+        {
+          "key": "b",
+          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa --- PAGE 8 ---"
+        },
+        {
+          "key": "c",
+          "text": "Prawdopodobieństwo, że hipoteza zerowa jest prawdziwa"
+        },
+        {
+          "key": "d",
+          "text": "Prawdopodobieństwo popełnienia błędu typu I"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 15
+    },
+    {
+      "question": "Co oznacza współczynnik determinacji R2?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Miara centralnej tendencji"
+        },
+        {
+          "key": "b",
+          "text": "Miara, jak dobrze model dopasowuje się do danych"
+        },
+        {
+          "key": "c",
+          "text": "Miara rozproszenia danych"
+        },
+        {
+          "key": "d",
+          "text": "Miara liczby stopni swobody"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 16
+    },
+    {
+      "question": "Co oznacza współczynnik korelacji Pearsona?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Miara siły i kierunku liniowej zależności między dwiema zmiennymi"
+        },
+        {
+          "key": "b",
+          "text": "Miara centralnej tendencji w danych"
+        },
+        {
+          "key": "c",
+          "text": "Miara rozproszenia danych"
+        },
+        {
+          "key": "d",
+          "text": "Miara kategoryzacji danych"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 17
+    },
+    {
+      "question": "Co to jest błąd II rodzaju?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Odrzucenie hipotezy zerowej, gdy jest ona prawdziwa"
+        },
+        {
+          "key": "b",
+          "text": "Nieodrzucenie hipotezy zerowej, gdy jest ona fałszywa"
+        },
+        {
+          "key": "c",
+          "text": "Odrzucenie hipotezy alternatywnej, gdy jest ona prawdziwa"
+        },
+        {
+          "key": "d",
+          "text": "Nieodrzucenie hipotezy alternatywnej, gdy jest ona fałszywa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 18
+    },
+    {
+      "question": "Co to jest przedział ufności?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Zakres wartości, w którym z określonym prawdopodobieństwem znajduje się"
+        },
+        {
+          "key": "b",
+          "text": "prawdziwa wartość parametru populacji"
+        },
+        {
+          "key": "b",
+          "text": "Zakres wartości, który jest zawsze symetryczny wokół średniej"
+        },
+        {
+          "key": "c",
+          "text": "Zakres wartości, który jest mniejszy od odchylenia standardowego"
+        },
+        {
+          "key": "d",
+          "text": "Zakres wartości, który obejmuje 50% próby"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 19
+    },
+    {
+      "question": "Co zakłada hipoteza alternatywna w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Że badana cecha X ma rozkład normalny"
+        },
+        {
+          "key": "b",
+          "text": "Że badana cecha X ma dowolny rozkład"
+        },
+        {
+          "key": "c",
+          "text": "Że badana cecha X różni się od rozkładu opisanego w hipotezie zerowej"
+        },
+        {
+          "key": "d",
+          "text": "Że badana cecha X jest zgodna z hipotezą zerową"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 20
+    },
+    {
+      "question": "Co zakłada hipoteza zerowa w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Brak różnic lub efektu"
+        },
+        {
+          "key": "b",
+          "text": "Istnienie różnic lub efektu"
+        },
+        {
+          "key": "c",
+          "text": "Prawdziwość hipotezy alternatywnej"
+        },
+        {
+          "key": "d",
+          "text": "Prawdziwość rozkładu normalnego"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 21
+    },
+    {
+      "question": "Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Tak"
+        },
+        {
+          "key": "b",
+          "text": "Nie"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 22
+    },
+    {
+      "question": "Czy mediana próbki losowej może być mniejsza od jej średniej arytmetycznej?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Tak"
+        },
+        {
+          "key": "b",
+          "text": "Nie --- PAGE 3 --- (A,2), (B,1), (C,3), (B,3), (C,2), (A,1), (C,1), (A,3), (B,2)"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 23
+    },
+    {
+      "question": "Czy mediana próbki losowej może być większa od jej średniej arytmetycznej?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Tak"
+        },
+        {
+          "key": "b",
+          "text": "Nie"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf",
+        "erni.pdf"
+      ],
+      "id": 24
+    },
+    {
+      "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Tak --- PAGE 3 ---"
+        },
+        {
+          "key": "b",
+          "text": "Nie"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf"
+      ],
+      "id": 25
+    },
+    {
+      "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Tak"
+        },
+        {
+          "key": "b",
+          "text": "Nie"
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf",
+        "erni.pdf"
+      ],
+      "id": 26
+    },
+    {
+      "question": "Dane 1,1,2,4,6,6,8,9 pogrupowano w klasy o granicach 0.5,10. Średnia danych zgrupowanych wynosi zatem",
+      "options": [
+        {
+          "key": "a",
+          "text": "4.625"
+        },
+        {
+          "key": "b",
+          "text": "5"
+        },
+        {
+          "key": "c",
+          "text": "4"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 27
+    },
+    {
+      "question": "Do jakiego rodzaju danych stosuje się test chi-kwadrat?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Do danych kategorycznych"
+        },
+        {
+          "key": "b",
+          "text": "Do danych ciągłych"
+        },
+        {
+          "key": "c",
+          "text": "Do danych binarnych"
+        },
+        {
+          "key": "d",
+          "text": "Do danych porządkowych --- PAGE 5 ---"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 28
+    },
+    {
+      "question": "Do obserwacji (-2,-1), (0,2), (1,0), (3,2), (4,2), (6,1) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
+      "options": [
+        {
+          "key": "a",
+          "text": "(0,1)"
+        },
+        {
+          "key": "b",
+          "text": "(-1,1)"
+        },
+        {
+          "key": "c",
+          "text": "(3,2)"
+        },
+        {
+          "key": "d",
+          "text": "(2,1)"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 29
+    },
+    {
+      "question": "Do obserwacji (-2,-1), (0,2), (2,5), (3,2), (4,2), (5,2) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
+      "options": [
+        {
+          "key": "a",
+          "text": "(0,1)"
+        },
+        {
+          "key": "b",
+          "text": "(-1,1)"
+        },
+        {
+          "key": "c",
+          "text": "(2,2)"
+        },
+        {
+          "key": "d",
+          "text": "(3,2)"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 30
+    },
+    {
+      "question": "Do obserwacji (-3,1), (0,0), (1,1), (3,3), (4,5) dopasowano prostą regresji metodą najmniejszych kwadratów. Prosta ta przechodzi więc przez punkt",
+      "options": [
+        {
+          "key": "a",
+          "text": "(-1,1)"
+        },
+        {
+          "key": "b",
+          "text": "(2,4)"
+        },
+        {
+          "key": "c",
+          "text": "(1,2)"
+        },
+        {
+          "key": "d",
+          "text": "(4,5)"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 31
+    },
+    {
+      "question": "Do zbadania niezależności statystycznej dwóch cech najlepiej wykorzystać funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "indep()"
+        },
+        {
+          "key": "b",
+          "text": "cor.test()"
+        },
+        {
+          "key": "c",
+          "text": "chisq.test()"
+        },
+        {
+          "key": "d",
+          "text": "cor()"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 32
+    },
+    {
+      "question": "Do zbadania równości dwóch wariancji wykorzystamy funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "levene.test()"
+        },
+        {
+          "key": "b",
+          "text": "var()"
+        },
+        {
+          "key": "c",
+          "text": "fisher.test()"
+        },
+        {
+          "key": "d",
+          "text": "sd()"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 33
+    },
+    {
+      "question": "Do zbadania równości dwóch wariancji wykorzystamy funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "sd()"
+        },
+        {
+          "key": "b",
+          "text": "fisher.test()"
+        },
+        {
+          "key": "c",
+          "text": "var()"
+        },
+        {
+          "key": "d",
+          "text": "levene.test()"
+        },
+        {
+          "key": "e",
+          "text": "fisher.test() - test statystyczny służy do oceny istotności statystycznej między dwiema"
+        },
+        {
+          "key": "f",
+          "text": "zmiennymi kategorycznymi w oparciu o tablicę kontyngencji."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 34
+    },
+    {
+      "question": "Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej próbki losowej",
+      "options": [
+        {
+          "key": "a",
+          "text": "Mediana jest raczej większa od średniej"
+        },
+        {
+          "key": "b",
+          "text": "Mediana jest równa średniej"
+        },
+        {
+          "key": "c",
+          "text": "Mediana jest raczej mniejsza od średniej --- PAGE 2 ---"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 35
+    },
+    {
+      "question": "Histogram pewnej próbki wygląda następująco. Wynika stąd, że dla tej próbki losowej",
+      "options": [
+        {
+          "key": "a",
+          "text": "mediana jest raczej większa od średniej"
+        },
+        {
+          "key": "b",
+          "text": "mediana jest w przybliżeniu równa średniej"
+        },
+        {
+          "key": "c",
+          "text": "mediana jest raczej mniejsza od średniej"
+        },
+        {
+          "key": "d",
+          "text": "nie można ocenić"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 36
+    },
+    {
+      "question": "Jak nazywa się test, w którym kobieta twierdziła, że potrafi po smaku rozpoznać kolejność dodawania herbaty i mleka?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test chi-kwadrat"
+        },
+        {
+          "key": "b",
+          "text": "Test lady tasting tea"
+        },
+        {
+          "key": "c",
+          "text": "Test t Studenta"
+        },
+        {
+          "key": "d",
+          "text": "Test Kołmogorowa-Smirnowa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 37
+    },
+    {
+      "question": "Jaką funkcję w R należy użyć, aby obliczyć korelację między dwiema zmiennymi?",
+      "options": [
+        {
+          "key": "a",
+          "text": "lm()"
+        },
+        {
+          "key": "b",
+          "text": "mean()"
+        },
+        {
+          "key": "c",
+          "text": "cor()"
+        },
+        {
+          "key": "d",
+          "text": "sum() --- PAGE 9 ---"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 38
+    },
+    {
+      "question": "Jaką funkcję w R należy użyć, aby utworzyć wykres pudełkowy?",
+      "options": [
+        {
+          "key": "a",
+          "text": "hist()"
+        },
+        {
+          "key": "b",
+          "text": "barplot()"
+        },
+        {
+          "key": "c",
+          "text": "plot()"
+        },
+        {
+          "key": "d",
+          "text": "boxplot()"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 39
+    },
+    {
+      "question": "Jaką funkcję w R należy użyć, aby utworzyć wykres punktowy?",
+      "options": [
+        {
+          "key": "a",
+          "text": "hist()"
+        },
+        {
+          "key": "b",
+          "text": "plot()"
+        },
+        {
+          "key": "c",
+          "text": "barplot()"
+        },
+        {
+          "key": "d",
+          "text": "boxplot()"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 40
+    },
+    {
+      "question": "Jaki jest cel testu ANOVA?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Do analizy korelacji między dwoma zmiennymi"
+        },
+        {
+          "key": "b",
+          "text": "Do porównania średnich więcej niż dwóch grup"
+        },
+        {
+          "key": "c",
+          "text": "Do obliczania wartości średniej"
+        },
+        {
+          "key": "d",
+          "text": "Do testowania hipotezy zerowej"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 41
+    },
+    {
+      "question": "Jaki rozkład ma liczba odgadniętych prawidłowo filiżanek herbaty w teście lady tasting tea, przy założeniu prawdziwości hipotezy zerowej?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Rozkład dwumianowy"
+        },
+        {
+          "key": "b",
+          "text": "Rozkład hipergeometryczny"
+        },
+        {
+          "key": "c",
+          "text": "Rozkład normalny"
+        },
+        {
+          "key": "d",
+          "text": "Rozkład Poissona"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 42
+    },
+    {
+      "question": "Jaki test statystyczny stosuje się do analizy dwóch zmiennych kategorycznych?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test chi-kwadrat"
+        },
+        {
+          "key": "b",
+          "text": "Test t Studenta"
+        },
+        {
+          "key": "c",
+          "text": "Test ANOVA"
+        },
+        {
+          "key": "d",
+          "text": "Test Kołmogorowa-Smirnowa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 43
+    },
+    {
+      "question": "Jakie jest prawdopodobieństwo uzyskania orła w rzucie symetryczną monetą?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.25 --- PAGE 7 ---"
+        },
+        {
+          "key": "b",
+          "text": "0.75"
+        },
+        {
+          "key": "c",
+          "text": "0.50"
+        },
+        {
+          "key": "d",
+          "text": "1.00"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 44
+    },
+    {
+      "question": "Jakie jest prawdopodobieństwo wyrzucenia co najmniej jednego orła w dwóch rzutach monetą?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.75"
+        },
+        {
+          "key": "b",
+          "text": "0.50"
+        },
+        {
+          "key": "c",
+          "text": "0.25"
+        },
+        {
+          "key": "d",
+          "text": "0.20"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 45
+    },
+    {
+      "question": "Jakie jest prawdopodobieństwo wyrzucenia liczby 6 w pojedynczym rzucie sześcienną kostką do gry?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.10"
+        },
+        {
+          "key": "b",
+          "text": "0.20"
+        },
+        {
+          "key": "c",
+          "text": "0.1667"
+        },
+        {
+          "key": "d",
+          "text": "0.25"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 46
+    },
+    {
+      "question": "Jakie jest prawdopodobieństwo wyrzucenia pary orzeł-orzeł (O,O) w pojedynczym rzucie dwoma monetami?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.25"
+        },
+        {
+          "key": "b",
+          "text": "0.50"
+        },
+        {
+          "key": "c",
+          "text": "0.75"
+        },
+        {
+          "key": "d",
+          "text": "1.00"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 47
+    },
+    {
+      "question": "Jakie jest prawdopodobieństwo, że z talii 52 kart wyciągniesz kartę asa?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.10"
+        },
+        {
+          "key": "b",
+          "text": "0.12"
+        },
+        {
+          "key": "c",
+          "text": "0.077"
+        },
+        {
+          "key": "d",
+          "text": "0.15"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 48
+    },
+    {
+      "question": "Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona"
+        },
+        {
+          "key": "b",
+          "text": "prawdziwa"
+        },
+        {
+          "key": "b",
+          "text": "Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju"
+        },
+        {
+          "key": "c",
+          "text": "Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa"
+        },
+        {
+          "key": "d",
+          "text": "Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 49
+    },
+    {
+      "question": "Jakie jest znaczenie mocy testu w kontekście skuteczności szczepionki Polio?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Moc testu określa prawdopodobieństwo odrzucenia hipotezy zerowej, gdy jest ona"
+        },
+        {
+          "key": "b",
+          "text": "prawdziwa"
+        },
+        {
+          "key": "b",
+          "text": "Moc testu określa prawdopodobieństwo przyjęcia hipotezy zerowej, gdy jest ona fałszywa"
+        },
+        {
+          "key": "c",
+          "text": "Moc testu określa prawdopodobieństwo nie popełnienia błędu II rodzaju"
+        },
+        {
+          "key": "d",
+          "text": "Moc testu określa prawdopodobieństwo popełnienia błędu I rodzaju"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 50
+    },
+    {
+      "question": "Jakie jest znaczenie wartości P < 0.05 w teście statystycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Wynik jest statystycznie istotny"
+        },
+        {
+          "key": "b",
+          "text": "Wynik jest statystycznie nieistotny"
+        },
+        {
+          "key": "c",
+          "text": "Prawdopodobieństwo błędu II rodzaju jest wysokie"
+        },
+        {
+          "key": "d",
+          "text": "Hipoteza zerowa jest prawdziwa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 51
+    },
+    {
+      "question": "Jakie są wymagania dotyczące liczebności próby w teście skuteczności szczepionki?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Próbka musi być mała i jednorodna"
+        },
+        {
+          "key": "b",
+          "text": "Próbka musi być duża i różnorodna"
+        },
+        {
+          "key": "c",
+          "text": "Próbka musi pochodzić z jednego regionu"
+        },
+        {
+          "key": "d",
+          "text": "Próbka musi być nieznana"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 52
+    },
+    {
+      "question": "Jakie są wymagania dotyczące próbki w teście chi-kwadrat?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Próba musi być mała i jednorodna"
+        },
+        {
+          "key": "b",
+          "text": "Próba musi pochodzić z jednego regionu"
+        },
+        {
+          "key": "c",
+          "text": "Próba musi być wystarczająco duża i losowa"
+        },
+        {
+          "key": "d",
+          "text": "Próba musi mieć dokładnie 30 obserwacji"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 53
+    },
+    {
+      "question": "Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby",
+      "options": [
+        {
+          "key": "a",
+          "text": "rząd wielkości zbioru danych był równy"
+        },
+        {
+          "key": "b",
+          "text": "co najmniej 3"
+        },
+        {
+          "key": "c",
+          "text": "co najmniej 2"
+        },
+        {
+          "key": "d",
+          "text": "dokładnie 3"
+        },
+        {
+          "key": "e",
+          "text": "co najmniej 4"
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 54
+    },
+    {
+      "question": "Jednym z warunków koniecznych do tego, aby zachodziło prawo Benforda jest to, żeby rząd wielkości zbioru był równy",
+      "options": [
+        {
+          "key": "a",
+          "text": "Co najmniej 3"
+        },
+        {
+          "key": "b",
+          "text": "Co najmniej 2"
+        },
+        {
+          "key": "c",
+          "text": "Dokładnie 3"
+        },
+        {
+          "key": "d",
+          "text": "Co najmniej 4"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 55
+    },
+    {
+      "question": "Jeśli hipoteza zerowa jest prawdziwa, to rozkład p-wartości związany z tą hipotezą jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "wykładniczy"
+        },
+        {
+          "key": "b",
+          "text": "normalny"
+        },
+        {
+          "key": "c",
+          "text": "jednostajny"
+        },
+        {
+          "key": "d",
+          "text": "chi-kwadrat"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 56
+    },
+    {
+      "question": "Kiedy różnica między dwiema grupami w eksperymencie jest uznawana za istotną?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gdy nie mogła być spowodowana czynnikami losowymi"
+        },
+        {
+          "key": "b",
+          "text": "Gdy mogła być spowodowana czynnikami losowymi"
+        },
+        {
+          "key": "c",
+          "text": "Gdy różnica jest większa niż 10%"
+        },
+        {
+          "key": "d",
+          "text": "Gdy różnica jest mniejsza niż 5%"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 57
+    },
+    {
+      "question": "Która funkcja w R jest używana do obliczania odchylenia standardowego?",
+      "options": [
+        {
+          "key": "a",
+          "text": "sd()"
+        },
+        {
+          "key": "b",
+          "text": "var()"
+        },
+        {
+          "key": "c",
+          "text": "mean()"
+        },
+        {
+          "key": "d",
+          "text": "summary()"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 58
+    },
+    {
+      "question": "Która z poniższych funkcji w R jest używana do obliczania mediany?",
+      "options": [
+        {
+          "key": "a",
+          "text": "median()"
+        },
+        {
+          "key": "b",
+          "text": "mean()"
+        },
+        {
+          "key": "c",
+          "text": "mode()"
+        },
+        {
+          "key": "d",
+          "text": "sum()"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 59
+    },
+    {
+      "question": "Która z poniższych metod jest używana do analizy zależności między dwiema zmiennymi liczbowymi?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test chi-kwadrat"
+        },
+        {
+          "key": "b",
+          "text": "Test ANOVA"
+        },
+        {
+          "key": "c",
+          "text": "Analiza regresji liniowej"
+        },
+        {
+          "key": "d",
+          "text": "Test Wilcoxona"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 60
+    },
+    {
+      "question": "Które z poniższych jest przykładem danych kategorycznych?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Wzrost w centymetrach"
+        },
+        {
+          "key": "b",
+          "text": "Kolor oczu"
+        },
+        {
+          "key": "c",
+          "text": "Czas reakcji w sekundach"
+        },
+        {
+          "key": "d",
+          "text": "Wynik testu na skali punktowej"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 61
+    },
+    {
+      "question": "Które z poniższych stwierdzeń definiuje błąd I rodzaju?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "b",
+          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa"
+        },
+        {
+          "key": "c",
+          "text": "Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "d",
+          "text": "Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 62
+    },
+    {
+      "question": "Które z poniższych stwierdzeń definiuje błąd II rodzaju?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "b",
+          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa --- PAGE 6 ---"
+        },
+        {
+          "key": "c",
+          "text": "Nieodrzucenie hipotezy zerowej H0, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "d",
+          "text": "Odrzucenie hipotezy alternatywnej H1, gdy jest ona w rzeczywistości prawdziwa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 63
+    },
+    {
+      "question": "Które z poniższych stwierdzeń definiuje błąd typu I?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Przyjmujemy hipotezę zerową H0, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "b",
+          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa"
+        },
+        {
+          "key": "c",
+          "text": "Przyjmujemy hipotezę alternatywną H1, gdy jest ona w rzeczywistości fałszywa"
+        },
+        {
+          "key": "d",
+          "text": "Odrzucamy hipotezę alternatywną H1, gdy jest ona w rzeczywistości prawdziwa"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 64
+    },
+    {
+      "question": "Które z poniższych stwierdzeń opisuje hipotezę zerową (H0)?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Hipoteza zerowa zakłada, że badana cecha X ma rozkład normalny"
+        },
+        {
+          "key": "b",
+          "text": "Hipoteza zerowa zakłada, że badana cecha X ma dowolny rozkład"
+        },
+        {
+          "key": "c",
+          "text": "Hipoteza zerowa zakłada, że hipoteza alternatywna jest prawdziwa"
+        },
+        {
+          "key": "d",
+          "text": "Hipoteza zerowa zakłada, że badana cecha X ma nieznany rozkład"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 65
+    },
+    {
+      "question": "Który z poniższych jest testem nieparametrycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test t Studenta"
+        },
+        {
+          "key": "b",
+          "text": "Test ANOVA"
+        },
+        {
+          "key": "c",
+          "text": "Test Kruskala-Wallisa to nieparametryczny odpowiednik ANOVA"
+        },
+        {
+          "key": "d",
+          "text": "Test chi-kwadrat"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 66
+    },
+    {
+      "question": "Który z poniższych jest testem parametrycznym?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Test t Studenta"
+        },
+        {
+          "key": "b",
+          "text": "Test Kruskala-Wallisa"
+        },
+        {
+          "key": "c",
+          "text": "Test Wilcoxona"
+        },
+        {
+          "key": "d",
+          "text": "Test Mann-Whitneya"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 67
+    },
+    {
+      "question": "Który z poniższych naukowców jest uważany za pioniera nowoczesnego planowania eksperymentów?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gregor Mendel"
+        },
+        {
+          "key": "b",
+          "text": "Harold Jeffreys"
+        },
+        {
+          "key": "c",
+          "text": "Ronald Fisher"
+        },
+        {
+          "key": "d",
+          "text": "Karl Pearson"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 68
+    },
+    {
+      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby kropelek na jednostkę długości śladu cząstki w komorze Wilsona?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Rozkład normalny"
+        },
+        {
+          "key": "b",
+          "text": "Rozkład hipergeometryczny"
+        },
+        {
+          "key": "c",
+          "text": "Rozkład Poissona"
+        },
+        {
+          "key": "d",
+          "text": "Rozkład dwumianowy"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 69
+    },
+    {
+      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym przedziale czasu?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Rozkład normalny"
+        },
+        {
+          "key": "b",
+          "text": "Rozkład hipergeometryczny"
+        },
+        {
+          "key": "c",
+          "text": "Rozkład Poissona"
+        },
+        {
+          "key": "d",
+          "text": "Rozkład dwumianowy ● rzadkie zdarzenia w czasie lub przestrzeni"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 70
+    },
+    {
+      "question": "Który z poniższych rozkładów jest stosowany do modelowania liczby zdarzeń w danym przedziale czasu?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Rozkład normalny"
+        },
+        {
+          "key": "b",
+          "text": "Rozkład hipergeometryczny"
+        },
+        {
+          "key": "c",
+          "text": "Rozkład Poissona"
+        },
+        {
+          "key": "d",
+          "text": "Rozkład dwumianowy"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 71
+    },
+    {
+      "question": "Kwartylem górnym próbki losowej 5,2,1,7,14,8,12 jest liczba",
+      "options": [
+        {
+          "key": "a",
+          "text": "10"
+        },
+        {
+          "key": "b",
+          "text": "12"
+        },
+        {
+          "key": "c",
+          "text": "14"
+        },
+        {
+          "key": "d",
+          "text": "8"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 72
+    },
+    {
+      "question": "Liczba serii liczonych względem mediany w próbce losowej",
+      "options": [
+        {
+          "key": "a",
+          "text": "−2, 3, 5, 1, 9, 6, 10, −8"
+        },
+        {
+          "key": "b",
+          "text": "wynosi"
+        },
+        {
+          "key": "c",
+          "text": "zbiorze sprawdzamy ciągi liczb czy są mniejsze/większe od mediany"
+        },
+        {
+          "key": "d",
+          "text": "[-2,3 < 4]; [5>4]; [1<4]; [9,6,10>4]; [-8<4]. Co daje nam 5 serii."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 73
+    },
+    {
+      "question": "Liczba serii liczonych względem mediany w próbce losowej -2,3,5,1,9,6,10,-8 wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "4"
+        },
+        {
+          "key": "b",
+          "text": "8"
+        },
+        {
+          "key": "c",
+          "text": "5"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 74
+    },
+    {
+      "question": "Liczba serii w próbce losowej 15,0,4,6,8,2,11,10 względem jej mediany wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "4"
+        },
+        {
+          "key": "b",
+          "text": "5"
+        },
+        {
+          "key": "c",
+          "text": "6"
+        },
+        {
+          "key": "d",
+          "text": "7"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 75
+    },
+    {
+      "question": "Liczba serii w próbce losowej 15,1,8,3,9,4,12,5 względem jej mediany wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "3"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "5"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 76
+    },
+    {
+      "question": "Liczba serii w próbce losowej 15,9,5,12,1,3,8,4 względem jej mediany wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "5"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "3"
+        },
+        {
+          "key": "d",
+          "text": "6"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 77
+    },
+    {
+      "question": "Medianą próbki losowej 0,2,-1,5,4,3 jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "2.5"
+        },
+        {
+          "key": "b",
+          "text": "4"
+        },
+        {
+          "key": "c",
+          "text": "2"
+        },
+        {
+          "key": "d",
+          "text": "3"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 78
+    },
+    {
+      "question": "Medianą próbki losowej 0, 2, −1, 5, 4, 3 jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "Aby obliczyć medianę należy najpierw posortować ciąg. Następnie znaleźć wartość"
+        },
+        {
+          "key": "b",
+          "text": "środkową (ciąg nieparzysty) lub średnią z dwóch wartości środkowych (ciąg parzysty)."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 79
+    },
+    {
+      "question": "Medianą próbki losowej 1,2,3,4,5,6 jest liczba",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "1"
+        },
+        {
+          "key": "c",
+          "text": "3"
+        },
+        {
+          "key": "d",
+          "text": "3.5"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 80
+    },
+    {
+      "question": "Medianą próbki losowej 1, 2, 3, 4, 5, 6 jest liczba",
+      "options": [
+        {
+          "key": "a",
+          "text": "Aby obliczyć medianę należy najpierw posortować ciąg. Następnie znaleźć wartość"
+        },
+        {
+          "key": "b",
+          "text": "środkową (ciąg nieparzysty) lub średnią z dwóch wartości środkowych (ciąg parzysty)."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 81
+    },
+    {
+      "question": "Mediana próbki losowej 2,4,9,2,5 wynosi liczba",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "3"
+        },
+        {
+          "key": "c",
+          "text": "3.5"
+        },
+        {
+          "key": "d",
+          "text": "4"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 82
+    },
+    {
+      "question": "Miara skośności Bowleya próbki losowej -1,14,16,6,8,0,2 wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.1"
+        },
+        {
+          "key": "b",
+          "text": "0.5"
+        },
+        {
+          "key": "c",
+          "text": "1"
+        },
+        {
+          "key": "d",
+          "text": "2"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 83
+    },
+    {
+      "question": "Mocą testu nazywamy prawdopodobieństwo:",
+      "options": [
+        {
+          "key": "a",
+          "text": "Nie popełnienia błędu I rodzaju"
+        },
+        {
+          "key": "b",
+          "text": "Popełnienia błędu I rodzaju"
+        },
+        {
+          "key": "c",
+          "text": "Nie popełnienia błędu II rodzaju"
+        },
+        {
+          "key": "d",
+          "text": "Popełnienia błędu II rodzaju"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 84
+    },
+    {
+      "question": "Na wykresach ramkowych (boxplot) za wartości odstające uznaje się takie, których odległość od kwartyli wynosi co najmniej",
+      "options": [
+        {
+          "key": "a",
+          "text": "1.5*IQR"
+        },
+        {
+          "key": "b",
+          "text": "2*IQR"
+        },
+        {
+          "key": "c",
+          "text": "2.5*IQR"
+        },
+        {
+          "key": "d",
+          "text": "3*IQR"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf",
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 85
+    },
+    {
+      "question": "Na wykresie typu pudełkowego (boxplot) zaznaczane są",
+      "options": [
+        {
+          "key": "a",
+          "text": "mediana, średnia, xmax, xmin"
+        },
+        {
+          "key": "b",
+          "text": "mediana, średnia, Q1, Q2, Q3"
+        },
+        {
+          "key": "c",
+          "text": "mediana, Q1, Q3, xmax, xmin"
+        },
+        {
+          "key": "d",
+          "text": "średnia, Q1, Q3, xmax, xmin"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 86
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,0,2,2,2,3,5. Wartość F(4) wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.85"
+        },
+        {
+          "key": "b",
+          "text": "0.12"
+        },
+        {
+          "key": "c",
+          "text": "0.28"
+        },
+        {
+          "key": "d",
+          "text": "0.71"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 87
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,0,2,2,3,3,7,9. Wartość F(3) wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.875"
+        },
+        {
+          "key": "b",
+          "text": "0.5"
+        },
+        {
+          "key": "c",
+          "text": "0.75"
+        },
+        {
+          "key": "d",
+          "text": "0.625"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 88
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,2,4,6. Wartość F(3.5) wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.6"
+        },
+        {
+          "key": "b",
+          "text": "0.5"
+        },
+        {
+          "key": "c",
+          "text": "0.75"
+        },
+        {
+          "key": "d",
+          "text": "0.25"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 89
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej: -1,3,4,4,6,7. Wartość F(5) wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.5"
+        },
+        {
+          "key": "b",
+          "text": "0.66"
+        },
+        {
+          "key": "c",
+          "text": "0.33"
+        },
+        {
+          "key": "d",
+          "text": "0.83"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 90
+    },
+    {
+      "question": "Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2,0,2,-1,5. Wówczas F(4) wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.5"
+        },
+        {
+          "key": "b",
+          "text": "0.9"
+        },
+        {
+          "key": "c",
+          "text": "0.8"
+        },
+        {
+          "key": "d",
+          "text": "0.6"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 91
+    },
+    {
+      "question": "Niech X będzie zmienną losową o rozkładzie normalnym ze średnią 10 i wariancją 9. Wówczas P(X < 2) obliczymy w R za pomocą",
+      "options": [
+        {
+          "key": "a",
+          "text": "dnorm(2,10,3)"
+        },
+        {
+          "key": "b",
+          "text": "pnorm(2,10,3)"
+        },
+        {
+          "key": "c",
+          "text": "qnorm(2,10,3)"
+        },
+        {
+          "key": "d",
+          "text": "pnorm(2,10,9)"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 92
+    },
+    {
+      "question": "Niech X będzie zmienną losową o rozkładzie Poissona ze średnią 3. Wówczas P(X=4) obliczymy w R za pomocą",
+      "options": [
+        {
+          "key": "a",
+          "text": "ppois(4,3)"
+        },
+        {
+          "key": "b",
+          "text": "qpois(4,3)"
+        },
+        {
+          "key": "c",
+          "text": "dpois(4,3)"
+        },
+        {
+          "key": "d",
+          "text": "rpois(4,3)"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 93
+    },
+    {
+      "question": "Odchylenie ćwiartkowe próbki losowej -1,14,16,6,8,0,2 wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "2.5"
+        },
+        {
+          "key": "c",
+          "text": "3"
+        },
+        {
+          "key": "d",
+          "text": "1.5"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 94
+    },
+    {
+      "question": "Oto dwa kwadraty łacińskie rzędu 3",
+      "options": [
+        {
+          "key": "a",
+          "text": "Wynika stąd, że"
+        },
+        {
+          "key": "b",
+          "text": "Kwadrat ortogonalny - ma wymiary n x n. W każdym wierszu i kolumnie posiada jedynie"
+        },
+        {
+          "key": "c",
+          "text": "wartości unikalne. Nałożenie dwóch kwadratów ma dać kwadrat łaciński (grecko-łaciński)."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 95
+    },
+    {
+      "question": "Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka)",
+      "options": [
+        {
+          "key": "a",
+          "text": "O, O, O, O, O, O, O, O, O, O, R, R, R, R, R, R, R, R, R, R"
+        },
+        {
+          "key": "b",
+          "text": "Wynika stąd, że"
+        },
+        {
+          "key": "c",
+          "text": "nie można stwierdzić czy moneta jest uczciwa"
+        },
+        {
+          "key": "d",
+          "text": "moneta najprawdopodobniej jest uczciwa"
+        },
+        {
+          "key": "e",
+          "text": "moneta najprawdopodobniej nie jest uczciwa"
+        },
+        {
+          "key": "f",
+          "text": "Aby moneta była uczciwa, wylosowane wartości powinny być najlepiej naprzemiennie."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 96
+    },
+    {
+      "question": "Oto wyniki 20 rzutów monetą (O-orzeł, R-reszka) O,O,O,O,O,O,O,O,O,O,R,R,R,R,R,R,R,R,R,R wynika stąd, że:",
+      "options": [
+        {
+          "key": "a",
+          "text": "Moneta najprawdopodobniej nie jest uczciwa."
+        },
+        {
+          "key": "b",
+          "text": "Nie można stwierdzić czy moneta jest uczciwa."
+        },
+        {
+          "key": "c",
+          "text": "Moneta najprawdopodobniej jest uczciwa."
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 97
+    },
+    {
+      "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej",
+      "options": [
+        {
+          "key": "a",
+          "text": "Wynika stąd, że między czynnikami A oraz B"
+        },
+        {
+          "key": "b",
+          "text": "zachodzi interakcja"
+        },
+        {
+          "key": "c",
+          "text": "nie można stwierdzić czy zachodzi interakcja"
+        },
+        {
+          "key": "d",
+          "text": "nie zachodzi interakcja"
+        },
+        {
+          "key": "e",
+          "text": "Jeśli p-wartość tego testu dla A:B jest istotna (p < 0,05), można stwierdzić, że istnieje"
+        },
+        {
+          "key": "f",
+          "text": "interakcja między czynnikami."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 98
+    },
+    {
+      "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd, że między czynnikami A oraz B",
+      "options": [
+        {
+          "key": "a",
+          "text": "Zachodzi interakcja"
+        },
+        {
+          "key": "b",
+          "text": "Nie można stwierdzić czy zachodzi interakcja"
+        },
+        {
+          "key": "c",
+          "text": "Nie zachodzi interakcja"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 99
+    },
+    {
+      "question": "Pierwsza próbka liczy 3 elementy, jej średnia wynosi 6. Druga próbka składa się z 5 elementów, jej średnia wynosi 8. Zatem średnia połączonych próbek wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "7"
+        },
+        {
+          "key": "b",
+          "text": "7.25"
+        },
+        {
+          "key": "c",
+          "text": "8"
+        },
+        {
+          "key": "d",
+          "text": "nie można wyznaczyć"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 100
+    },
+    {
+      "question": "Pierwsza próbka liczy 3 elementy, jej wariancja wynosi 2. Druga próbka składa się z 4 elementów, jej wariancja wynosi 8. Zatem wariancja połączonych próbek wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "nie można wyznaczyć bez średnich"
+        },
+        {
+          "key": "b",
+          "text": "5"
+        },
+        {
+          "key": "c",
+          "text": "10"
+        },
+        {
+          "key": "d",
+          "text": "8"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 101
+    },
+    {
+      "question": "Próbka losowa ma średnią 6, medianę 4 i wariancję 4. Współczynnik asymetrii Pearsona tej próbki wynosi więc",
+      "options": [
+        {
+          "key": "a",
+          "text": "0"
+        },
+        {
+          "key": "b",
+          "text": "1"
+        },
+        {
+          "key": "c",
+          "text": "2"
+        },
+        {
+          "key": "d",
+          "text": "-1"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 102
+    },
+    {
+      "question": "Rozkład Fishera-Snedecora to rozkład ilorazu dwóch niezależnych zmiennych losowych o rozkładzie",
+      "options": [
+        {
+          "key": "a",
+          "text": "normalnym"
+        },
+        {
+          "key": "b",
+          "text": "Studenta"
+        },
+        {
+          "key": "c",
+          "text": "chi-kwadrat"
+        },
+        {
+          "key": "d",
+          "text": "wykładniczym"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 103
+    },
+    {
+      "question": "Rozkład Snedecora wykorzystywany jest do weryfikacji hipotezy dotyczącej równości:",
+      "options": [
+        {
+          "key": "a",
+          "text": "Dwóch średnich"
+        },
+        {
+          "key": "b",
+          "text": "Dwóch median"
+        },
+        {
+          "key": "c",
+          "text": "Dwóch wariancji"
+        },
+        {
+          "key": "d",
+          "text": "Dwóch rozkładów"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf",
+        "erni.pdf"
+      ],
+      "id": 104
+    },
+    {
+      "question": "Test Kołmogorowa-Smirnowa wykorzystywany jest do weryfikacji hipotezy dotyczącej",
+      "options": [
+        {
+          "key": "a",
+          "text": "Równości wariancji"
+        },
+        {
+          "key": "b",
+          "text": "Równości rozkładów"
+        },
+        {
+          "key": "c",
+          "text": "Równości median"
+        },
+        {
+          "key": "d",
+          "text": "Równości średnich"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf",
+        "erni.pdf"
+      ],
+      "id": 105
+    },
+    {
+      "question": "Test Kruskala-Wallisa służy do weryfikacji hipotezy dotyczącej",
+      "options": [
+        {
+          "key": "a",
+          "text": "równości średnich"
+        },
+        {
+          "key": "b",
+          "text": "równości wariancji"
+        },
+        {
+          "key": "c",
+          "text": "równości rozkładów"
+        },
+        {
+          "key": "d",
+          "text": "równości proporcji"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf",
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 106
+    },
+    {
+      "question": "Test serii można wykorzystać do weryfikacji hipotezy dotyczącej",
+      "options": [
+        {
+          "key": "a",
+          "text": "równości średnich"
+        },
+        {
+          "key": "b",
+          "text": "równości wariancji"
+        },
+        {
+          "key": "c",
+          "text": "równości rozkładów"
+        },
+        {
+          "key": "d",
+          "text": "równości proporcji"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 107
+    },
+    {
+      "question": "Test Shapiro-Wilka służy do weryfikacji hipotezy dotyczącej",
+      "options": [
+        {
+          "key": "a",
+          "text": "równości średnich"
+        },
+        {
+          "key": "b",
+          "text": "równości wariancji"
+        },
+        {
+          "key": "c",
+          "text": "normalności rozkładu"
+        },
+        {
+          "key": "d",
+          "text": "losowości próby"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 108
+    },
+    {
+      "question": "W analizie wariancji zakłada się, że badana cecha w populacjach ma rozkład",
+      "options": [
+        {
+          "key": "a",
+          "text": "Studenta"
+        },
+        {
+          "key": "b",
+          "text": "normalny"
+        },
+        {
+          "key": "c",
+          "text": "chi-kwadrat"
+        },
+        {
+          "key": "d",
+          "text": "Fishera-Snedecora"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 109
+    },
+    {
+      "question": "W celu porównania dwóch średnich wykorzystamy",
+      "options": [
+        {
+          "key": "a",
+          "text": "analizę wariancji"
+        },
+        {
+          "key": "b",
+          "text": "funkcję mean()"
+        },
+        {
+          "key": "c",
+          "text": "test Studenta"
+        },
+        {
+          "key": "d",
+          "text": "test Kruskala-Wallisa"
+        },
+        {
+          "key": "e",
+          "text": "Test Kruskala-Wallisa - nieparametryczny test statystyczny stosowany do porównywania"
+        },
+        {
+          "key": "f",
+          "text": "równości rozkładów."
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 110
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w dwóch populacjach wykorzystamy funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "mean()"
+        },
+        {
+          "key": "b",
+          "text": "tsum.test()"
+        },
+        {
+          "key": "c",
+          "text": "prop.test()"
+        },
+        {
+          "key": "d",
+          "text": "var.test()"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 111
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości średnich w trzech populacjach wykorzystamy funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "aov()"
+        },
+        {
+          "key": "b",
+          "text": "tsum.test()"
+        },
+        {
+          "key": "c",
+          "text": "t.test()"
+        },
+        {
+          "key": "d",
+          "text": "mean()"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 112
+    },
+    {
+      "question": "W celu weryfikacji hipotezy dotyczącej równości wariancji w trzech populacjach wykorzystamy funkcję",
+      "options": [
+        {
+          "key": "a",
+          "text": "var()"
+        },
+        {
+          "key": "b",
+          "text": "var.test()"
+        },
+        {
+          "key": "c",
+          "text": "bartlett.test()"
+        },
+        {
+          "key": "d",
+          "text": "aov()"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 113
+    },
+    {
+      "question": "W eksperymencie rzucamy trzema niezależnymi monetami. Jakie jest prawdopodobieństwo wyrzucenia dokładnie jednego orła?",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.125"
+        },
+        {
+          "key": "b",
+          "text": "0.375"
+        },
+        {
+          "key": "c",
+          "text": "0.500"
+        },
+        {
+          "key": "d",
+          "text": "0.625"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 114
+    },
+    {
+      "question": "W jakiej sytuacji stosuje się test Wilcoxona?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gdy dane są normalnie rozłożone"
+        },
+        {
+          "key": "b",
+          "text": "Gdy dane nie są normalnie rozłożone"
+        },
+        {
+          "key": "c",
+          "text": "Gdy liczba próbek jest bardzo duża"
+        },
+        {
+          "key": "d",
+          "text": "Gdy dane są kategoryczne"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 115
+    },
+    {
+      "question": "W jakiej sytuacji test statystyczny ma największą moc?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Gdy poziom istotności jest wysoki, np. 10%"
+        },
+        {
+          "key": "b",
+          "text": "Gdy poziom istotności jest niski, np. 1%"
+        },
+        {
+          "key": "c",
+          "text": "Gdy poziom istotności jest umiarkowany, np. 5%"
+        },
+        {
+          "key": "d",
+          "text": "Gdy moc testu wynosi 0.5"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 116
+    },
+    {
+      "question": "W jakim celu stosuje się funkcję lm() w R?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Do analizy korelacji"
+        },
+        {
+          "key": "b",
+          "text": "Do dopasowania modelu liniowego"
+        },
+        {
+          "key": "c",
+          "text": "Do obliczania średniej arytmetycznej"
+        },
+        {
+          "key": "d",
+          "text": "Do tworzenia histogramów"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 117
+    },
+    {
+      "question": "W jakim celu stosuje się test t Studenta?",
+      "options": [
+        {
+          "key": "a",
+          "text": "Do porównania więcej niż dwóch grup"
+        },
+        {
+          "key": "b",
+          "text": "Do porównania dwóch średnich"
+        },
+        {
+          "key": "c",
+          "text": "Do analizy korelacji"
+        },
+        {
+          "key": "d",
+          "text": "Do analizy regresji"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 118
+    },
+    {
+      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + β₂X₂ + ε otrzymano reszty: -4,-3,-1,1,2,5. Estymowaną wartością nieznanej wariancji modelu jest więc",
+      "options": [
+        {
+          "key": "a",
+          "text": "14"
+        },
+        {
+          "key": "b",
+          "text": "11.2"
+        },
+        {
+          "key": "c",
+          "text": "18.66"
+        },
+        {
+          "key": "d",
+          "text": "56"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 119
+    },
+    {
+      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + ε otrzymano reszty: -3, -2, 0, 1, 4. Estymowaną wartością nieznanej wariancji modelu jest więc",
+      "options": [
+        {
+          "key": "a",
+          "text": "7.5"
+        },
+        {
+          "key": "b",
+          "text": "10"
+        },
+        {
+          "key": "c",
+          "text": "30"
+        },
+        {
+          "key": "d",
+          "text": "15"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 120
+    },
+    {
+      "question": "W modelu regresji liniowej Y = β₀ + β₁X₁ + ε otrzymano reszty: -4, -2, 0, 1, 5. Estymowaną wartością nieznanej wariancji modelu jest więc",
+      "options": [
+        {
+          "key": "a",
+          "text": "11.5"
+        },
+        {
+          "key": "b",
+          "text": "15.33"
+        },
+        {
+          "key": "c",
+          "text": "9.2"
+        },
+        {
+          "key": "d",
+          "text": "46"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 121
+    },
+    {
+      "question": "W modelu regresji liniowej zakłada się, że reszty mają rozkład normalny.",
+      "options": [
+        {
+          "key": "a",
+          "text": "O wartości oczekiwanej zero"
+        },
+        {
+          "key": "b",
+          "text": "O wartości oczekiwanej dodatniej"
+        },
+        {
+          "key": "c",
+          "text": "O wartości oczekiwanej ujemnej"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf",
+        "erni.pdf"
+      ],
+      "id": 122
+    },
+    {
+      "question": "W modelu regresji Y = β₀ + β₁X + ε estymator parametru β₁, czyli β̂₁, ma rozkład",
+      "options": [
+        {
+          "key": "a",
+          "text": "normalny"
+        },
+        {
+          "key": "b",
+          "text": "chi-kwadrat"
+        },
+        {
+          "key": "c",
+          "text": "Fishera-Snedecora"
+        },
+        {
+          "key": "d",
+          "text": "Studenta"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 123
+    },
+    {
+      "question": "W prawie Benforda prawdopodobieństwo wystąpienia cyfry 1 na pierwszym miejscu znaczącej wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "log₁₀2"
+        },
+        {
+          "key": "b",
+          "text": "log₂10"
+        },
+        {
+          "key": "c",
+          "text": "log₁₀(1/log₁₀10)"
+        },
+        {
+          "key": "d",
+          "text": "log₁₀(log₁₀10)"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 124
+    },
+    {
+      "question": "W programie R tworzymy obiekt h=hist(c(1,1,2,3,5,8)). Obiekt ten jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "wektorem"
+        },
+        {
+          "key": "b",
+          "text": "listą"
+        },
+        {
+          "key": "c",
+          "text": "tablicą"
+        },
+        {
+          "key": "d",
+          "text": "ramką danych"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 125
+    },
+    {
+      "question": "W regresji liniowej jedną z miar dopasowania modelu do danych jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "współczynnik korelacji"
+        },
+        {
+          "key": "b",
+          "text": "współczynnik determinacji"
+        },
+        {
+          "key": "c",
+          "text": "wartość dźwigni"
+        },
+        {
+          "key": "d",
+          "text": "kurtoza"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 126
+    },
+    {
+      "question": "W teście Kruskala-Wallisa połączonym próbkom x=c(0,2,7), y=c(-4,5), z=c(-2,1,8) przypisano rangi. Ranga -2 wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "4"
+        },
+        {
+          "key": "b",
+          "text": "5"
+        },
+        {
+          "key": "c",
+          "text": "2"
+        },
+        {
+          "key": "d",
+          "text": "3"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 127
+    },
+    {
+      "question": "W teście Kruskala-Wallisa połączonym próbkom x=c(8,4,1), y=c(3,5), z=c(-2,0,7) przypisano rangi. Ranga 0 wynosi wówczas",
+      "options": [
+        {
+          "key": "a",
+          "text": "7"
+        },
+        {
+          "key": "b",
+          "text": "6"
+        },
+        {
+          "key": "c",
+          "text": "2"
+        },
+        {
+          "key": "d",
+          "text": "4"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 128
+    },
+    {
+      "question": "W wykresach pudełkowych (boxplots) za wartości odstające uznaje się takie, dla których",
+      "options": [
+        {
+          "key": "a",
+          "text": "odległość od kwartyli wynosi co najmniej 2.5 IQR"
+        },
+        {
+          "key": "b",
+          "text": "odległość od kwartyli wynosi co najmniej 1.5 IQR"
+        },
+        {
+          "key": "c",
+          "text": "odległość od kwartyli wynosi co najmniej 0.5 IQR"
+        },
+        {
+          "key": "d",
+          "text": "odległość od kwartyli wynosi co najmniej 3.5 IQR"
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 129
+    },
+    {
+      "question": "W wykresach pudełkowych (boxplots) za wartości plot(ecdf(proba),las=1,cex.axis=0.75,...)uznaje się takie, dla których",
+      "options": [
+        {
+          "key": "a",
+          "text": "Odległość od kwartyli wynosi co najmniej 3.5 IQR"
+        },
+        {
+          "key": "b",
+          "text": "Odległość od kwartyli wynosi co najmniej 0.5 IQR"
+        },
+        {
+          "key": "c",
+          "text": "Odległość od kwartyli wynosi co najmniej 1.5 IQR"
+        },
+        {
+          "key": "d",
+          "text": "Odległość od kwartyli wynosi co najmniej 2.5 IQR"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "erni.pdf"
+      ],
+      "id": 130
+    },
+    {
+      "question": "Wariancja zmiennej losowej X o rozkładzie chi-kwadrat wynosi 20. Zatem X ma rozkład chi-kwadrat z",
+      "options": [
+        {
+          "key": "a",
+          "text": "20 stopniami swobody"
+        },
+        {
+          "key": "b",
+          "text": "16 stopniami swobody"
+        },
+        {
+          "key": "c",
+          "text": "10 stopniami swobody"
+        },
+        {
+          "key": "d",
+          "text": "40 stopniami swobody"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 131
+    },
+    {
+      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (1,2), (2,1), (3,5), (4,2) wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.66"
+        },
+        {
+          "key": "b",
+          "text": "0.33"
+        },
+        {
+          "key": "c",
+          "text": "0.16"
+        },
+        {
+          "key": "d",
+          "text": "0.45"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 132
+    },
+    {
+      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (2,2), (3,3), (4,3), (5,4) wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.83"
+        },
+        {
+          "key": "b",
+          "text": "0.16"
+        },
+        {
+          "key": "c",
+          "text": "0.33"
+        },
+        {
+          "key": "d",
+          "text": "0.45"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 133
+    },
+    {
+      "question": "Współczynnik korelacji Kendalla τ dla obserwacji (3,2), (4,3), (5,2), (6,4) wynosi",
+      "options": [
+        {
+          "key": "a",
+          "text": "0.33"
+        },
+        {
+          "key": "b",
+          "text": "0.66"
+        },
+        {
+          "key": "c",
+          "text": "0.5"
+        },
+        {
+          "key": "d",
+          "text": "0.16"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 134
+    },
+    {
+      "question": "Wynikiem c(1,2)+c(0,1,2) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "1 3"
+        },
+        {
+          "key": "b",
+          "text": "1 3 3"
+        },
+        {
+          "key": "c",
+          "text": "nie jest określone"
+        },
+        {
+          "key": "d",
+          "text": "1 3 2"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 135
+    },
+    {
+      "question": "Wynikiem cummax(c(2,3,-1,4,0,5)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "2 3 3 4 4 5"
+        },
+        {
+          "key": "b",
+          "text": "2 3 3 3 4 5"
+        },
+        {
+          "key": "c",
+          "text": "2 3 3 4 4 5"
+        },
+        {
+          "key": "d",
+          "text": "2 3 4 4 4 5"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 136
+    },
+    {
+      "question": "Wynikiem diff(c(1,0,2,3,-1)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "-1 2 1 -4"
+        },
+        {
+          "key": "b",
+          "text": "1 2 1 4"
+        },
+        {
+          "key": "c",
+          "text": "1 -2 -1 4"
+        },
+        {
+          "key": "d",
+          "text": "-3"
+        }
+      ],
+      "sources": [
+        "Egzamin1(przykładowy).pdf"
+      ],
+      "id": 137
+    },
+    {
+      "question": "Wynikiem działania c(1,2)+c(0,1,2) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "nie jest określone"
+        },
+        {
+          "key": "b",
+          "text": "pierwsza wartość pierwszego wektora zostanie ponownie wykorzystana zatem 1 + 2 = 3;"
+        }
+      ],
+      "sources": [
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 138
+    },
+    {
+      "question": "Wynikiem mean(c(2,0,4,NA,NA)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "2"
+        },
+        {
+          "key": "b",
+          "text": "NA"
+        },
+        {
+          "key": "c",
+          "text": "1.5"
+        },
+        {
+          "key": "d",
+          "text": "6/4"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 139
+    },
+    {
+      "question": "Wynikiem pmax(c(4,0,6), c(3,2,7)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "4 2 7"
+        },
+        {
+          "key": "b",
+          "text": "4 0 7"
+        },
+        {
+          "key": "c",
+          "text": "6 2 7"
+        },
+        {
+          "key": "d",
+          "text": "4 2 6"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 140
+    },
+    {
+      "question": "Wynikiem range(c(2,1,3,4,9)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "1 9"
+        },
+        {
+          "key": "b",
+          "text": "9 1"
+        },
+        {
+          "key": "c",
+          "text": "2 9"
+        },
+        {
+          "key": "d",
+          "text": "1 4"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 141
+    },
+    {
+      "question": "Wynikiem rank(c(7,0,2,-1,3)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "4 1 3 2 5"
+        },
+        {
+          "key": "b",
+          "text": "5 2 3 1 4"
+        },
+        {
+          "key": "c",
+          "text": "5 2 3 4 1"
+        },
+        {
+          "key": "d",
+          "text": "5 3 2 1 4"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 142
+    },
+    {
+      "question": "Wynikiem sort(c(3,0,1,NA,NA)) w programie R jest",
+      "options": [
+        {
+          "key": "a",
+          "text": "0 1 3 NA NA"
+        },
+        {
+          "key": "b",
+          "text": "3 1 0 NA NA"
+        },
+        {
+          "key": "c",
+          "text": "0 1 3 3 1 0 NA NA"
+        },
+        {
+          "key": "d",
+          "text": "1 0 3 NA NA"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 143
+    },
+    {
+      "question": "Za pomocą funkcji ks.test() można zweryfikować hipotezę dotyczącą równości",
+      "options": [
+        {
+          "key": "a",
+          "text": "dwóch rozkładów"
+        },
+        {
+          "key": "b",
+          "text": "dwóch wariancji"
+        },
+        {
+          "key": "c",
+          "text": "dwóch średnich"
+        },
+        {
+          "key": "d",
+          "text": "dwóch proporcji"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 144
+    },
+    {
+      "question": "Za pomocą funkcji prop.test() można zweryfikować hipotezę dotyczącą",
+      "options": [
+        {
+          "key": "a",
+          "text": "kurtozy"
+        },
+        {
+          "key": "b",
+          "text": "wskaźnika struktury"
+        },
+        {
+          "key": "c",
+          "text": "mediany"
+        },
+        {
+          "key": "d",
+          "text": "średniej"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 145
+    },
+    {
+      "question": "Za pomocą funkcji SIGN.test() można zweryfikować hipotezę dotyczącą",
+      "options": [
+        {
+          "key": "a",
+          "text": "kurtozy"
+        },
+        {
+          "key": "b",
+          "text": "wariancji"
+        },
+        {
+          "key": "c",
+          "text": "mediany"
+        },
+        {
+          "key": "d",
+          "text": "średniej"
+        }
+      ],
+      "sources": [
+        "E1Arozw-2-1.pdf"
+      ],
+      "id": 146
+    },
+    {
+      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości",
+      "options": [
+        {
+          "key": "a",
+          "text": "Dwóch wariancji"
+        },
+        {
+          "key": "b",
+          "text": "Dwóch rozkładów"
+        },
+        {
+          "key": "c",
+          "text": "Dwóch średnich"
+        }
+      ],
+      "sources": [
+        "PEIAR_gotowiec-1.pdf",
+        "Zdaj_Niezdaja (1).pdf"
+      ],
+      "id": 147
+    },
+    {
+      "question": "Za pomocą funkcji t.test() można zweryfikować hipotezę dotyczącą równości",
+      "options": [
+        {
+          "key": "a",
+          "text": "Dwóch wariancji"
+        },
+        {
+          "key": "b",
+          "text": "Dwóch rozkładów"
+        },
+        {
+          "key": "c",
+          "text": "Dwóch średnich --- PAGE 4 ---"
+        }
+      ],
+      "sources": [
+        "erni.pdf"
+      ],
+      "id": 148
+    },
+    {
+      "question": "Za pomocą funkcji wilcox.test() można zweryfikować hipotezę dotyczącą równości",
+      "options": [
+        {
+          "key": "a",
+          "text": "dwóch wariancji"
+        },
+        {
+          "key": "b",
+          "text": "dwóch median"
+        },
+        {
+          "key": "c",
+          "text": "kurtoz"
+        },
+        {
+          "key": "d",
+          "text": "współczynników asymetrii"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 149
+    },
+    {
+      "question": "Zmienna losowa X ma rozkład normalny ze średnią 2 i wariancją 3. Zatem zmienna losowa Z = 2X - 1 ma rozkład normalny ze średnią 3 i wariancją",
+      "options": [
+        {
+          "key": "a",
+          "text": "6"
+        },
+        {
+          "key": "b",
+          "text": "12"
+        },
+        {
+          "key": "c",
+          "text": "5"
+        },
+        {
+          "key": "d",
+          "text": "13"
+        }
+      ],
+      "sources": [
+        "E2A(rozw)-1.pdf"
+      ],
+      "id": 150
+    },
+    {
+      "question": "Zmienne losowe X, Y są niezależne i mają rozkłady normalne. Ponadto X ma średnią 6 i wariancję 10, a Y średnią 3 i wariancję 4. Zatem X−Y ma rozkład normalny ze średnią 3 i wariancją",
+      "options": [
+        {
+          "key": "a",
+          "text": "6"
+        },
+        {
+          "key": "b",
+          "text": "14"
+        },
+        {
+          "key": "c",
+          "text": "3"
+        },
+        {
+          "key": "d",
+          "text": "9"
+        }
+      ],
+      "sources": [
+        "E1Brozw-1-1.pdf"
+      ],
+      "id": 151
+    }
+  ]
+}

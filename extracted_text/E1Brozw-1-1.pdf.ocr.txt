@@ -1,0 +1,20 @@
+--- PAGE 1 ---
+Pozwiazania Egzamin nr 1 (B) Planowanie analiza eksperymentu. semestr letui 2023  2024)
+Imię i Nazwisko:
+grupa:
+Zad-1 Kwartylem górnym próbki losowej 5.2.1. 7,14.8. 12 jest liczba
+Zad-7. W modelu regresji liniowej
+Y = Bo + B,Xa + €
+10 14 (d) 2 Zad-2 Niech F(v) będzie dystrybuantą empirycz- ną próbki losowej: ~1.0.2.2.2.3.5. Wartość F(4) wynosi wówczas 0.85 0.12 0.28 0.71 Zad-3 Liczba serii próbce losowej 15.0.4.6.8.2.11. 10 względem jej mediany wynosi a] (b)
+otrzymano reszty (residuals): =4. -2, 0. 1, 5. Esty - mowaną wartością nieznanej wariancji modelu jest więc 46 11.5 15.33 9.2 Zad-8. Do obserwacji (~3.1). (0.0). (1.1 ) . (3.3). (4,5) dopasowano prostą regresji mctodą najmniej - szych kwadratów. Prosta ta przechodzi  więc przez punkt (=1.1) (b) (2.4) (1.2 (4.5) Zad-9. Wynikiem pmax(c(4,0,6),c(3,2,7)) programic R jest
+(d) Zad-4 IV tescie Kruskala-Wallisa   połaczonym próbkom x c(8.4.1 ) . y c(3.5). c(-2.0. 7) przypisano rangi. Ranga 0 wynosi wówczas
+(b ) 7 6
+b) 2
+(d) 4 2 7
+Zad-10. Wynikiem cummax(c(2,3,-1,4,0,5)) programie R jest 2 3 3 3 4 5 X (b) 2 3 3 4 4 5 2 3 4 4 4 5
+(d) Zad-5 Pierwsza próbka liczy elementy jej WA_ riancja wynosi 2 Druga próbka składa się z 4 ele- mentów jej wariancja wynosi 8 Zatem wariancja połączonych próbek wynosi 10
+Zad-11. Niech  X będzie zmienna losowa 0 rozkła- dzie  Poissona   ze średnią 3. Wówczas   P(X obliczymy R Za pomoca ppois(4.3) qpois(4.3 dpois(4.3 rpois(4,3)
+(c) 1.42 (d nie można wyznaczyć Zad-6 Współczyunik  korelacji  Kendalla T obser- waeji (3.2). (4.3). (5.2). (6.4) wynosi 0.33 0.66 0.5 0.16
+
+--- PAGE 2 ---
+iso Zad-12. Za pomocą funkcji t.test można zWCrY - Zad-19. IV celu   weryfikacji   hipotezy   dotyczącej fikować hipotezę dotyczącą równości  wariancji Wtrzech populacjach wykorzy - kurtozy stamny funkcję wariancji var() mediany var.test średniej bartlett.test () Zad-13. Na wykresach ramkowych. czyli typu "bo- aov( ) xplot za wartości odstające uznaje się takie, któ- Zad-20 Do zbadania   niezależności   statystycznej 'ch odległość od kwartyli wynosi co najmniej dwóch cech najlepiej wykorzystać funkcję 1.5*IQR cor() 2*IQR COI test ( ) 2.5*IQR fisher .test 3*IQR indep() Zad-14. Test   Shapiro-Wilka służy do weryfikacji Zad-21. Współezynnik   korelacji   zmiennych loso- hipotezy dotyczącej wych X Y wynosi 0.4. Wynika stąd. że równości średnich (a) X i Y są nieskorelowane równości wariancji (b) X i Y sa niezalezne normalności rozkładu (c) Y = 1 + 21 losowosci próby (d) Y = X3 Zad-15. Błędem I-go rodzaju nazywamy sytuację. Zad-22 W modelu regresji Y Bo = B1X _ = es- W której tymator parametru 8,. czyli B . ma rozkład przyjmujemy hipotezę prawdziwą normalny odrzucamy hipotezę prawdziwą chi-kwadrat przyjmujemy hipotezę fałszywą Fishera-Snedecora odrzucamy hipotezę fałszywą Studenta Zad-16. Do zbadania tego. czy próbka ma charak- Zad-23. Rozkład Fishera-Suedecora   wykorzysty - ter losowy najlepiej wykorzystać funkeję wany jest do weryfikacji hipotezy dotyczącej rów- ks.test ( ) nosci randon dwóch rozkładów bartlett.test( ) dwóch median bartels.rank.test ( ) dwóch wariancji Zad-17. Chcemy zbadać. czy pewna cecha mna roz- dwóch średnich kład wykładniczy. Użyjemy W tymn celu funkcji Zad-24. Chcemy zbadać. czy pewna cecha mna roz - rnorm() kład normalny. Użyjemy tym celu funkcji rexp() puormo) chisq.' test dnorm( ) pexp( ) aov() Zad-18. Zmienne losowe X.Y są niczalezne ma_ lillie test ( ) ją rozkłady   normalne. Ponadto. X Ila średnia 6 i Zad-25. IV celu weryfikacji   hipotezy   dotyczącej wariancję  10. a Y srednią 3 wariancję 4. Zatem równosci srednich trzech   populacjach   wykorzy - X ma rozkład normalny stamy funkcję średniej 3 wariancji 6 aov() średniej 3 wariancji 14 tsum.test średniej 3 wariancji 3 t.test( ) średniej 9 wariancji 6

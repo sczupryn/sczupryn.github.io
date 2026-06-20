@@ -40,10 +40,21 @@ Tekst egzaminu z kluczem (■ poprawne, □ błędne) jest w `data/exam_clean.tx
 Po edycji tego pliku zregeneruj quiz:
 
 ```bash
-python3 docs/scripts/parse_exam.py
+python3 scripts/parse_exam.py
 ```
 
-Skrypt tworzy `data/ssi.json` oraz można zsynchronizować `pytania_systemy_sztucznej_inteligencji.js` (patrz skrypt w repo).
+Skrypt tworzy `data/ssi.json`.
+
+## Źródło pytań (PEIAR)
+
+Pytania i poprawne odpowiedzi pochodzą z materiałów przesłanych przez użytkownika (obrazki z zaznaczonymi odpowiedziami).  
+Aby zaktualizować quiz po dodaniu nowych pytań, edytuj `scripts/build_peiar_from_user.py` i uruchom:
+
+```bash
+python3 scripts/build_peiar_from_user.py
+```
+
+Skrypt tworzy `data/peiar.json` (bez duplikatów) i aktualizuje licznik w `data/subjects.json`.
 
 ## Dodawanie przedmiotów
 

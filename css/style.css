@@ -119,6 +119,7 @@ body {
 .subject-badge {
   display: inline-block;
   margin-top: 0.5rem;
+  margin-right: 0.35rem;
   padding: 0.2rem 0.55rem;
   font-size: 0.75rem;
   font-weight: 600;
@@ -126,6 +127,12 @@ body {
   background: rgba(245, 158, 11, 0.12);
   border: 1px solid var(--warning);
   border-radius: 999px;
+}
+
+.subject-badge-unknown {
+  color: #a78bfa;
+  background: rgba(167, 139, 250, 0.12);
+  border-color: #a78bfa;
 }
 
 .mode-last-result {
@@ -241,6 +248,19 @@ body {
   margin-bottom: 1.25rem;
 }
 
+.question-media {
+  margin-bottom: 1rem;
+}
+
+.question-media img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: white;
+}
+
 .answers-list {
   list-style: none;
 }
@@ -320,6 +340,44 @@ body {
 
 .feedback.hidden {
   display: none;
+}
+
+.knowledge-mark {
+  margin: 1rem 0;
+  padding: 0.85rem 1rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.knowledge-hint {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.knowledge-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.knowledge-actions .btn.active {
+  border-color: var(--accent);
+  background: rgba(59, 130, 246, 0.15);
+  color: var(--accent);
+}
+
+#btn-unknown.active {
+  border-color: #a78bfa;
+  background: rgba(167, 139, 250, 0.15);
+  color: #a78bfa;
+}
+
+#btn-know.active {
+  border-color: var(--success);
+  background: var(--success-bg);
+  color: var(--success);
 }
 
 .actions {

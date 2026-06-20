@@ -4,5 +4,11 @@
     "name": "Systemy Sztucznej Inteligencji",
     "dataFile": "data/ssi.json",
     "questionCount": 256
+  },
+  {
+    "id": "peiar",
+    "name": "Planowanie i Analiza Eksperymentu (PEIAR)",
+    "dataFile": "data/peiar.json",
+    "questionCount": 66
   }
 ]
