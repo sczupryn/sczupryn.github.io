@@ -199,7 +199,7 @@
           "correct": false
         },
         {
-          "text": "Maksymalna wartość w próbie --- PAGE 10 ---",
+          "text": "Maksymalna wartość w próbie",
           "correct": false
         }
       ]
@@ -266,7 +266,7 @@
           "correct": false
         },
         {
-          "text": "Minimalna wartość w próbie --- PAGE 11 ---",
+          "text": "Minimalna wartość w próbie",
           "correct": false
         }
       ]
@@ -333,7 +333,7 @@
           "correct": false
         },
         {
-          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa --- PAGE 8 ---",
+          "text": "Prawdopodobieństwo, że hipoteza alternatywna jest prawdziwa",
           "correct": false
         },
         {
@@ -497,7 +497,7 @@
           "correct": true
         },
         {
-          "text": "Nie --- PAGE 3 --- (A,2), (B,1), (C,3), (B,3), (C,2), (A,1), (C,1), (A,3), (B,2)",
+          "text": "Nie",
           "correct": false
         }
       ]
@@ -519,7 +519,7 @@
       "question": "Czy próbka losowa może mieć nieskończenie wiele median?",
       "answers": [
         {
-          "text": "Tak --- PAGE 3 ---",
+          "text": "Tak",
           "correct": false
         },
         {
@@ -578,7 +578,7 @@
           "correct": false
         },
         {
-          "text": "Do danych porządkowych --- PAGE 5 ---",
+          "text": "Do danych porządkowych",
           "correct": false
         }
       ]
@@ -729,7 +729,7 @@
           "correct": false
         },
         {
-          "text": "Mediana jest raczej mniejsza od średniej --- PAGE 2 ---",
+          "text": "Mediana jest raczej mniejsza od średniej",
           "correct": true
         }
       ]
@@ -792,7 +792,7 @@
           "correct": true
         },
         {
-          "text": "sum() --- PAGE 9 ---",
+          "text": "sum()",
           "correct": false
         }
       ]
@@ -906,7 +906,7 @@
       "question": "Jakie jest prawdopodobieństwo uzyskania orła w rzucie symetryczną monetą?",
       "answers": [
         {
-          "text": "0.25 --- PAGE 7 ---",
+          "text": "0.25",
           "correct": false
         },
         {
@@ -1321,7 +1321,7 @@
           "correct": false
         },
         {
-          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa --- PAGE 6 ---",
+          "text": "Odrzucamy hipotezę zerową H0, gdy jest ona w rzeczywistości prawdziwa",
           "correct": false
         },
         {
@@ -3026,7 +3026,7 @@
           "correct": false
         },
         {
-          "text": "Dwóch średnich --- PAGE 4 ---",
+          "text": "Dwóch średnich",
           "correct": true
         }
       ]
