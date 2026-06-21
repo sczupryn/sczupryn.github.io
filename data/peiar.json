@@ -731,6 +731,7 @@
     },
     {
       "question": "Histogram pewnej próbki wygląda następująco. Wynika stąd, że dla tej próbki losowej",
+      "image": "images/histogram-skewed.png",
       "answers": [
         { "text": "mediana jest raczej większa od średniej", "correct": false },
         { "text": "mediana jest w przybliżeniu równa średniej", "correct": true },
@@ -817,6 +818,7 @@
   },
   {
     "question": "Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej próbki losowej:",
+    "image": "images/histogram-skewed.png",
     "answers": [
       { "text": "Mediana jest raczej większa od średniej", "correct": true },
       { "text": "Mediana jest równa średniej", "correct": false },
@@ -825,6 +827,7 @@
   },
   {
     "question": "Oto wyniki prawidłowo przeprowadzonej analizy wariancji dwuczynnikowej. Wynika stąd, że między czynnikami A oraz B:",
+    "image": "images/anova-table.png",
     "answers": [
       { "text": "Zachodzi interakcja", "correct": false },
       { "text": "Nie można stwierdzić czy zachodzi interakcja", "correct": false },
@@ -876,6 +879,7 @@
   },
   {
     "question": "Oto dwa kwadraty łacińskie rzędu 3. Wynika stąd, że:",
+    "image": "images/latin-squares.png",
     "answers": [
       { "text": "Kwadraty te nie są ortogonalne", "correct": false },
       { "text": "Nie można stwierdzić czy kwadraty te są ortogonalne", "correct": false },

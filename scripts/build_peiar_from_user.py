@@ -76,6 +76,7 @@ RAW: list[tuple[str, list[tuple[str, bool]]]] = [
             ("nie można stwierdzić czy zachodzi interakcja", False),
             ("nie zachodzi interakcja", True),
         ],
+        "images/anova-table.png",
     ),
     ("Niech F(x) będzie dystrybuantą empiryczną próbki losowej 2, 0, 2, -1, 5. Wówczas F(4) wynosi", [
         ("0.5", False),
