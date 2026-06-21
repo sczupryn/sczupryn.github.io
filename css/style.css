@@ -246,6 +246,7 @@ body {
   font-weight: 600;
   line-height: 1.5;
   margin-bottom: 1.25rem;
+  white-space: pre-line;
 }
 
 .question-media {
@@ -292,6 +293,10 @@ body {
   accent-color: var(--accent);
   flex-shrink: 0;
   cursor: pointer;
+}
+
+.answer-label span {
+  white-space: pre-line;
 }
 
 .answer-label.disabled {

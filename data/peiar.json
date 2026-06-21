@@ -730,16 +730,6 @@
       ]
     },
     {
-      "question": "Histogram pewnej próbki wygląda następująco. Wynika stąd, że dla tej próbki losowej",
-      "image": "images/histogram-skewed.png",
-      "answers": [
-        { "text": "mediana jest raczej większa od średniej", "correct": false },
-        { "text": "mediana jest w przybliżeniu równa średniej", "correct": true },
-        { "text": "mediana jest raczej mniejsza od średniej", "correct": false },
-        { "text": "nie można ocenić", "correct": false }
-      ]
-    },
-    {
       "question": "Wynikiem działania c(1,2)+c(0,1,2) w programie R jest",
       "answers": [
         { "text": "1 3", "correct": false },

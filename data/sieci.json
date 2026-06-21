@@ -1,0 +1,225 @@
+{
+  "id": "sieci",
+  "name": "Sieci komputerowe",
+  "description": "Pytania z bezpieczeństwa sieci (Cisco). 1 pkt za w pełni poprawną odpowiedź.",
+  "questions": [
+    {
+      "question": "Z powodu wdrożonych kontroli bezpieczeństwa użytkownik może uzyskać dostęp tylko do serwera z FTP. Który komponent AAA to zapewni?",
+      "answers": [
+        { "text": "dostępność", "correct": false },
+        { "text": "niezawodność", "correct": false },
+        { "text": "ewidencjonowanie", "correct": false },
+        { "text": "autoryzacji", "correct": true },
+        { "text": "audyt", "correct": false },
+        { "text": "uwierzytelnianie", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki rodzaj ataku może wiązać się z wykorzystaniem narzędzi, takich jak nslookup i fping?",
+      "answers": [
+        { "text": "atak w celu uzyskania dostępu", "correct": false },
+        { "text": "atak rozpoznania", "correct": true },
+        { "text": "atak robaka", "correct": false },
+        { "text": "atak trojana", "correct": false },
+        { "text": "odmowa usługi (DoS)", "correct": false },
+        { "text": "rozproszona odmowa usługi (DDoS)", "correct": false }
+      ]
+    },
+    {
+      "question": "Ze względów bezpieczeństwa administrator sieci musi zagwarantować, że lokalne komputery nie mogą komunikować się ze sobą za pomocą pakietów ping. Które ustawienia pomogą wykonać to zadanie?",
+      "answers": [
+        { "text": "ustawienia systemu plików", "correct": false },
+        { "text": "ustawienia interfejsów", "correct": false },
+        { "text": "ustawienia adresów MAC", "correct": false },
+        { "text": "ustawienia zapory", "correct": true },
+        { "text": "ustawienia AAA", "correct": false }
+      ]
+    },
+    {
+      "question": "Użytkownicy sieci są zobowiązani do wprowadzenia poświadczeń nazwy użytkownika i hasła, które zostaną zweryfikowane przez serwer. Który serwer zapewniłby taką usługę?",
+      "answers": [
+        { "text": "AAA", "correct": false },
+        { "text": "NAT", "correct": false },
+        { "text": "SNMP", "correct": false },
+        { "text": "RADIUS", "correct": true },
+        { "text": "TACACS+", "correct": false },
+        { "text": "802.1X", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakie korzyści w zakresie bezpieczeństwa daje włączenie BPDU guard na interfejsach obsługujących PortFast?",
+      "answers": [
+        { "text": "zapobieganie dotarciu obcych przełączników do sieci", "correct": true },
+        { "text": "ochrona przed pętlami warstwy 2", "correct": false },
+        { "text": "egzekwowanie lokalizacji mostów głównych", "correct": false },
+        { "text": "zapobieganie atakom przepełnienia bufora", "correct": false },
+        { "text": "Opcja 2", "correct": false }
+      ]
+    },
+    {
+      "question": "Jeśli chodzi o bezpieczeństwo, która warstwa OSI jest uważana za najsłabsze ogniwo w systemie sieciowym?",
+      "answers": [
+        { "text": "warstwa 1", "correct": false },
+        { "text": "warstwa 2", "correct": true },
+        { "text": "warstwa 3", "correct": false },
+        { "text": "warstwa 4", "correct": false },
+        { "text": "warstwa 5", "correct": false }
+      ]
+    },
+    {
+      "question": "Administrator sieci konfiguruje zabezpieczenia portu na przełączniku. Polityka bezpieczeństwa firmy określa, że w przypadku naruszenia należy odrzucać pakiety o nieznanych adresach źródłowych i nie wysyłać żadnych powiadomień. Który tryb naruszenia powinien być skonfigurowany na interfejsach?",
+      "answers": [
+        { "text": "off", "correct": false },
+        { "text": "restrict", "correct": false },
+        { "text": "protect", "correct": true },
+        { "text": "shutdown", "correct": false }
+      ]
+    },
+    {
+      "question": "Administrator sieci konfiguruje DAI na przełączniku za pomocą polecenia ip arp inspection validate src-mac. Jaki jest cel tego polecenia konfiguracyjnego?",
+      "answers": [
+        { "text": "Sprawdza źródłowy adres MAC w nagłówku Ethernet z tablicą adresów MAC.", "correct": false },
+        { "text": "Sprawdza źródłowy adres MAC w nagłówku Ethernet pod kątem skonfigurowanych przez użytkownika list ACL dla ARP.", "correct": false },
+        { "text": "Sprawdza źródłowy adres MAC w nagłówku Ethernet z docelowym adresem MAC w treści ARP.", "correct": false },
+        { "text": "Sprawdza źródłowy adres MAC w nagłówku Ethernet z adresem MAC nadawcy w treści ARP.", "correct": true }
+      ]
+    },
+    {
+      "question": "Który komponent ma chronić przed nieautoryzowaną komunikacją do i z komputera?",
+      "answers": [
+        { "text": "program antywirusowy", "correct": false },
+        { "text": "firewall", "correct": true },
+        { "text": "skaner portów", "correct": false },
+        { "text": "antymalware", "correct": false },
+        { "text": "centrum zabezpieczeń", "correct": false }
+      ]
+    },
+    {
+      "question": "Które dwa rozwiązania Cisco pomagają zapobiegać atakom zagłodzenia DHCP?",
+      "answers": [
+        { "text": "Zabezpieczenie portu", "correct": true },
+        { "text": "IP Source Guard", "correct": false },
+        { "text": "DHCP Snooping", "correct": true },
+        { "text": "Web Security", "correct": false },
+        { "text": "Dynamiczna inspekcja ARP", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki plan ograniczania skutków jest najlepszy, aby udaremnić atak DoS, który powoduje przepełnienie tablic adresów MAC?",
+      "answers": [
+        { "text": "Wyłącz DTP.", "correct": false },
+        { "text": "Wyłącz VTP.", "correct": false },
+        { "text": "Włącz zabezpieczenia portu.", "correct": true },
+        { "text": "Wyłącz STP.", "correct": false },
+        { "text": "Umieść nieużywane porty w nieużywanej sieci VLAN.", "correct": false },
+        { "text": "Włącz BPDU.", "correct": false }
+      ]
+    },
+    {
+      "question": "Spójrz na rysunek. Port Fa0/2 został już prawidłowo skonfigurowany. Telefon IP i komputer PC działają prawidłowo. Która z wymienionych konfiguracji portu Fa0/2 przełącznika będzie najbardziej odpowiednia dla administratora sieci, aby spełnić następujące cele?\n\n• Nikt nie może odłączyć telefonu IP ani komputera PC lub podłączyć inne przewodowe urządzenia.\n• Jeśli inne urządzenie zostało podłączone, to port Fa0/2 powinien zostać wyłączony.\n• Adresy MAC telefonu IP i komputera powinny zostać automatycznie wykryte przez przełącznik i dodane do bieżącej konfiguracji.",
+      "image": "images/port-security-phone-pc.png",
+      "answers": [
+        {
+          "text": "switchport port-security\nswitchport port-security mac-address sticky",
+          "correct": false
+        },
+        {
+          "text": "switchport port-security mac-address sticky\nswitchport port-security maximum 2",
+          "correct": false
+        },
+        {
+          "text": "switchport port-security\nswitchport port-security maximum 2\nswitchport port-security mac-address sticky",
+          "correct": false
+        },
+        {
+          "text": "switchport port-security\nswitchport port-security maximum 2\nswitchport port-security mac-address sticky\nswitchport port-security violation restrict",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "Zabezpieczenie portu zostało skonfigurowane na interfejsie Fa0/12 przełącznika S1. Jakie działanie nastąpi, gdy PC1 jest dołączony do przełącznika S1 z zastosowaną konfiguracją?",
+      "image": "images/port-security-pc1.png",
+      "answers": [
+        { "text": "Ramki z PC1 zostaną usunięte i zostanie utworzony komunikat dziennika.", "correct": false },
+        { "text": "Ramki z PC1 zostaną odrzucone i nie będzie żadnego dziennika naruszenia.", "correct": false },
+        { "text": "Ramki z PC1 spowodują natychmiastowe zamknięcie interfejsu i zostanie wprowadzony wpis dziennika.", "correct": true },
+        { "text": "Ramki z PC1 zostaną przekazane do miejsca docelowego i zostanie utworzony wpis dziennika.", "correct": false },
+        { "text": "Ramki z PC1 zostaną przekazane do miejsca docelowego, ale wpis dziennika nie zostanie utworzony.", "correct": false },
+        { "text": "Ramki z PC1 zostaną przesłane dalej, ponieważ brakuje polecenia switchport port-security violation.", "correct": false }
+      ]
+    },
+    {
+      "question": "Które trzy usługi świadczone są w ramach AAA?",
+      "answers": [
+        { "text": "ewidencjonowanie", "correct": true },
+        { "text": "niezawodność", "correct": false },
+        { "text": "autoryzacja", "correct": true },
+        { "text": "integralność danych", "correct": false },
+        { "text": "uwierzytelnianie", "correct": true }
+      ]
+    },
+    {
+      "question": "Która usługa jest domyślnie włączona na przełączniku, a która może ujawnić znaczące informacje o routerze i potencjalnie uczynić go bardziej podatnym na ataki?",
+      "answers": [
+        { "text": "FTP", "correct": false },
+        { "text": "LLDP", "correct": false },
+        { "text": "HTTP", "correct": false },
+        { "text": "TFTP", "correct": false },
+        { "text": "CDP", "correct": true },
+        { "text": "NLDP", "correct": false }
+      ]
+    },
+    {
+      "question": "Który atak warstwy 2 spowoduje, że uprawnieni użytkownicy nie otrzymają prawidłowych adresów IP?",
+      "answers": [
+        { "text": "fałszowanie adresów IP", "correct": false },
+        { "text": "fałszowanie ARP", "correct": false },
+        { "text": "fałszowanie adresów MAC", "correct": false },
+        { "text": "zalewanie adresami MAC", "correct": false },
+        { "text": "zagłodzenie DHCP", "correct": true }
+      ]
+    },
+    {
+      "question": "Jaki może być cel ewidencjonowania jako funkcji bezpieczeństwa sieciowego?",
+      "answers": [
+        { "text": "do śledzenia działań użytkownika", "correct": true },
+        { "text": "do śledzenia działań aplikacji", "correct": false },
+        { "text": "wymaga od użytkowników aby udowodnili, że są tymi za których się podają", "correct": false },
+        { "text": "do dostarczania funkcjonalności zapytań i odpowiedzi", "correct": false },
+        { "text": "do określenia, do których zasobów użytkownicy mają mieć dostęp", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakie trzy kroki konfiguracyjne muszą być wykonane, aby wdrożyć dostęp SSH do routera?",
+      "answers": [
+        { "text": "ustawić unikalne hasło", "correct": false },
+        { "text": "ustawić unikalną nazwę hosta", "correct": true },
+        { "text": "ustawić nazwę domeny IP", "correct": true },
+        { "text": "dodać konto użytkownika", "correct": true },
+        { "text": "ustawić hasło trybu uprzywilejowanego", "correct": false },
+        { "text": "ustawić hasło na linii konsoli", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakie są trzy techniki ograniczania ataków VLAN?",
+      "answers": [
+        { "text": "Wyłącz DTP.", "correct": true },
+        { "text": "Włącz trunk ręcznie.", "correct": true },
+        { "text": "Zmień VLAN natywny na nieużywany.", "correct": true },
+        { "text": "Włącz BPDU guard.", "correct": false },
+        { "text": "Włącz Source Guard.", "correct": false },
+        { "text": "Użyj przypisanych sieci VLAN.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakiemu rodzajowi ataku z przeskokiem VLAN można zapobiec, wyznaczając nieużywaną sieć VLAN jako natywną sieć VLAN?",
+      "answers": [
+        { "text": "fałszowanie DTP", "correct": false },
+        { "text": "fałszowanie DHCP", "correct": false },
+        { "text": "podwójne znakowanie VLAN", "correct": true },
+        { "text": "zagłodzenie DHCP", "correct": false }
+      ]
+    }
+  ]
+}

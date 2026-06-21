@@ -10,5 +10,11 @@
     "name": "Planowanie i Analiza Eksperymentu (PEIAR)",
     "dataFile": "data/peiar.json",
     "questionCount": 66
+  },
+  {
+    "id": "sieci",
+    "name": "Sieci komputerowe",
+    "dataFile": "data/sieci.json",
+    "questionCount": 20
   }
 ]
