@@ -129,11 +129,11 @@
         },
         {
           "text": "switchport port-security\nswitchport port-security maximum 2\nswitchport port-security mac-address sticky",
-          "correct": false
+          "correct": true
         },
         {
           "text": "switchport port-security\nswitchport port-security maximum 2\nswitchport port-security mac-address sticky\nswitchport port-security violation restrict",
-          "correct": true
+          "correct": false
         }
       ]
     },
