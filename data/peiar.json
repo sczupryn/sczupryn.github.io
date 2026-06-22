@@ -810,9 +810,9 @@
     "question": "Histogram pewnej próbki losowej dany jest na poniższym rysunku. Wynika stąd, że dla tej próbki losowej:",
     "image": "images/histogram-skewed.png",
     "answers": [
-      { "text": "Mediana jest raczej większa od średniej", "correct": true },
+      { "text": "Mediana jest raczej większa od średniej", "correct": false },
       { "text": "Mediana jest równa średniej", "correct": false },
-      { "text": "Mediana jest raczej mniejsza od średniej", "correct": false }
+      { "text": "Mediana jest raczej mniejsza od średniej", "correct": true }
     ]
   },
   {
