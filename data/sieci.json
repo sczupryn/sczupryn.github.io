@@ -549,6 +549,211 @@
         { "text": "Hosty wewnętrzne wysyłają normalne, nieenkapsulowane pakiety", "correct": true },
         { "text": "Poszczególni hosty mogą włączać i wyłączać połączenie VPN", "correct": false }
       ]
+    },
+    {
+      "question": "Administrator zdefiniował lokalne konto użytkownika z hasłem na routerze R1 do SSH. Jakie trzy dodatkowe kroki są wymagane, aby skonfigurować R1 do akceptowania tylko zaszyfrowanych połączeń SSH? (2 pkt)",
+      "answers": [
+        { "text": "Generowanie dwukierunkowych kluczy wstępnych - pre-shared key", "correct": false },
+        { "text": "Wygenerowanie kluczy kryptograficznych", "correct": true },
+        { "text": "Skonfigurowanie nazwy domeny IP na routerze", "correct": true },
+        { "text": "Skonfigurowanie nazwy hosta innej niż „Router\"", "correct": true },
+        { "text": "Włączenie przychodzących sesji telnet vty", "correct": false },
+        { "text": "Skonfigurowanie DNS na routerze", "correct": false }
+      ]
+    },
+    {
+      "question": "Który zestaw transformacji zapewnia najlepszą ochronę? (2 pkt)",
+      "answers": [
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes esp-des esp-sha-hmac", "correct": false },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes-256 esp-sha-hmac", "correct": true },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-des esp-sha-hmac", "correct": false },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-3des esp-sha-hmac", "correct": false }
+      ]
+    },
+    {
+      "question": "W której konfiguracji umieszczenie listy ACL wychodzącej będzie preferowane w stosunku do umieszczenia listy ACL przychodzącej? (2 pkt)",
+      "answers": [
+        { "text": "gdy interfejs jest filtrowany przez wychodzącą listę kontroli dostępu, a sieć dołączona do interfejsu jest siecią źródłową filtrowaną w ramach listy kontroli dostępu", "correct": false },
+        { "text": "gdy lista kontroli dostępu (ACL) jest stosowana do interfejsu wychodzącego w celu filtrowania pakietów pochodzących z wielu interfejsów przychodzących przed opuszczeniem interfejsu przez pakiety", "correct": true },
+        { "text": "gdy router ma więcej niż jedną listę kontroli dostępu", "correct": false },
+        { "text": "gdy lista ACL wychodząca znajduje się bliżej źródła przepływu ruchu", "correct": false }
+      ]
+    },
+    {
+      "question": "W jakiej sytuacji stosuje się algorytm klucza asymetrycznego? (2 pkt)",
+      "answers": [
+        { "text": "Dane użytkownika są przesyłane przez sieć po nawiązaniu połączenia VPN.", "correct": false },
+        { "text": "Dwa routery Cisco uwierzytelniają się wzajemnie za pomocą protokołu CHAP.", "correct": false },
+        { "text": "Kierownik biura szyfruje poufne pliki przed zapisaniem ich na urządzeniu wymiennym.", "correct": false },
+        { "text": "Administrator sieci łączy się z routerem Cisco za pomocą protokołu SSH", "correct": true }
+      ]
+    },
+    {
+      "question": "Jaki jest cel kampanii podnoszącej świadomość w zakresie bezpieczeństwa? (2 pkt)",
+      "answers": [
+        { "text": "zintegrować wszystkie umiejętności i kompetencje w zakresie bezpieczeństwa w jeden zbiór wiedzy", "correct": false },
+        { "text": "aby skupić uwagę pracowników na kwestiach bezpieczeństwa", "correct": true },
+        { "text": "nauczanie umiejętności, dzięki którym pracownicy będą mogli wykonywać zadania związane z bezpieczeństwem", "correct": false },
+        { "text": "zapewnić użytkownikom program szkoleniowy, który może ostatecznie doprowadzić do uzyskania formalnego stopnia naukowego", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki jest skutek skonfigurowania listy ACL zawierającej wyłącznie elementy ACE blokujące ruch? (2 pkt)",
+      "answers": [
+        { "text": "Lista ACL zablokuje cały ruch.", "correct": true },
+        { "text": "Listę ACL należy stosować wyłącznie w ruchu przychodzącym.", "correct": false },
+        { "text": "Listę ACL należy stosować wyłącznie w ruchu wychodzącym.", "correct": false },
+        { "text": "Lista ACL będzie zezwalać na każdy ruch, który nie został wyraźnie zabroniony.", "correct": false }
+      ]
+    },
+    {
+      "question": "Niezadowolony pracownik używa Wiresharka do odkrywania administracyjnych nazw użytkowników i haseł Telnet. Jakiego rodzaju jest to atak sieciowy? (2 pkt)",
+      "answers": [
+        { "text": "rekonesans", "correct": true },
+        { "text": "przekierowanie portu", "correct": false },
+        { "text": "odmowa usługi", "correct": false },
+        { "text": "wykorzystywanie zaufania", "correct": false }
+      ]
+    },
+    {
+      "question": "Które dwa stwierdzenia dotyczące standardowych list ACL ASA są prawdziwe? (Wybierz dwa.) (2 pkt)",
+      "answers": [
+        { "text": "Identyfikują tylko docelowy adres IP.", "correct": true },
+        { "text": "Są one stosowane w interfejsach do sterowania ruchem.", "correct": false },
+        { "text": "Są najczęstszym rodzajem ACL.", "correct": false },
+        { "text": "Zwykle są używane tylko w przypadku tras OSPF.", "correct": true },
+        { "text": "Określają zarówno źródłowy, jak i docelowy adres MAC.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki jest pierwszy krok w procesie zarządzania ryzykiem określonym przez normę ISO/IEC? (2 pkt)",
+      "answers": [
+        { "text": "Utwórz model zarządzania bezpieczeństwem", "correct": false },
+        { "text": "Przeprowadź ocenę ryzyka.", "correct": false },
+        { "text": "Inwentaryzacja i klasyfikacja zasobów IT.", "correct": true },
+        { "text": "Utwórz politykę bezpieczeństwa.", "correct": false }
+      ]
+    },
+    {
+      "question": "Które rozwiązanie Cisco pomaga zapobiegać atakom typu ARP spoofing i ARP poisoning? (2 pkt)",
+      "answers": [
+        { "text": "Port Security", "correct": false },
+        { "text": "DHCP Snooping", "correct": false },
+        { "text": "IP Source Guard", "correct": false },
+        { "text": "Dynamic ARP Inspection", "correct": true }
+      ]
+    },
+    {
+      "question": "Jaki atak warstwy 2 jest ograniczany przez wyłączenie Dynamic Trunking Protocol? (2 pkt)",
+      "answers": [
+        { "text": "ARP Poisoning", "correct": false },
+        { "text": "DHCP Spoofing", "correct": false },
+        { "text": "VLAN Hopping", "correct": true },
+        { "text": "ARP Spoofing", "correct": false }
+      ]
+    },
+    {
+      "question": "Na którym routerze należy wykonać polecenie show access-lists? (2 pkt)",
+      "answers": [
+        { "text": "na dowolnym routerze, przez który przechodzi pakiet wymieniony na liście kontroli dostępu", "correct": false },
+        { "text": "na routerze, który kieruje pakiet wskazany na liście kontroli dostępu (ACL) z sieci źródłowej", "correct": false },
+        { "text": "na routerze, który kieruje pakiet wskazany na liście kontroli dostępu (ACL) do sieci docelowej", "correct": false },
+        { "text": "na routerze, na którym skonfigurowano listę kontroli dostępu (ACL)", "correct": true }
+      ]
+    },
+    {
+      "question": "Jaki pierwszy krok należy podjąć w przypadku wykrycia naruszenia bezpieczeństwa systemu korporacyjnego? (2 pkt)",
+      "answers": [
+        { "text": "Ustanowić łańcuch dostaw.", "correct": false },
+        { "text": "Odizoluj zainfekowany system.", "correct": true },
+        { "text": "Zrób zdjęcie systemu.", "correct": false },
+        { "text": "Utwórz obraz dysku systemowego.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaka jest różnica między listami ACL ASA IPv4 i listami ACL IOS IPv4? (2 pkt)",
+      "answers": [
+        { "text": "Listy ACL ASA używają wpisów ACE typu forward and drop, natomiast listy ACL IOS używają wpisów ACE typu permit and deny.", "correct": false },
+        { "text": "Listy ACL w systemie ASA nie mają na końcu domyślnego polecenia deny any, natomiast listy ACL w systemie IOS mają takie polecenie.", "correct": false },
+        { "text": "Listy ACL ASA definiują sieć na podstawie maski podsieci, natomiast listy ACL IOS używają maski wieloznacznej.", "correct": true },
+        { "text": "Na interfejsie w kierunku wejściowym można zastosować wiele list ACL ASA, podczas gdy można zastosować tylko jedną listę ACL IOS.", "correct": false },
+        { "text": "Listy ACL w systemie ASA są zawsze nazwane, natomiast listy ACL w systemie IOS są zawsze ponumerowane.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaką funkcję udostępnia CVSS? (2 pkt)",
+      "answers": [
+        { "text": "Ocena podatności", "correct": true },
+        { "text": "Ocena ryzyka", "correct": false },
+        { "text": "Usługa centralnego zarządzania bezpieczeństwem", "correct": false },
+        { "text": "Testowanie penetracyjne", "correct": false }
+      ]
+    },
+    {
+      "question": "Który test bezpieczeństwa jest odpowiedni do wykrywania słabych punktów systemu, takich jak błędna konfiguracja, domyślne hasła i potencjalne cele DoS? (2 pkt)",
+      "answers": [
+        { "text": "testy penetracyjne", "correct": false },
+        { "text": "kontrolery integralności", "correct": false },
+        { "text": "skanowanie podatności", "correct": true },
+        { "text": "skanowanie sieciowe", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakie urządzenie jest uważane za supplikanta podczas procesu uwierzytelniania 802.1X? (2 pkt)",
+      "answers": [
+        { "text": "przełącznik kontrolujący dostęp do sieci", "correct": false },
+        { "text": "serwer uwierzytelniania, który wykonuje uwierzytelnianie klienta", "correct": false },
+        { "text": "klient, który żąda uwierzytelnienia", "correct": true },
+        { "text": "router, który służy jako brama domyślna", "correct": false }
+      ]
+    },
+    {
+      "question": "Która strategia pozwoli zaakceptować ryzyko i jego konsekwencje w przypadku ryzyka o niewielkim potencjalnym oddziaływaniu i stosunkowo wysokich kosztach jego łagodzenia lub redukcji? (2 pkt)",
+      "answers": [
+        { "text": "unikanie ryzyka", "correct": false },
+        { "text": "retencja ryzyka", "correct": true },
+        { "text": "redukcja ryzyka", "correct": false },
+        { "text": "dzielenie się ryzykiem", "correct": false }
+      ]
+    },
+    {
+      "question": "Które oprogramowanie antywirusowe potrafi rozpoznać różne cechy znanych plików złośliwego oprogramowania i wykryć zagrożenie? (2 pkt)",
+      "answers": [
+        { "text": "Oparte na sygnaturze", "correct": true },
+        { "text": "Oparte na zachowaniu", "correct": false },
+        { "text": "Oparte na heurystyce", "correct": false },
+        { "text": "Oparte na routingu", "correct": false }
+      ]
+    },
+    {
+      "question": "Które trzy stwierdzenia opisują ramy protokołu IPsec? (Wybierz trzy.) (2 pkt)",
+      "answers": [
+        { "text": "AH zapewnia szyfrowanie i integralność.", "correct": false },
+        { "text": "ESP zapewnia szyfrowanie, uwierzytelnianie i integralność.", "correct": true },
+        { "text": "ESP używa protokołu UDP 50.", "correct": false },
+        { "text": "AH używa protokołu IP 51.", "correct": true },
+        { "text": "AH zapewnia integralność i uwierzytelnianie.", "correct": true },
+        { "text": "ESP wymaga zarówno uwierzytelniania, jak i szyfrowania.", "correct": false }
+      ]
+    },
+    {
+      "question": "Który protokół szyfrowania zapewnia poufność warstwy sieciowej? (2 pkt)",
+      "answers": [
+        { "text": "Zestaw protokołów IPsec", "correct": true },
+        { "text": "SHA 1", "correct": false },
+        { "text": "TLS", "correct": false },
+        { "text": "SSL", "correct": false },
+        { "text": "MD5", "correct": false }
+      ]
+    },
+    {
+      "question": "Administrator skonfigurował listę dostępu na R1, aby umożliwić dostęp administracyjny SSH z hosta 172.16.1.100. Które polecenie poprawnie stosuje listę kontroli dostępu (ACL)? (2 pkt)",
+      "answers": [
+        { "text": "R1(config-line)# access-class 1 in", "correct": true },
+        { "text": "R1(config-if)# ip access-group 1 out", "correct": false },
+        { "text": "R1(config-line)# access-class 1 out", "correct": false },
+        { "text": "R1(config-if)# ip access-group 1 in", "correct": false }
+      ]
     }
   ]
 }
