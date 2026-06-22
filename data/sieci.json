@@ -382,7 +382,7 @@
       ]
     },
     {
-      "question": "Przyjrzyj się ilustracji. Administrator najpierw skonfigurował rozszerzoną ACL, jak pokazano na wyjściu polecenia show access-lists. Administrator następnie edytował tę listę dostępu, wydając poniższe polecenia. Router(config)# ip access-list extended 101 Router(config-ext-nacl)# no 20 Router(config-ext-nacl)# 5 permit tcp any any eq 22 Router(config-ext-nacl)# 20 deny udp any any Jakie dwa wnioski można wyciągnąć z tej nowej konfiguracji? (Wybierz dwa.)",
+      "question": "Administrator najpierw skonfigurował rozszerzoną ACL, jak pokazano na wyjściu polecenia show access-lists. Administrator następnie edytował tę listę dostępu, wydając poniższe polecenia. Router(config)# ip access-list extended 101 Router(config-ext-nacl)# no 20 Router(config-ext-nacl)# 5 permit tcp any any eq 22 Router(config-ext-nacl)# 20 deny udp any any Jakie dwa wnioski można wyciągnąć z tej nowej konfiguracji? ",
       "answers": [
         { "text": "Wszystkie pakiety TCP i UDP zostaną odrzucone.", "correct": false },
         { "text": "Pakiety TFTP będą dozwolone.", "correct": false },
