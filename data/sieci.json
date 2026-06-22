@@ -244,311 +244,311 @@
       ]
     },
     {
-    "question": "Jakie są zalecane najlepsze praktyki w przypadku korzystania z natywnej sieci VLAN?",
-    "answers": [
-      { "text": "Użyj zabezpieczeń portu.", "correct": false },
-      { "text": "Wyłącz DTP.", "correct": false },
-      { "text": "Przypisz go do nieużywanej sieci VLAN.", "correct": true },
-      { "text": "Przypisz ten sam numer sieci VLAN, co numer sieci VLAN zarządzania.", "correct": false }
-    ]
-  },
-  {
-    "question": "Która usługa nie jest domyślnie włączona na przełączniku, a która może ujawnić znaczące informacje o routerze i potencjalnie uczynić go bardziej podatnym na atak?",
-    "answers": [
-      { "text": "FTP", "correct": false },
-      { "text": "LLDP", "correct": true },
-      { "text": "HTTP", "correct": false },
-      { "text": "TFTP", "correct": false },
-      { "text": "CDP", "correct": false },
-      { "text": "NDP", "correct": false }
-    ]
-  },
-  {
-    "question": "Który atak warstwy 2 spowoduje, że użytkownicy komunikują się z fałszywą bramą domyślną?",
-    "answers": [
-      { "text": "fałszowanie adresów IP", "correct": false },
-      { "text": "fałszowanie ARP", "correct": true },
-      { "text": "fałszowanie adresów MAC", "correct": false },
-      { "text": "zalewanie adresami MAC", "correct": false },
-      { "text": "zagłodzenie DHCP", "correct": false }
-    ]
-  },
-  {
-    "question": "Na których portach przełącznika należy włączyć funkcję PortFast, aby zwiększyć stabilność protokołu STP?",
-    "answers": [
-      { "text": "tylko porty wybrane jako porty zaufane", "correct": false },
-      { "text": "wszystkie porty trunk, które nie są portami głównymi", "correct": false },
-      { "text": "wszystkie porty urządzeń końcowych", "correct": true },
-      { "text": "tylko porty, które są podłączone do sąsiedniego przełącznika", "correct": false }
-    ]
-  },
-  {
-    "question": "Student używa polecenia show parser view all, aby zobaczyć podsumowanie wszystkich widoków skonfigurowanych na routerze R1. Co jest oznaczone symbolem * obok JR-ADMIN?",
-    "answers": [
-      { "text": "To jest root view.", "correct": false },
-      { "text": "Jest to widok CLI bez skonfigurowanych poleceń.", "correct": false },
-      { "text": "To jest superview.", "correct": true },
-      { "text": "To jest CLI view.", "correct": false }
-    ]
-  },
-  {
-    "question": "Które dwie praktyki są związane z zabezpieczeniem funkcji i wydajności systemów operacyjnych routerów?",
-    "answers": [
-      { "text": "Zainstaluj zasilacz UPS.", "correct": false },
-      { "text": "Przechowuj kopię obrazów systemu operacyjnego routera.", "correct": true },
-      { "text": "Skonfiguruj router, aby wykorzystywał jak największą ilość pamięci.", "correct": false },
-      { "text": "Włącz domyślne usługi routera.", "correct": false },
-      { "text": "Zmniejsz liczbę portów, które mogą być używane do dostępu do routera.", "correct": true }
-    ]
-  },
-  {
-    "question": "Które polecenie blokuje próby logowania na routerze RouterA na okres 30 sekund, jeśli w ciągu 10 sekund wystąpią 2 nieudane próby logowania?",
-    "answers": [
-      { "text": "RouterA(config)# login block-for 10 attempts 2 within 30", "correct": false },
-      { "text": "RouterA(config)# login block-for 30 attempts 2 within 10", "correct": true },
-      { "text": "RouterA(config)# login block-for 2 attempts 30 within 10", "correct": false },
-      { "text": "RouterA(config)# login block-for 30 attempts 10 within 2", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki jest cel używania baneru informacyjnego na urządzeniu sieciowym Cisco?",
-    "answers": [
-      { "text": "Może zapewnić większe bezpieczeństwo poprzez spowolnienie ataków.", "correct": false },
-      { "text": "Może chronić organizację z prawnego punktu widzenia.", "correct": true },
-      { "text": "Można go użyć do ustanowienia okresu ciszy, podczas którego połączenia zdalne będą odrzucane.", "correct": false },
-      { "text": "Skutecznie uniemożliwia atakującym dostęp do urządzenia.", "correct": false }
-    ]
-  },
-  {
-    "question": "Użytkownik nie może uzyskać dostępu do urządzenia skonfigurowanego z AAA. Jakim poleceniem można ustalić, czy dostęp do logowania dla tego konta użytkownika jest wyłączony?",
-    "answers": [
-      { "text": "show aaa local user lockout.", "correct": true },
-      { "text": "show running-config.", "correct": false },
-      { "text": "show aaa sessions.", "correct": false },
-      { "text": "show aaa user.", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki jest domyślny poziom uprawnień kont użytkowników tworzonych na routerach Cisco?",
-    "answers": [
-      { "text": "0", "correct": false },
-      { "text": "1", "correct": true },
-      { "text": "2", "correct": false },
-      { "text": "3", "correct": false },
-      { "text": "4", "correct": false },
-      { "text": "5", "correct": false },
-      { "text": "10", "correct": false },
-      { "text": "15", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki jest najszybszy sposób na usunięcie pojedynczego wpisu z nazwanej ACL?",
-    "answers": [
-      { "text": "Użyj polecenia no access-list, aby usunąć całą ACL, a następnie odtwórz ją bez ACE.", "correct": false },
-      { "text": "Skopiuj ACL do edytora tekstu, usuń wpis ACE, a następnie skopiuj ACL z powrotem do routera.", "correct": false },
-      { "text": "Użyj słowa kluczowego no z numerem sekwencji ACE, które mają zostać usunięte.", "correct": true },
-      { "text": "Utwórz nową ACL z innym numerem i zastosuj nową ACL na interfejsie routera.", "correct": false }
-    ]
-  },
-  {
-    "question": "Przyjrzyj się ilustracji. Sieć 192.168.30.0/24 zawiera wszystkie serwery firmowe. Zasady nakazują, aby ruch z serwerów do obu sieci 192.168.10.0 i 192.168.11.0 był ograniczony do odpowiedzi na oryginalne żądania. Jaki jest najlepszy typ ACL i umieszczenie w tej sytuacji?",
-    "image": "images/uprawnienia.png",
-    "answers": [
-      { "text": "standardowa ACL na wejściu linii R1 vty", "correct": false },
-      { "text": "rozszerzona ACL na wejściu R1 G0/0 i G0/1", "correct": false },
-      { "text": "rozszerzona ACL na wejściu R3 S0/0/0", "correct": false },
-      { "text": "rozszerzona ACL na wejściu R3 G0/0", "correct": true }
-    ]
-  },
-  {
-    "question": "Które dwa protokoły IPsec są używane do zapewnienia integralności danych?",
-    "answers": [
-      { "text": "AH, ESP", "correct": false },
-      { "text": "MD5, SHA", "correct": true },
-      { "text": "3DES, AES", "correct": false },
-      { "text": "PSK, AES", "correct": false },
-      { "text": "PSK, RSA", "correct": false },
-      { "text": "MD5, DES", "correct": false },
-      { "text": "SHA, RSA", "correct": false }
-    ]
-  },
-  {
-    "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby access-class 20 in w opcji konfiguracji lub poleceniu?",
-    "answers": [
-      { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": true },
-      { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false },
-      { "text": "aby usunąć wszystkie ACL z routera", "correct": false },
-      { "text": "aby wyświetlić cały ograniczony ruch", "correct": false }
-    ]
-  },
-  {
-    "question": "Przyjrzyj się ilustracji. Administrator najpierw skonfigurował rozszerzoną ACL, jak pokazano na wyjściu polecenia show access-lists. Administrator następnie edytował tę listę dostępu, wydając poniższe polecenia. Router(config)# ip access-list extended 101 Router(config-ext-nacl)# no 20 Router(config-ext-nacl)# 5 permit tcp any any eq 22 Router(config-ext-nacl)# 20 deny udp any any Jakie dwa wnioski można wyciągnąć z tej nowej konfiguracji? (Wybierz dwa.)",
-    "answers": [
-      { "text": "Wszystkie pakiety TCP i UDP zostaną odrzucone.", "correct": false },
-      { "text": "Pakiety TFTP będą dozwolone.", "correct": false },
-      { "text": "Pakiety SSH będą dozwolone.", "correct": true },
-      { "text": "Pakiety ping będą dozwolone.", "correct": true },
-      { "text": "Pakiety Telnet będą dozwolone.", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki typ ACL zapewnia większą elastyczność i kontrolę nad dostępem do sieci?",
-    "answers": [
-      { "text": "numerowana standardowa", "correct": false },
-      { "text": "rozszerzona", "correct": true },
-      { "text": "nazwana standardowa", "correct": false },
-      { "text": "elastyczna", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaka jest korzyść z używania zapory sieciowej nowej generacji zamiast zapory stanowej?",
-    "answers": [
-      { "text": "ochrona reaktywna przed atakami internetowymi", "correct": false },
-      { "text": "obsługa filtrowania pakietów w oparciu o protokół TCP", "correct": false },
-      { "text": "kontrola szczegółowości w ramach aplikacji", "correct": true },
-      { "text": "obsługa logowania", "correct": false }
-    ]
-  },
-  {
-    "question": "Co jest negocjowane podczas ustanawiania tunelu IPsec między dwoma hostami IPsec podczas fazy 1 IKE?",
-    "answers": [
-      { "text": "zestawy transformacji", "correct": false },
-      { "text": "Polityka ISAKMP SA", "correct": true },
-      { "text": "klucze RSA", "correct": false },
-      { "text": "Grupy DH", "correct": false }
-    ]
-  },
-  {
-    "question": "Lista ACL została skonfigurowana na R1 z zamiarem odmowy ruchu z podsieci 172.16.4.0/24 do podsieci 172.16.3.0/24. Cały inny ruch do podsieci 172.16.3.0/24 powinien być dozwolony. Ta standardowa lista ACL została następnie zastosowana dla ruchu wychodzącego na interfejsie Fa0/0. Jaki wniosek można wyciągnąć z tej konfiguracji?",
-    "answers": [
-      { "text": "Cały ruch zostanie zablokowany, a nie tylko ruch z podsieci 172.16.4.0/24.", "correct": true },
-      { "text": "W takiej sytuacji należy zastosować rozszerzoną ACL.", "correct": false },
-      { "text": "Tylko ruch z podsieci 172.16.4.0/24 jest zablokowany, a cały inny ruch jest dozwolony.", "correct": false },
-      { "text": "Listę ACL należy stosować na wyjściu wszystkich interfejsów R1.", "correct": false },
-      { "text": "Aby spełnić wymagania, należy zastosować ACL na wejściu interfejsu FastEthernet 0/0 R1.", "correct": false }
-    ]
-  },
-  {
-    "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby 40 deny host 192.168.23.8 w opcji konfiguracji lub poleceniu?",
-    "answers": [
-      { "text": "aby zastosować ACL do wszystkich interfejsów routera", "correct": false },
-      { "text": "aby usunąć wszystkie ACL z routera", "correct": false },
-      { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": false },
-      { "text": "aby utworzyć wpis w numerowanej ACL", "correct": true },
-      { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false },
-      { "text": "aby wyświetlić cały ograniczony ruch", "correct": false }
-    ]
-  },
-  {
-    "question": "Które trzy stwierdzenia opisują ramy protokołu IPsec? (Wybierz trzy.)",
-    "answers": [
-      { "text": "ESP zapewnia szyfrowanie, uwierzytelnianie i integralność.", "correct": true },
-      { "text": "AH używa protokołu IP 51.", "correct": true },
-      { "text": "ESP wymaga zarówno uwierzytelniania, jak i szyfrowania.", "correct": false },
-      { "text": "ESP używa protokołu UDP 50.", "correct": false },
-      { "text": "AH zapewnia szyfrowanie i integralność.", "correct": false },
-      { "text": "AH zapewnia integralność i uwierzytelnianie.", "correct": true }
-    ]
-  },
-  {
-    "question": "Administrator sieci pisze standardową ACL, która odmawia jakiegokolwiek ruchu z sieci 172.16.0.0/16, ale zezwala na cały inny ruch. Które dwa polecenia powinny być użyte? (Wybierz dwie odpowiedzi).",
-    "answers": [
-      { "text": "Router(config)# access-list 95 deny any", "correct": false },
-      { "text": "Router(config)# access-list 95 permit any", "correct": true },
-      { "text": "Router(config)# access-list 95 172.16.0.0 255.255.255.255", "correct": false },
-      { "text": "Router(config)# access-list 95 host 172.16.0.0", "correct": false },
-      { "text": "Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255", "correct": true },
-      { "text": "Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0", "correct": false }
-    ]
-  },
-  {
-    "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby ip access-group 101 in w opcji konfiguracji lub poleceniu?",
-    "answers": [
-      { "text": "aby zastosować rozszerzoną ACL na interfejsie", "correct": true },
-      { "text": "aby wyświetlić cały ograniczony ruch", "correct": false },
-      { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": false },
-      { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false }
-    ]
-  },
-  {
-    "question": "Jakie dwa słowa kluczowe mogą być użyte w liście kontroli dostępu w celu zastąpienia maski blankietowej lub pary adres i maska blankietowa? (Wybierz dwie odpowiedzi).",
-    "answers": [
-      { "text": "most", "correct": false },
-      { "text": "some", "correct": false },
-      { "text": "host", "correct": true },
-      { "text": "gt", "correct": false },
-      { "text": "all", "correct": false },
-      { "text": "any", "correct": true },
-      { "text": "lt", "correct": false }
-    ]
-  },
-  {
-    "question": "Który zestaw transformacji zapewnia najlepszą ochronę?",
-    "answers": [
-      { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes esp-des esp-sha-hmac", "correct": false },
-      { "text": "crypto ipsec transform-set ESP-DES-SHA esp-3des esp-sha-hmac", "correct": false },
-      { "text": "crypto ipsec transform-set ESP-DES-SHA esp-des esp-sha-hmac", "correct": false },
-      { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes-256 esp-sha-hmac", "correct": true }
-    ]
-  },
-  {
-    "question": "Które rozwiązanie Cisco VPN zapewnia ograniczony dostęp do wewnętrznych zasobów sieciowych dzięki wykorzystaniu Cisco ASA i zapewnia dostęp tylko przez przeglądarkę?",
-    "answers": [
-      { "text": "IPSec", "correct": false },
-      { "text": "Clientless SSL VPN", "correct": true },
-      { "text": "klient VPN opartych na SSL", "correct": false },
-      { "text": "Clientless IPSec VPN", "correct": false },
-      { "text": "SSL", "correct": false },
-      { "text": "klient VPN opartych na IPSec", "correct": false }
-    ]
-  },
-  {
-    "question": "Jaki efekt dałoby polecenie Router1(config-ext-nacl)# permit tcp 172.16.4.0 0.0.0.255 any eq www po zaimplementowaniu dla ruchu przychodzącego na interfejsie f0/0?",
-    "answers": [
-      { "text": "Polecenie jest odrzucone przez router, ponieważ jest niekompletne.", "correct": false },
-      { "text": "Ruch pochodzący z 172.16.4.0/24 jest dozwolony do wszystkich miejsc docelowych na porcie TCP 80.", "correct": true },
-      { "text": "Cały ruch z 172.16.4.0/24 jest dozwolony do dowolnego miejsca i dowolnego portu.", "correct": false },
-      { "text": "Cały ruch TCP jest dozwolony, a każdy inny ruch jest odrzucony.", "correct": false }
-    ]
-  },
-  {
-    "question": "Administrator sieci konfiguruje listę ACL na routerze. Które stwierdzenie opisuje wynik konfiguracji?",
-    "answers": [
-      { "text": "Połączenie SSH jest dozwolone ze stacji roboczej o IP 192.168.25.18 do urządzenia o IP 172.16.45.16.", "correct": true },
-      { "text": "Połączenie Telnet jest dozwolone ze stacji roboczej z IP 172.16.45.16 do urządzenia o IP 192.168.25.18.", "correct": false },
-      { "text": "Połączenie Telnet jest dozwolone ze stacji roboczej z IP 192.168.25.18 do urządzenia o IP 172.16.45.16.", "correct": false },
-      { "text": "Połączenie SSH jest dozwolone ze stacji roboczej o IP 172.16.45.16 do urządzenia o IP 192.168.25.18.", "correct": false }
-    ]
-  },
-  {
-    "question": "Która maska blankietowa będzie pasować do sieci od 172.16.0.0 do 172.19.0.0?",
-    "answers": [
-      { "text": "0.3.255.255", "correct": true },
-      { "text": "0.0.0.251", "correct": false },
-      { "text": "0.252.255.255", "correct": false },
-      { "text": "0.0.255.255", "correct": false },
-      { "text": "0.0.3.255", "correct": false }
-    ]
-  },
-  {
-    "question": "Interfejsy Gigabit na obu routerach zostały skonfigurowane z numerami podinterfejsów zgodnymi z numerami sieci VLAN przyłączonych do nich. Komputery PC w VLAN 10 powinny móc drukować na drukarce P1 w sieci VLAN 12. Komputery PC w VLAN 20 powinny móc drukować na drukarkach znajdujących się w sieci VLAN 22. Na którym interfejsie i w którym kierunku należy umieścić standardową listę ACL pozwalającą na drukowanie na P1 z sieci VLAN 10, lecz blokującą komputerom znajdującym się w VLAN 20 użycie drukarki P1? (Wybierz dwie odpowiedzi)",
-    "answers": [
-      { "text": "R1 S0/0/0", "correct": false },
-      { "text": "R2 Gi0/1.20", "correct": false },
-      { "text": "R1 Gi0/1.12", "correct": true },
-      { "text": "inbound", "correct": false },
-      { "text": "outbound", "correct": true },
-      { "text": "R2 S0/0/1", "correct": false }
-    ]
-  },
-  {
-    "question": "Które stwierdzenie opisuje funkcję VPN typu site-to-site?",
-    "answers": [
-      { "text": "Połączenie VPN nie jest zdefiniowane statycznie", "correct": false },
-      { "text": "Oprogramowanie klienta VPN jest zainstalowane na każdym hoście", "correct": false },
-      { "text": "Hosty wewnętrzne wysyłają normalne, nieenkapsulowane pakiety", "correct": true },
-      { "text": "Poszczególni hosty mogą włączać i wyłączać połączenie VPN", "correct": false }
-    ]
-  }
+      "question": "Jakie są zalecane najlepsze praktyki w przypadku korzystania z natywnej sieci VLAN?",
+      "answers": [
+        { "text": "Użyj zabezpieczeń portu.", "correct": false },
+        { "text": "Wyłącz DTP.", "correct": false },
+        { "text": "Przypisz go do nieużywanej sieci VLAN.", "correct": true },
+        { "text": "Przypisz ten sam numer sieci VLAN, co numer sieci VLAN zarządzania.", "correct": false }
+      ]
+    },
+    {
+      "question": "Która usługa nie jest domyślnie włączona na przełączniku, a która może ujawnić znaczące informacje o routerze i potencjalnie uczynić go bardziej podatnym na atak?",
+      "answers": [
+        { "text": "FTP", "correct": false },
+        { "text": "LLDP", "correct": true },
+        { "text": "HTTP", "correct": false },
+        { "text": "TFTP", "correct": false },
+        { "text": "CDP", "correct": false },
+        { "text": "NDP", "correct": false }
+      ]
+    },
+    {
+      "question": "Który atak warstwy 2 spowoduje, że użytkownicy komunikują się z fałszywą bramą domyślną?",
+      "answers": [
+        { "text": "fałszowanie adresów IP", "correct": false },
+        { "text": "fałszowanie ARP", "correct": true },
+        { "text": "fałszowanie adresów MAC", "correct": false },
+        { "text": "zalewanie adresami MAC", "correct": false },
+        { "text": "zagłodzenie DHCP", "correct": false }
+      ]
+    },
+    {
+      "question": "Na których portach przełącznika należy włączyć funkcję PortFast, aby zwiększyć stabilność protokołu STP?",
+      "answers": [
+        { "text": "tylko porty wybrane jako porty zaufane", "correct": false },
+        { "text": "wszystkie porty trunk, które nie są portami głównymi", "correct": false },
+        { "text": "wszystkie porty urządzeń końcowych", "correct": true },
+        { "text": "tylko porty, które są podłączone do sąsiedniego przełącznika", "correct": false }
+      ]
+    },
+    {
+      "question": "Student używa polecenia show parser view all, aby zobaczyć podsumowanie wszystkich widoków skonfigurowanych na routerze R1. Co jest oznaczone symbolem * obok JR-ADMIN?",
+      "answers": [
+        { "text": "To jest root view.", "correct": false },
+        { "text": "Jest to widok CLI bez skonfigurowanych poleceń.", "correct": false },
+        { "text": "To jest superview.", "correct": true },
+        { "text": "To jest CLI view.", "correct": false }
+      ]
+    },
+    {
+      "question": "Które dwie praktyki są związane z zabezpieczeniem funkcji i wydajności systemów operacyjnych routerów?",
+      "answers": [
+        { "text": "Zainstaluj zasilacz UPS.", "correct": false },
+        { "text": "Przechowuj kopię obrazów systemu operacyjnego routera.", "correct": true },
+        { "text": "Skonfiguruj router, aby wykorzystywał jak największą ilość pamięci.", "correct": false },
+        { "text": "Włącz domyślne usługi routera.", "correct": false },
+        { "text": "Zmniejsz liczbę portów, które mogą być używane do dostępu do routera.", "correct": true }
+      ]
+    },
+    {
+      "question": "Które polecenie blokuje próby logowania na routerze RouterA na okres 30 sekund, jeśli w ciągu 10 sekund wystąpią 2 nieudane próby logowania?",
+      "answers": [
+        { "text": "RouterA(config)# login block-for 10 attempts 2 within 30", "correct": false },
+        { "text": "RouterA(config)# login block-for 30 attempts 2 within 10", "correct": true },
+        { "text": "RouterA(config)# login block-for 2 attempts 30 within 10", "correct": false },
+        { "text": "RouterA(config)# login block-for 30 attempts 10 within 2", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki jest cel używania baneru informacyjnego na urządzeniu sieciowym Cisco?",
+      "answers": [
+        { "text": "Może zapewnić większe bezpieczeństwo poprzez spowolnienie ataków.", "correct": false },
+        { "text": "Może chronić organizację z prawnego punktu widzenia.", "correct": true },
+        { "text": "Można go użyć do ustanowienia okresu ciszy, podczas którego połączenia zdalne będą odrzucane.", "correct": false },
+        { "text": "Skutecznie uniemożliwia atakującym dostęp do urządzenia.", "correct": false }
+      ]
+    },
+    {
+      "question": "Użytkownik nie może uzyskać dostępu do urządzenia skonfigurowanego z AAA. Jakim poleceniem można ustalić, czy dostęp do logowania dla tego konta użytkownika jest wyłączony?",
+      "answers": [
+        { "text": "show aaa local user lockout.", "correct": true },
+        { "text": "show running-config.", "correct": false },
+        { "text": "show aaa sessions.", "correct": false },
+        { "text": "show aaa user.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki jest domyślny poziom uprawnień kont użytkowników tworzonych na routerach Cisco?",
+      "answers": [
+        { "text": "0", "correct": false },
+        { "text": "1", "correct": true },
+        { "text": "2", "correct": false },
+        { "text": "3", "correct": false },
+        { "text": "4", "correct": false },
+        { "text": "5", "correct": false },
+        { "text": "10", "correct": false },
+        { "text": "15", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki jest najszybszy sposób na usunięcie pojedynczego wpisu z nazwanej ACL?",
+      "answers": [
+        { "text": "Użyj polecenia no access-list, aby usunąć całą ACL, a następnie odtwórz ją bez ACE.", "correct": false },
+        { "text": "Skopiuj ACL do edytora tekstu, usuń wpis ACE, a następnie skopiuj ACL z powrotem do routera.", "correct": false },
+        { "text": "Użyj słowa kluczowego no z numerem sekwencji ACE, które mają zostać usunięte.", "correct": true },
+        { "text": "Utwórz nową ACL z innym numerem i zastosuj nową ACL na interfejsie routera.", "correct": false }
+      ]
+    },
+    {
+      "question": "Przyjrzyj się ilustracji. Sieć 192.168.30.0/24 zawiera wszystkie serwery firmowe. Zasady nakazują, aby ruch z serwerów do obu sieci 192.168.10.0 i 192.168.11.0 był ograniczony do odpowiedzi na oryginalne żądania. Jaki jest najlepszy typ ACL i umieszczenie w tej sytuacji?",
+      "image": "images/uprawnienia.png",
+      "answers": [
+        { "text": "standardowa ACL na wejściu linii R1 vty", "correct": false },
+        { "text": "rozszerzona ACL na wejściu R1 G0/0 i G0/1", "correct": false },
+        { "text": "rozszerzona ACL na wejściu R3 S0/0/0", "correct": false },
+        { "text": "rozszerzona ACL na wejściu R3 G0/0", "correct": true }
+      ]
+    },
+    {
+      "question": "Które dwa protokoły IPsec są używane do zapewnienia integralności danych?",
+      "answers": [
+        { "text": "AH, ESP", "correct": false },
+        { "text": "MD5, SHA", "correct": true },
+        { "text": "3DES, AES", "correct": false },
+        { "text": "PSK, AES", "correct": false },
+        { "text": "PSK, RSA", "correct": false },
+        { "text": "MD5, DES", "correct": false },
+        { "text": "SHA, RSA", "correct": false }
+      ]
+    },
+    {
+      "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby access-class 20 in w opcji konfiguracji lub poleceniu?",
+      "answers": [
+        { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": true },
+        { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false },
+        { "text": "aby usunąć wszystkie ACL z routera", "correct": false },
+        { "text": "aby wyświetlić cały ograniczony ruch", "correct": false }
+      ]
+    },
+    {
+      "question": "Przyjrzyj się ilustracji. Administrator najpierw skonfigurował rozszerzoną ACL, jak pokazano na wyjściu polecenia show access-lists. Administrator następnie edytował tę listę dostępu, wydając poniższe polecenia. Router(config)# ip access-list extended 101 Router(config-ext-nacl)# no 20 Router(config-ext-nacl)# 5 permit tcp any any eq 22 Router(config-ext-nacl)# 20 deny udp any any Jakie dwa wnioski można wyciągnąć z tej nowej konfiguracji? (Wybierz dwa.)",
+      "answers": [
+        { "text": "Wszystkie pakiety TCP i UDP zostaną odrzucone.", "correct": false },
+        { "text": "Pakiety TFTP będą dozwolone.", "correct": false },
+        { "text": "Pakiety SSH będą dozwolone.", "correct": true },
+        { "text": "Pakiety ping będą dozwolone.", "correct": true },
+        { "text": "Pakiety Telnet będą dozwolone.", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki typ ACL zapewnia większą elastyczność i kontrolę nad dostępem do sieci?",
+      "answers": [
+        { "text": "numerowana standardowa", "correct": false },
+        { "text": "rozszerzona", "correct": true },
+        { "text": "nazwana standardowa", "correct": false },
+        { "text": "elastyczna", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaka jest korzyść z używania zapory sieciowej nowej generacji zamiast zapory stanowej?",
+      "answers": [
+        { "text": "ochrona reaktywna przed atakami internetowymi", "correct": false },
+        { "text": "obsługa filtrowania pakietów w oparciu o protokół TCP", "correct": false },
+        { "text": "kontrola szczegółowości w ramach aplikacji", "correct": true },
+        { "text": "obsługa logowania", "correct": false }
+      ]
+    },
+    {
+      "question": "Co jest negocjowane podczas ustanawiania tunelu IPsec między dwoma hostami IPsec podczas fazy 1 IKE?",
+      "answers": [
+        { "text": "zestawy transformacji", "correct": false },
+        { "text": "Polityka ISAKMP SA", "correct": true },
+        { "text": "klucze RSA", "correct": false },
+        { "text": "Grupy DH", "correct": false }
+      ]
+    },
+    {
+      "question": "Lista ACL została skonfigurowana na R1 z zamiarem odmowy ruchu z podsieci 172.16.4.0/24 do podsieci 172.16.3.0/24. Cały inny ruch do podsieci 172.16.3.0/24 powinien być dozwolony. Ta standardowa lista ACL została następnie zastosowana dla ruchu wychodzącego na interfejsie Fa0/0. Jaki wniosek można wyciągnąć z tej konfiguracji?",
+      "answers": [
+        { "text": "Cały ruch zostanie zablokowany, a nie tylko ruch z podsieci 172.16.4.0/24.", "correct": true },
+        { "text": "W takiej sytuacji należy zastosować rozszerzoną ACL.", "correct": false },
+        { "text": "Tylko ruch z podsieci 172.16.4.0/24 jest zablokowany, a cały inny ruch jest dozwolony.", "correct": false },
+        { "text": "Listę ACL należy stosować na wyjściu wszystkich interfejsów R1.", "correct": false },
+        { "text": "Aby spełnić wymagania, należy zastosować ACL na wejściu interfejsu FastEthernet 0/0 R1.", "correct": false }
+      ]
+    },
+    {
+      "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby 40 deny host 192.168.23.8 w opcji konfiguracji lub poleceniu?",
+      "answers": [
+        { "text": "aby zastosować ACL do wszystkich interfejsów routera", "correct": false },
+        { "text": "aby usunąć wszystkie ACL z routera", "correct": false },
+        { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": false },
+        { "text": "aby utworzyć wpis w numerowanej ACL", "correct": true },
+        { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false },
+        { "text": "aby wyświetlić cały ograniczony ruch", "correct": false }
+      ]
+    },
+    {
+      "question": "Które trzy stwierdzenia opisują ramy protokołu IPsec? (Wybierz trzy.)",
+      "answers": [
+        { "text": "ESP zapewnia szyfrowanie, uwierzytelnianie i integralność.", "correct": true },
+        { "text": "AH używa protokołu IP 51.", "correct": true },
+        { "text": "ESP wymaga zarówno uwierzytelniania, jak i szyfrowania.", "correct": false },
+        { "text": "ESP używa protokołu UDP 50.", "correct": false },
+        { "text": "AH zapewnia szyfrowanie i integralność.", "correct": false },
+        { "text": "AH zapewnia integralność i uwierzytelnianie.", "correct": true }
+      ]
+    },
+    {
+      "question": "Administrator sieci pisze standardową ACL, która odmawia jakiegokolwiek ruchu z sieci 172.16.0.0/16, ale zezwala na cały inny ruch. Które dwa polecenia powinny być użyte? (Wybierz dwie odpowiedzi).",
+      "answers": [
+        { "text": "Router(config)# access-list 95 deny any", "correct": false },
+        { "text": "Router(config)# access-list 95 permit any", "correct": true },
+        { "text": "Router(config)# access-list 95 172.16.0.0 255.255.255.255", "correct": false },
+        { "text": "Router(config)# access-list 95 host 172.16.0.0", "correct": false },
+        { "text": "Router(config)# access-list 95 deny 172.16.0.0 0.0.255.255", "correct": true },
+        { "text": "Router(config)# access-list 95 deny 172.16.0.0 255.255.0.0", "correct": false }
+      ]
+    },
+    {
+      "question": "Technik ma za zadanie użyć list ACL do zabezpieczenia routera. Kiedy technik użyłby ip access-group 101 in w opcji konfiguracji lub poleceniu?",
+      "answers": [
+        { "text": "aby zastosować rozszerzoną ACL na interfejsie", "correct": true },
+        { "text": "aby wyświetlić cały ograniczony ruch", "correct": false },
+        { "text": "aby zabezpieczyć dostęp administracyjny do routera", "correct": false },
+        { "text": "aby zabezpieczyć ruch zarządzania do routera", "correct": false }
+      ]
+    },
+    {
+      "question": "Jakie dwa słowa kluczowe mogą być użyte w liście kontroli dostępu w celu zastąpienia maski blankietowej lub pary adres i maska blankietowa? (Wybierz dwie odpowiedzi).",
+      "answers": [
+        { "text": "most", "correct": false },
+        { "text": "some", "correct": false },
+        { "text": "host", "correct": true },
+        { "text": "gt", "correct": false },
+        { "text": "all", "correct": false },
+        { "text": "any", "correct": true },
+        { "text": "lt", "correct": false }
+      ]
+    },
+    {
+      "question": "Który zestaw transformacji zapewnia najlepszą ochronę?",
+      "answers": [
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes esp-des esp-sha-hmac", "correct": false },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-3des esp-sha-hmac", "correct": false },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-des esp-sha-hmac", "correct": false },
+        { "text": "crypto ipsec transform-set ESP-DES-SHA esp-aes-256 esp-sha-hmac", "correct": true }
+      ]
+    },
+    {
+      "question": "Które rozwiązanie Cisco VPN zapewnia ograniczony dostęp do wewnętrznych zasobów sieciowych dzięki wykorzystaniu Cisco ASA i zapewnia dostęp tylko przez przeglądarkę?",
+      "answers": [
+        { "text": "IPSec", "correct": false },
+        { "text": "Clientless SSL VPN", "correct": true },
+        { "text": "klient VPN opartych na SSL", "correct": false },
+        { "text": "Clientless IPSec VPN", "correct": false },
+        { "text": "SSL", "correct": false },
+        { "text": "klient VPN opartych na IPSec", "correct": false }
+      ]
+    },
+    {
+      "question": "Jaki efekt dałoby polecenie Router1(config-ext-nacl)# permit tcp 172.16.4.0 0.0.0.255 any eq www po zaimplementowaniu dla ruchu przychodzącego na interfejsie f0/0?",
+      "answers": [
+        { "text": "Polecenie jest odrzucone przez router, ponieważ jest niekompletne.", "correct": false },
+        { "text": "Ruch pochodzący z 172.16.4.0/24 jest dozwolony do wszystkich miejsc docelowych na porcie TCP 80.", "correct": true },
+        { "text": "Cały ruch z 172.16.4.0/24 jest dozwolony do dowolnego miejsca i dowolnego portu.", "correct": false },
+        { "text": "Cały ruch TCP jest dozwolony, a każdy inny ruch jest odrzucony.", "correct": false }
+      ]
+    },
+    {
+      "question": "Administrator sieci konfiguruje listę ACL na routerze. Które stwierdzenie opisuje wynik konfiguracji?",
+      "answers": [
+        { "text": "Połączenie SSH jest dozwolone ze stacji roboczej o IP 192.168.25.18 do urządzenia o IP 172.16.45.16.", "correct": true },
+        { "text": "Połączenie Telnet jest dozwolone ze stacji roboczej z IP 172.16.45.16 do urządzenia o IP 192.168.25.18.", "correct": false },
+        { "text": "Połączenie Telnet jest dozwolone ze stacji roboczej z IP 192.168.25.18 do urządzenia o IP 172.16.45.16.", "correct": false },
+        { "text": "Połączenie SSH jest dozwolone ze stacji roboczej o IP 172.16.45.16 do urządzenia o IP 192.168.25.18.", "correct": false }
+      ]
+    },
+    {
+      "question": "Która maska blankietowa będzie pasować do sieci od 172.16.0.0 do 172.19.0.0?",
+      "answers": [
+        { "text": "0.3.255.255", "correct": true },
+        { "text": "0.0.0.251", "correct": false },
+        { "text": "0.252.255.255", "correct": false },
+        { "text": "0.0.255.255", "correct": false },
+        { "text": "0.0.3.255", "correct": false }
+      ]
+    },
+    {
+      "question": "Interfejsy Gigabit na obu routerach zostały skonfigurowane z numerami podinterfejsów zgodnymi z numerami sieci VLAN przyłączonych do nich. Komputery PC w VLAN 10 powinny móc drukować na drukarce P1 w sieci VLAN 12. Komputery PC w VLAN 20 powinny móc drukować na drukarkach znajdujących się w sieci VLAN 22. Na którym interfejsie i w którym kierunku należy umieścić standardową listę ACL pozwalającą na drukowanie na P1 z sieci VLAN 10, lecz blokującą komputerom znajdującym się w VLAN 20 użycie drukarki P1? (Wybierz dwie odpowiedzi)",
+      "answers": [
+        { "text": "R1 S0/0/0", "correct": false },
+        { "text": "R2 Gi0/1.20", "correct": false },
+        { "text": "R1 Gi0/1.12", "correct": true },
+        { "text": "inbound", "correct": false },
+        { "text": "outbound", "correct": true },
+        { "text": "R2 S0/0/1", "correct": false }
+      ]
+    },
+    {
+      "question": "Które stwierdzenie opisuje funkcję VPN typu site-to-site?",
+      "answers": [
+        { "text": "Połączenie VPN nie jest zdefiniowane statycznie", "correct": false },
+        { "text": "Oprogramowanie klienta VPN jest zainstalowane na każdym hoście", "correct": false },
+        { "text": "Hosty wewnętrzne wysyłają normalne, nieenkapsulowane pakiety", "correct": true },
+        { "text": "Poszczególni hosty mogą włączać i wyłączać połączenie VPN", "correct": false }
+      ]
+    }
   ]
 }
