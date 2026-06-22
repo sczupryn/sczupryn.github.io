@@ -450,8 +450,6 @@
       { "text": "AH zapewnia integralność i uwierzytelnianie.", "correct": true }
     ]
   },
-  json
-[
   {
     "question": "Administrator sieci pisze standardową ACL, która odmawia jakiegokolwiek ruchu z sieci 172.16.0.0/16, ale zezwala na cały inny ruch. Które dwa polecenia powinny być użyte? (Wybierz dwie odpowiedzi).",
     "answers": [
